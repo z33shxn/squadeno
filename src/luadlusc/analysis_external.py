@@ -7,7 +7,6 @@ comparisons or within-cohort z-scores, so they also run on the Affymetrix cohort
 """
 
 import json
-import pickle
 
 import pandas as pd
 
@@ -18,15 +17,13 @@ from .metrics import bootstrap_ci, summary
 
 
 def _l2(final, M):
-    genes = final["genes"]
-    missing = [g for g in genes if g not in M.index]
-    # genes absent from an external matrix are set to 0 (unexpressed); report how many
-    Mx = M.reindex(genes).fillna(0.0)
-    return final["model"].predict_proba(Mx.T.values.astype("float64"))[:, 1], len(missing)
+    """Frozen model scores. Model genes missing from M are set to their TCGA training mean (they add nothing)."""
+    missing = [g for g in final["genes"] if g not in M.index]
+    return models.predict_from_json(final, M), len(missing)
 
 
 def run():
-    final = pickle.load(open(RESULTS / "final_model.pkl", "rb"))
+    final = json.load(open(RESULTS / "final_model.json"))
     rules = [(r["lusc_gene"], r["luad_gene"], r["training_score"]) for r in json.load(open(RESULTS / "rank_rules.json"))]
     c = load_cohort()
     cv = pd.read_csv(RESULTS / "cv_predictions.tsv", sep="\t", index_col=0).reindex(c.index)

@@ -14,8 +14,8 @@
   },
   "L2 logistic (ours)": {
    "auroc": 0.9901,
-   "accuracy": 0.9498,
-   "lusc_recall": 0.8851,
+   "accuracy": 0.9422,
+   "lusc_recall": 0.8652,
    "luad_recall": 0.9881
   },
   "Li 2019 KRT5>AGR2": {
@@ -30,7 +30,7 @@
    "l2_genes_missing": 0
   },
   "Uppsala RNA-seq (GSE81089)": {
-   "l2_genes_missing": 668
+   "l2_genes_missing": 124
   }
  },
  "cptac3_ancestry_l2": {
@@ -91,11 +91,11 @@
  "korea": {
   "n_luad": 87,
   "n_normal": 77,
-  "l2_genes_missing": 2973,
-  "luad_called_luad_l2": 0.9540229885057471,
+  "l2_genes_missing": 1578,
+  "luad_called_luad_l2": 0.9655172413793104,
   "luad_called_luad_rules": 0.9655172413793104,
   "never_smoker_luad_n": 36,
   "never_smoker_luad_called_luad_l2": 1.0,
-  "normal_lung_called_luad_l2": 0.935064935064935
+  "normal_lung_called_luad_l2": 0.974025974025974
  }
 }

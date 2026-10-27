@@ -135,8 +135,10 @@ def hamaneh2022(X: pd.DataFrame):
 
 def predict_from_json(model_json: dict, X: pd.DataFrame):
     """Score samples with the exported frozen model (no pickle needed). X: log2(TPM+1), genes x samples.
-    Genes absent from X are treated as unexpressed (0). Returns P(LUSC) per sample."""
+    A gene missing from X is set to its training mean, so it adds nothing to the score (setting it to 0 would
+    push every sample the same way). Returns P(LUSC) per sample."""
     genes = model_json["genes"]
-    Xg = X.reindex(genes).fillna(0.0).T.values.astype("float64")
-    z = (Xg - np.array(model_json["mean"])) / np.array(model_json["scale"])
+    mean = pd.Series(model_json["mean"], index=genes)
+    Xg = X.reindex(genes).astype("float64").T.fillna(mean).values
+    z = (Xg - mean.values) / np.array(model_json["scale"])
     return 1 / (1 + np.exp(-(model_json["intercept"] + z @ np.array(model_json["coef"]))))

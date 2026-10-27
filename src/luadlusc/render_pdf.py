@@ -3,6 +3,7 @@
 import re
 from pathlib import Path
 
+from reportlab import rl_config
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_JUSTIFY
 from reportlab.lib.pagesizes import A4
@@ -10,6 +11,7 @@ from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import mm
 from reportlab.platypus import Image, KeepTogether, ListFlowable, ListItem, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
 
+rl_config.invariant = 1  # same input, byte for byte the same PDF (no timestamps)
 BASE = 8.6
 MARGIN = 14 * mm
 WIDTH = A4[0] - 2 * MARGIN

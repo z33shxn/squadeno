@@ -134,6 +134,18 @@ def test_json_model_matches_sklearn_pipeline(tmp_path):
     assert np.allclose(p_json, p_sk, atol=1e-10)
 
 
+def test_missing_genes_add_nothing():
+    """A gene missing from the input is set to its training mean, so it does not move the score."""
+    X, y = _synthetic(n=120, p=30, seed=6)
+    pipe = models.logistic(0.1).fit(X.T.values, y)
+    genes = list(np.array(X.index)[pipe[0].keep_])
+    mj = dict(intercept=float(pipe[2].intercept_[0]), genes=genes, mean=list(pipe[1].mean_), scale=list(pipe[1].scale_), coef=list(pipe[2].coef_[0]))
+    gone = genes[0]
+    with_mean = X.copy()
+    with_mean.loc[gone] = mj["mean"][0]
+    assert np.allclose(models.predict_from_json(mj, X.drop(index=gone)), models.predict_from_json(mj, with_mean), atol=1e-12)
+
+
 def test_predict_detects_tpm_and_flags(tmp_path):
     import json
 

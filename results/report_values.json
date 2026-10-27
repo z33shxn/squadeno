@@ -26,7 +26,7 @@
  "canary_ours": "0.502",
  "canary_leaky": "0.656",
  "trust90": "98.1%",
- "external_sentence": "On CPTAC-3 (337 patients, same GDC pipeline) the model reaches AUROC 0.994 and accuracy 95.5%; in its 131 Asian patients, AUROC 1.000 (TCGA has only 17 Asian patients in this cohort). On Uppsala RNA seq (175 patients, histology reviewed again by a pathologist in 2013) it reaches AUROC 0.988, but accuracy only 93.1%: the ranking transfers while the 0.5 cut point drifts on a new pipeline. The nine gene pair rules, which compare genes inside one sample, do not drift: accuracy 98.3% there and 87.3% to 97.3% on four microarray cohorts (France, Sweden, Canada and the SBV IMPROVER set). Of 87 Korean adenocarcinomas (GSE40419), 95.4% were called LUAD, including 100% of 36 never smokers.",
+ "external_sentence": "On CPTAC-3 (337 patients, same GDC pipeline) the model reaches AUROC 0.994 and accuracy 95.5%; in its 131 Asian patients, AUROC 1.000 (TCGA has only 17 Asian patients in this cohort). On Uppsala RNA seq (175 patients, histology reviewed again by a pathologist in 2013) it reaches AUROC 0.988, but accuracy only 90.9%: the ranking transfers while the 0.5 cut point drifts on a new pipeline. The nine gene pair rules, which compare genes inside one sample, do not drift: accuracy 98.3% there and 87.3% to 97.3% on four microarray cohorts (France, Sweden, Canada and the SBV IMPROVER set). Of 87 Korean adenocarcinomas (GSE40419), 96.6% were called LUAD, including 100% of 36 never smokers.",
  "n_ext_patients": "1,013",
  "n_asian": 131,
  "bench_rules": "94.7%",
@@ -67,7 +67,7 @@
  "lowpur_luad": "98%",
  "dil10_lusc": "26%",
  "dil10_luad": "99%",
- "korea_normal": "94%",
+ "korea_normal": "97%",
  "inst_auroc_pm": "0.991 \u00b1 0.002",
  "inst_acc_pm": "0.964 \u00b1 0.001",
  "cp_n": 337,
@@ -80,5 +80,5 @@
  "arrays_n": 676,
  "arrays_range": "87.3% to 97.3%",
  "korea_n": 87,
- "korea_luad": "95.4%"
+ "korea_luad": "96.6%"
 }

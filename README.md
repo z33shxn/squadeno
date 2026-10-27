@@ -16,7 +16,7 @@ Everything here can be rebuilt from public data with one command. Every number i
 | CPTAC-3, Asian patients only | 131 | AUROC 1.000 |
 | Uppsala RNA seq (pathologist reviewed labels) | 175 | AUROC 0.988; gene pair rules accuracy 98.3% |
 | Four microarray cohorts (France, Sweden, Canada, SBV IMPROVER) | 676 | gene pair rules accuracy 87.3% to 97.3% |
-| Korean adenocarcinomas (GSE40419) | 87 | 95.4% called LUAD |
+| Korean adenocarcinomas (GSE40419) | 87 | 96.6% called LUAD |
 | Shuffled labels (leakage canary) | 931 | AUROC 0.502 (chance, as it should be) |
 
 Against two published classifiers on the same seven cohorts, the nine gene pair rules reach mean accuracy 94.7%, against 93.7% for Hamaneh 2022 and 92.9% for Li 2019. The model matches the best published signature. Its value is in the checks around it.
