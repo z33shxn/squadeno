@@ -1,4 +1,4 @@
-"""Figures, drawn only from files in results/. All are 7.2 inches wide, the text width of the write-up, so the
+"""Figures, drawn only from files in results/. All are 7.2 inches wide, the text width of the write up, so the
 fonts print at their real size in the PDF."""
 
 import json
@@ -139,7 +139,7 @@ def fig3():
 
 
 def fig_writeup():
-    """The one compact figure in the three page write-up: external validation and the tumour content test."""
+    """The one compact figure in the three page write up: external validation and the tumour content test."""
     bench = pd.read_csv(RESULTS / "external_benchmark.tsv", sep="\t")
     conf = json.load(open(RESULTS / "confounders.json"))
     fig, ax = plt.subplots(1, 2, figsize=(WIDTH, 2.05), gridspec_kw={"width_ratios": [1.75, 1]})

@@ -78,7 +78,7 @@ def run():
         rng = np.random.default_rng(s)
         for _ in range(20):
             idx = np.concatenate([rng.choice(np.where(y == k)[0], (y == k).sum() // 2, replace=False) for k in (0, 1)])
-            l1 = LogisticRegression(C=0.05, l1_ratio=1.0, solver="liblinear", max_iter=5000).fit(Zs[idx], y[idx])
+            l1 = LogisticRegression(C=0.05, l1_ratio=1.0, solver="liblinear", max_iter=5000, random_state=s).fit(Zs[idx], y[idx])
             freq[np.abs(l1.coef_[0]) > 0] += 1
             n_sub += 1
     freq /= n_sub

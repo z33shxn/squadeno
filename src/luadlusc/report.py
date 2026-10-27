@@ -1,18 +1,17 @@
 """Fill report/writeup_template.md with numbers from results/, write report/writeup.md and render report/writeup.pdf.
 
 The build fails if a placeholder has no value, if a top 10 gene has no checked note, if a gene named in the
-prose is no longer where the prose says it is, or if the PDF is longer than three pages. That way the write-up
+prose is no longer where the prose says it is, or if the PDF is longer than three pages. That way the write up
 can never disagree with the code that produced the results.
 """
 
-import datetime as dt
 import json
 import re
 
 import numpy as np
 import pandas as pd
 
-from .config import AKIYAMA_CLE_GENES, RAW, REPORT, RESULTS
+from .config import AKIYAMA_CLE_GENES, RAW, REPORT, RESULTS, WRITEUP_DATE
 from .gene_notes import NOTES
 from .render_pdf import render
 
@@ -42,7 +41,7 @@ def check_prose_genes(top):
     side = dict(zip(top.gene, top.side))
     wrong = {g: s for g, s in PROSE_GENES.items() if side.get(g) != s}
     if wrong:
-        raise SystemExit(f"the write-up names genes that are no longer in the top 20 on that side: {wrong}; update the template")
+        raise SystemExit(f"the write up names genes that are no longer in the top 20 on that side: {wrong}; update the template")
     if not {"ELFN2", "BCL2L15"} <= set(top[top.side == "LUAD"].gene.head(3)):
         raise SystemExit("the summary calls the top LUAD genes 'glandular genes plus two new leads'; update the template")
 
@@ -79,7 +78,7 @@ def build_values():
     top = pd.read_csv(RESULTS / "top20_genes.tsv", sep="\t")
     bench = pd.read_csv(RESULTS / "external_benchmark.tsv", sep="\t")
     check_prose_genes(top)
-    v = {"date": dt.date.today().strftime("%d %B %Y").lstrip("0")}
+    v = {"date": WRITEUP_DATE}
 
     names = ["All RNA seq samples in Xena", "Primary tumour only (type 01)", "Remove FFPE samples", "Remove working group pathology exclusions",
              "Remove 'do not use' (treated for an earlier cancer)", "Remove tumours treated before surgery", "Remove recurrence or out of specification",
@@ -131,12 +130,12 @@ def build_values():
     asian = ex["cptac3_ancestry_l2"]["Asian"]
     k = ex["korea"]
     v["external_sentence"] = (
-        f"On CPTAC-3 ({ex['cptac3_n']} patients, same GDC pipeline) the model reaches AUROC {f3(cp.auroc)} and accuracy {pct(cp.accuracy, 1)}; "
+        f"On CPTAC-3 ({ex['cptac3_n']} patients, same GDC pipeline; PMID 32649874, 34358469) the model reaches AUROC {f3(cp.auroc)} and accuracy {pct(cp.accuracy, 1)}; "
         f"in its {ex['cptac3_n_asian']} Asian patients, AUROC {f3(asian['auroc'])} (TCGA has only {ex['tcga_n_asian']} Asian patients in this cohort). "
-        f"On Uppsala RNA seq ({int(up.n)} patients, histology reviewed again by a pathologist in 2013) it reaches AUROC {f3(up.auroc)}, but accuracy only {pct(up.accuracy, 1)}: "
+        f"On Uppsala RNA seq ({int(up.n)} patients; GEO record GSE81089 says a pathologist reviewed the histology again in 2013) it reaches AUROC {f3(up.auroc)}, but accuracy only {pct(up.accuracy, 1)}: "
         f"the ranking transfers while the 0.5 cut point drifts on a new pipeline. The nine gene pair rules, which compare genes inside one sample, do not drift: "
         f"accuracy {pct(row('Uppsala RNA-seq (GSE81089)', '9 rank rules (ours)').accuracy, 1)} there and {pct(min(acc_rules), 1)} to {pct(max(acc_rules), 1)} on four microarray cohorts "
-        f"(France, Sweden, Canada and the SBV IMPROVER set). Of {k['n_luad']} Korean adenocarcinomas (GSE40419), {pct(k['luad_called_luad_l2'], 1)} were called LUAD, "
+        f"(France, Sweden, Canada and the SBV IMPROVER set; PMID 23698379, 23032747, 24305008, 23966112). Of {k['n_luad']} Korean adenocarcinomas (GSE40419, PMID 22975805), {pct(k['luad_called_luad_l2'], 1)} were called LUAD, "
         f"including {pct(k['never_smoker_luad_called_luad_l2'])} of {k['never_smoker_luad_n']} never smokers.")
     n_ext = sum(int(row(ch, "9 rank rules (ours)").n) for ch in ["CPTAC-3"] + arrays)
     v["n_ext_patients"] = f"{n_ext:,}"
@@ -160,7 +159,7 @@ def build_values():
     v["top20_checks"] = " ".join(checks)
     low = gj["by_weight_top10_low_auroc"]
     if len(low) < 2:
-        raise SystemExit("the write-up says the raw weight top 10 holds genes that barely differ between the types; update the template")
+        raise SystemExit("the write up says the raw weight top 10 holds genes that barely differ between the types; update the template")
     v["weight_examples"] = f"{', '.join(low[:-1])} and {low[-1]}" if len(low) <= 3 else f"{', '.join(low[:3])} and others"
     v["kept_median"] = pct(gj["top20_bootstrap_freq_median"])
     v["weight_kept"] = pct(gj["by_weight_bootstrap_freq_median"])
@@ -202,7 +201,7 @@ def build_values():
     v["sex_auroc"] = f3(t2["single_covariate_auroc"]["male"])
     v["pack_auroc"] = f3(t2["single_covariate_auroc"]["pack_years"])
     if not (c[c.label == 1].sex.eq("male").mean() > c[c.label == 0].sex.eq("male").mean() and c[c.label == 1].pack_years.median() > c[c.label == 0].pack_years.median()):
-        raise SystemExit("the write-up says LUSC patients are more often men and smoked more; update the template")
+        raise SystemExit("the write up says LUSC patients are more often men and smoked more; update the template")
     v["depth_luad"] = f"{c[c.label == 0].library_size.median() / 1e6:.0f}"
     v["depth_lusc"] = f"{c[c.label == 1].library_size.median() / 1e6:.0f}"
     st = pd.DataFrame(cf["T3_strata"])
@@ -222,7 +221,8 @@ def build_values():
     v["korea_normal"] = pct(k["normal_lung_called_luad_l2"])
     # values used only by the README
     ps = m["mean_sd"]["institution"]
-    v["inst_auroc_pm"], v["inst_acc_pm"] = pm(ps["auroc"]), pm(ps["accuracy"])
+    v["inst_auroc_pm"] = pm(ps["auroc"])
+    v["inst_acc_pm"] = f"{100 * ps['accuracy'][0]:.1f}% ± {100 * ps['accuracy'][1]:.1f}%"
     v["cp_n"], v["cp_auroc"], v["cp_acc"] = int(cp.n), f3(cp.auroc), pct(cp.accuracy, 1)
     v["asian_auroc"] = f3(asian["auroc"])
     v["up_n"], v["up_auroc"] = int(up.n), f3(up.auroc)
@@ -268,7 +268,7 @@ def run():
         print("CPTAC-3 data not downloaded; kept the example files already in examples/")
     print(f"writeup.pdf: {pages} pages")
     if pages > 3:
-        raise SystemExit(f"write-up is {pages} pages; the limit is 3")
+        raise SystemExit(f"write up is {pages} pages; the limit is 3")
     return pages
 
 

@@ -113,8 +113,9 @@ def fetch_gdc():
                         analytes.append(dict(case=cid, sample=s.get("submitter_id"), analyte=a.get("submitter_id"), analyte_type=a.get("analyte_type"),
                                              a260_a280_ratio=a.get("a260_a280_ratio"), concentration=a.get("concentration"),
                                              rna_integrity_number=a.get("rna_integrity_number")))
-        pd.DataFrame(slides).to_csv(out / "slides_pathology.tsv", sep="\t", index=False)
-        pd.DataFrame(analytes).to_csv(out / "analytes.tsv", sep="\t", index=False)
+        # sorted, so the same GDC content always gives the same file (and checksum)
+        pd.DataFrame(slides).sort_values(["case", "sample", "slide"]).to_csv(out / "slides_pathology.tsv", sep="\t", index=False)
+        pd.DataFrame(analytes).sort_values(["case", "sample", "analyte"]).to_csv(out / "analytes.tsv", sep="\t", index=False)
     if not (out / "gdc_star_counts_aliquots.tsv").exists():
         filt = {"op": "and", "content": [{"op": "in", "content": {"field": "cases.project.project_id", "value": ["TCGA-LUAD", "TCGA-LUSC"]}},
                                          {"op": "=", "content": {"field": "data_type", "value": "Gene Expression Quantification"}},
@@ -128,7 +129,7 @@ def fetch_gdc():
             al = s["portions"][0]["analytes"][0]["aliquots"][0]["submitter_id"]
             rows.append(dict(file_id=h["file_id"], project=c["project"]["project_id"], patient=c["submitter_id"], sample=s["submitter_id"],
                              sample_type=s["sample_type"], aliquot=al, plate=al[21:25], center=al[26:28]))
-        pd.DataFrame(rows).to_csv(out / "gdc_star_counts_aliquots.tsv", sep="\t", index=False)
+        pd.DataFrame(rows).sort_values(["patient", "sample", "aliquot", "file_id"]).to_csv(out / "gdc_star_counts_aliquots.tsv", sep="\t", index=False)
     if not (out / "gencode_v36_gene_types.tsv").exists():
         fid = pd.read_csv(out / "gdc_star_counts_aliquots.tsv", sep="\t").file_id.iloc[0]
         f = pd.read_csv(io.BytesIO(_get(f"{GDC}/data/{fid}")), sep="\t", comment="#")
@@ -198,7 +199,7 @@ def fetch_cptac3():
         cols = dict(ex.map(one, sel.file_id))
     m = pd.DataFrame(cols)
     m.columns = sel.set_index("file_id").loc[m.columns, "patient"].values
-    m.to_csv(mat, sep="\t", compression="gzip")
+    m.to_csv(mat, sep="\t", compression={"method": "gzip", "mtime": 0})  # no timestamp, so the checksum is stable
 
 
 def fetch_geo():

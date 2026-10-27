@@ -16,6 +16,8 @@ for _d in (INTERIM, RESULTS, FIGURES):
 
 # Five seeds, as used across the analysis (fold assignment, subsampling, bootstraps).
 SEEDS = (42, 123, 456, 789, 1337)
+# Date printed on the write up (fixed, so rebuilding the report on another day gives the same file).
+WRITEUP_DATE = "28 October 2026"
 PRIMARY_SEED = 42
 
 # Hyperparameter grid for the L2 logistic model (inverse regularisation strength).

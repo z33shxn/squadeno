@@ -1,9 +1,9 @@
 step	LUAD	LUSC	total
-all Xena RNA-seq samples	589	552	1141
+all Xena RNA seq samples	589	552	1141
 primary tumour only (sample type 01)	528	501	1029
 drop FFPE samples	516	501	1017
-drop AWG pathology exclusions (NSCLC-NOS / favour LCNEC)	461	501	962
+drop AWG pathology exclusions (NSCLC NOS or favour LCNEC)	461	501	962
 drop PanCanAtlas Do_not_use (prior treatment for another cancer)	456	486	942
 drop tumours treated before resection (neoadjuvant)	452	481	933
-drop GDC-flagged recurrence / off-spec cases	452	479	931
+drop GDC flagged recurrence or out of specification cases	452	479	931
 one sample per patient	452	479	931

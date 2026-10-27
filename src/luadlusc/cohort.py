@@ -48,12 +48,12 @@ def build_cohort(write: bool = True):
     steps = [
         ("primary tumour only (sample type 01)", lambda d: d.sample_type == PRIMARY_TUMOUR),
         ("drop FFPE samples", lambda d: ~d.is_ffpe),
-        ("drop AWG pathology exclusions (NSCLC-NOS / favour LCNEC)", lambda d: ~d.patient.isin(awg)),
+        ("drop AWG pathology exclusions (NSCLC NOS or favour LCNEC)", lambda d: ~d.patient.isin(awg)),
         ("drop PanCanAtlas Do_not_use (prior treatment for another cancer)", lambda d: ~d.patient.isin(dnu)),
         ("drop tumours treated before resection (neoadjuvant)", lambda d: ~d.patient.isin(neo)),
-        ("drop GDC-flagged recurrence / off-spec cases", lambda d: ~d.patient.isin(other_ann)),
+        ("drop GDC flagged recurrence or out of specification cases", lambda d: ~d.patient.isin(other_ann)),
     ]
-    waterfall = [("all Xena RNA-seq samples", (s.project == "LUAD").sum(), (s.project == "LUSC").sum())]
+    waterfall = [("all Xena RNA seq samples", (s.project == "LUAD").sum(), (s.project == "LUSC").sum())]
     excluded = []
     cur = s
     for name, keep in steps:

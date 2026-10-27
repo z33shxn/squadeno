@@ -11,7 +11,7 @@ Everything here can be rebuilt from public data with one command. Every number i
 
 | Test | Patients | Result |
 |---|---|---|
-| TCGA, cross validated, hospitals held out (5 seeds) | 931 | AUROC 0.991 ± 0.002, accuracy 0.964 ± 0.001 |
+| TCGA, cross validated, hospitals held out (5 seeds) | 931 | AUROC 0.991 ± 0.002, accuracy 96.4% ± 0.1% |
 | CPTAC-3 (new patients, same pipeline, model frozen) | 337 | AUROC 0.994, accuracy 95.5% |
 | CPTAC-3, Asian patients only | 131 | AUROC 1.000 |
 | Uppsala RNA seq (pathologist reviewed labels) | 175 | AUROC 0.988; gene pair rules accuracy 98.3% |
@@ -23,7 +23,7 @@ Against two published classifiers on the same seven cohorts, the nine gene pair 
 
 ![Which samples were used, why the split is fair, and how the model does on new patients](figures/fig1_data_model_validation.png)
 
-![The 20 genes the model leans on most, and the skin barrier lipid genes](figures/fig2_genes_lipid.png)
+![The 20 genes that drive the model, and the skin barrier lipid genes](figures/fig2_genes_lipid.png)
 
 ![Accuracy in every subgroup, and what happens when a sample holds little tumour](figures/fig3_confounders.png)
 
@@ -32,6 +32,7 @@ Against two published classifiers on the same seven cohorts, the nine gene pair 
 - **Every sample choice comes from the TCGA barcode or an official TCGA table.** Normals, recurrences, FFPE samples, cases the TCGA working group rejected on pathology review, patients treated before surgery or for an earlier cancer, and duplicate samples are removed. Each removed sample and its reason is in `results/excluded_samples.tsv`.
 - **The split is grouped by institution.** TCGA gave each site a separate code for each disease, so the site code alone predicts the label perfectly. Holding whole hospitals out of training tests whether the model works somewhere it has never seen.
 - **Leakage checks.** Gene filtering and scaling happen inside each training fold. A shuffled label run must score at chance, and it does. A nearest neighbour audit shows that no test tumour's closest training tumour comes from the same hospital.
+- **Genes ranked by what drives the call.** Each gene's share of the gap between the model's mean LUSC and LUAD score, so genes that only adjust single samples do not top the list. Each of the top 10 has a short note on what it does and whether it makes sense as a marker, with checked PMIDs.
 - **Confounder tests.** Sex, smoking, two independent tumour purity measures, RNA integrity, sequencing depth, tumour location, stage and pre surgery treatment are each tested. DNA mutations are used to check whether disputed cases are label problems.
 - **External validation without refitting** in five independent cohorts, plus a Korean cohort, with a head to head comparison against published classifiers.
 
@@ -48,7 +49,7 @@ python -m luadlusc all
 pytest
 ```
 
-`all` downloads the public inputs (about 750 MB; the CPTAC-3 step fetches 337 small files and is the slowest), then runs every analysis, draws the figures and rebuilds the write up. On a laptop the analyses take about 20 minutes. Each step can also run on its own: `download`, `cohort`, `model`, `genes`, `confounders`, `external`, `figures`, `report`. `python -m luadlusc verify` compares your downloaded files with the checksums of the files used for the published results (`data/SHA256SUMS.txt`).
+`all` downloads the public inputs (about 750 MB; the CPTAC-3 step fetches 337 files one by one and is the slowest, so the first download can take about an hour), then runs every analysis, draws the figures and rebuilds the write up. On a laptop the analyses take about 10 minutes. Each step can also run on its own: `download`, `cohort`, `model`, `genes`, `confounders`, `external`, `figures`, `report`. `python -m luadlusc verify` compares your downloaded files with the checksums of the files used for the published results (`data/SHA256SUMS.txt`).
 
 ## Score your own samples
 
@@ -79,9 +80,10 @@ All inputs are open access and need no account. They are downloaded by the code 
 |---|---|---|
 | UCSC Xena GDC hub | TCGA LUAD and LUSC STAR expression (TPM, counts) and phenotype tables | Goldman 2020, PMID 32444850 |
 | GDC API | TCGA annotations, slide pathology, RNA integrity, aliquot list; CPTAC-3 lung expression | Heath 2021, PMID 33619384 |
+| CPTAC-3 lung studies | New patients on the same GDC pipeline (LUAD and LSCC) | Gillette 2020, PMID 32649874; Satpathy 2021, PMID 34358469 |
 | GDC PanCanAtlas | Sample quality annotations, ABSOLUTE purity | Hoadley 2018, PMID 29625048 |
 | cBioPortal | Tumour location, smoking category, driver mutations and copy number | Gao 2013, PMID 23550210 |
-| NCBI GEO | GSE30219, GSE37745, GSE50081, GSE43580, GSE81089, GSE40419 | see the write up |
+| NCBI GEO | GSE30219 (France), GSE37745 (Sweden), GSE50081 (Canada), GSE43580 (SBV IMPROVER), GSE81089 (Uppsala RNA seq), GSE40419 (Korea) | PMID 23698379, 23032747, 24305008, 23966112, 29282718, 22975805 (in that order) |
 
 ## Limitations
 

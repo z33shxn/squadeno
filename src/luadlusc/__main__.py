@@ -3,15 +3,15 @@
 Steps (run in order by `all`):
   download    fetch every input from its public source (skips files already present)
   verify      compare local inputs with the SHA-256 manifest used for the published results
-  cohort      Part 1 - sample selection and exclusion waterfall
-  model       Part 2 - nested institution-grouped CV, split comparison, leakage audit, final model
-  genes       Part 3 - top-20 driver genes, robustness, differential expression, lipid module
-  confounders Part 4 - confounder tests T1-T6
-  external    external validation and benchmark against published classifiers
-  figures     figures/fig1-3
-  report      fill report/writeup.md from results and render report/writeup.pdf
+  cohort      part 1: which samples are used, and the table of removed samples
+  model       part 2: nested cross validation grouped by institution, split comparison, leakage audit, final model
+  genes       part 3: the top 20 genes, their stability, differential expression, the lipid gene set
+  confounders part 4: six tests of reasons other than tumour biology (T1 to T6)
+  external    new cohorts with the model frozen, and the comparison with published classifiers
+  figures     the figures in figures/
+  report      fill report/writeup.md and README.md from results/ and render report/writeup.pdf
 
-Score your own samples (genes x samples, TPM or log2(TPM+1)):
+Score your own samples (genes as rows, samples as columns, TPM or log2(TPM+1)):
   python -m luadlusc predict my_samples.tsv [scores.tsv]
 """
 
