@@ -1,0 +1,932 @@
+sample	project	tss	participant	patient	sample_type	vial	is_ffpe	label	institution	n_rna_aliquots	plate	sex	age	race	pack_years	smoking_indicator	location	stage	diagnosis	absolute_purity	path_tumour_nuclei	path_necrosis	rin	library_size
+TCGA-05-4244-01A	LUAD	05	4244	TCGA-05-4244	01	A	False	0	Indivumed	1	1107	male	70.0	not reported	38.0	4.0	Peripheral Lung	Stage IV	Adenocarcinoma, NOS	0.44	80.0	2.5	9.05	63602616.0
+TCGA-05-4249-01A	LUAD	05	4249	TCGA-05-4249	01	A	False	0	Indivumed	1	1107	male	67.0	not reported	52.0	3.0	Peripheral Lung	Stage IB	Adenocarcinoma, NOS	0.49	80.0	0.0	9.05	63798287.0
+TCGA-05-4382-01A	LUAD	05	4382	TCGA-05-4382	01	A	False	0	Indivumed	1	1206	male	68.0	not reported	62.0	4.0		Stage IB	Adenocarcinoma with mixed subtypes	0.21	70.0	20.0	7.800000000000001	93661599.0
+TCGA-05-4384-01A	LUAD	05	4384	TCGA-05-4384	01	A	False	0	Indivumed	1	1755	male	66.0	not reported	20.0	3.0		Stage IIIA	Adenocarcinoma with mixed subtypes	0.49	70.0	0.0	7.4	33032251.0
+TCGA-05-4389-01A	LUAD	05	4389	TCGA-05-4389	01	A	False	0	Indivumed	1	1206	male	70.0	not reported	43.0	3.0		Stage IA	Adenocarcinoma with mixed subtypes	0.48	75.0	3.0	7.8500000000000005	62143459.0
+TCGA-05-4390-01A	LUAD	05	4390	TCGA-05-4390	01	A	False	0	Indivumed	1	1755	female	58.0	not reported	15.0	4.0		Stage IB	Adenocarcinoma with mixed subtypes	0.57	72.66666666666667	8.333333333333334	7.8	32701163.0
+TCGA-05-4395-01A	LUAD	05	4395	TCGA-05-4395	01	A	False	0	Indivumed	1	1206	male	76.0	not reported		3.0		Stage IIIB	Adenocarcinoma with mixed subtypes	0.61	77.5	0.0	8.399999999999999	89071858.0
+TCGA-05-4396-01A	LUAD	05	4396	TCGA-05-4396	01	A	False	0	Indivumed	1	1858	male	76.0	not reported	19.0	3.0		Stage IIIB	Adenocarcinoma with mixed subtypes	0.82	75.0	0.5	8.55	27381440.0
+TCGA-05-4398-01A	LUAD	05	4398	TCGA-05-4398	01	A	False	0	Indivumed	1	1206	female	47.0	not reported	72.0	2.0		Stage IIIB	Adenocarcinoma with mixed subtypes	0.33	72.5	7.5	8.5	101235803.0
+TCGA-05-4402-01A	LUAD	05	4402	TCGA-05-4402	01	A	False	0	Indivumed	1	1206	female	57.0	not reported		1.0		Stage IV	Adenocarcinoma with mixed subtypes	0.44	70.0	5.0	7.85	93295577.0
+TCGA-05-4403-01A	LUAD	05	4403	TCGA-05-4403	01	A	False	0	Indivumed	1	1206	male	76.0	not reported		3.0		Stage IB	Adenocarcinoma with mixed subtypes	0.46	70.0	0.0	8.0	93775090.0
+TCGA-05-4405-01A	LUAD	05	4405	TCGA-05-4405	01	A	False	0	Indivumed	1	1858	female	74.0	not reported	65.0	4.0		Stage IB	Adenocarcinoma with mixed subtypes	0.38	67.5	0.0	7.85	30481855.0
+TCGA-05-4410-01A	LUAD	05	4410	TCGA-05-4410	01	A	False	0	Indivumed	1	1858	male	62.0	not reported	98.0	4.0		Stage IB	Adenocarcinoma with mixed subtypes	0.24	67.5	1.0	8.399999999999999	27574347.000000004
+TCGA-05-4415-01A	LUAD	05	4415	TCGA-05-4415	01	A	False	0	Indivumed	1	1858	male	57.0	not reported	29.0	4.0		Stage IIIB	Adenocarcinoma with mixed subtypes	0.67	80.0	7.5	9.05	46092883.0
+TCGA-05-4417-01A	LUAD	05	4417	TCGA-05-4417	01	A	False	0	Indivumed	1	1858	female	51.0	not reported	56.0	4.0		Stage IB	Adenocarcinoma with mixed subtypes	0.4	65.0	2.5	7.5	35443567.0
+TCGA-05-4418-01A	LUAD	05	4418	TCGA-05-4418	01	A	False	0	Indivumed	1	1206	male	69.0	not reported	25.0	2.0		Stage IIIA	Adenocarcinoma with mixed subtypes	0.55	70.0	3.0	8.55	76213563.0
+TCGA-05-4420-01A	LUAD	05	4420	TCGA-05-4420	01	A	False	0	Indivumed	1	1206	male	41.0	not reported	38.0	2.0		Stage IB	Adenocarcinoma with mixed subtypes	0.59	77.5	0.0	8.25	86378847.0
+TCGA-05-4422-01A	LUAD	05	4422	TCGA-05-4422	01	A	False	0	Indivumed	1	1206	male	68.0	not reported	147.0	4.0		Stage IB	Adenocarcinoma with mixed subtypes	0.62	70.0	1.0	8.0	80662806.0
+TCGA-05-4424-01A	LUAD	05	4424	TCGA-05-4424	01	A	False	0	Indivumed	1	1858	male	70.0	not reported	50.0	4.0		Stage IIB	Adenocarcinoma with mixed subtypes	0.24	77.5	4.0	8.95	41635571.0
+TCGA-05-4425-01A	LUAD	05	4425	TCGA-05-4425	01	A	False	0	Indivumed	1	1755	female	70.0	not reported	28.0	3.0		Stage IV	Adenocarcinoma with mixed subtypes	0.61	70.0	1.0	7.95	35836173.0
+TCGA-05-4426-01A	LUAD	05	4426	TCGA-05-4426	01	A	False	0	Indivumed	1	1206	male	71.0	not reported	20.0	3.0		Stage IB	Adenocarcinoma with mixed subtypes	0.7	75.0	3.5	8.7	84232730.0
+TCGA-05-4430-01A	LUAD	05	4430	TCGA-05-4430	01	A	False	0	Indivumed	1	1206	female	59.0	not reported	80.0	4.0		Stage IB	Adenocarcinoma with mixed subtypes	0.2	72.5	0.0	8.35	68718971.0
+TCGA-05-4432-01A	LUAD	05	4432	TCGA-05-4432	01	A	False	0	Indivumed	1	1206	male	66.0	not reported	58.0	2.0		Stage IIB	Adenocarcinoma with mixed subtypes	0.36	75.0	5.0	8.1	75547030.0
+TCGA-05-4433-01A	LUAD	05	4433	TCGA-05-4433	01	A	False	0	Indivumed	1	1858	male	82.0	not reported	1.0	3.0		Stage IB	Adenocarcinoma with mixed subtypes	0.62	65.0	0.0	8.55	30314460.0
+TCGA-05-5423-01A	LUAD	05	5423	TCGA-05-5423	01	A	False	0	Indivumed	1	1628	male	65.0	not reported	72.0	3.0		Stage IIB	Adenocarcinoma with mixed subtypes	0.59	75.0	0.0	8.350000000000001	32408533.0
+TCGA-05-5425-01A	LUAD	05	5425	TCGA-05-5425	01	A	False	0	Indivumed	1	1628	male	68.0	not reported	40.0	3.0		Stage IIB	Adenocarcinoma with mixed subtypes	0.71	60.0	5.0	8.7	38273362.0
+TCGA-05-5428-01A	LUAD	05	5428	TCGA-05-5428	01	A	False	0	Indivumed	1	1628	male	57.0	not reported	30.0	3.0		Stage IIA	Adenocarcinoma with mixed subtypes	0.63	80.0	0.0	8.85	30471157.0
+TCGA-05-5429-01A	LUAD	05	5429	TCGA-05-5429	01	A	False	0	Indivumed	1	1628	male	60.0	not reported		1.0		Stage IIIA	Adenocarcinoma, NOS	0.82	80.0	0.0	8.85	29369096.0
+TCGA-05-5715-01A	LUAD	05	5715	TCGA-05-5715	01	A	False	0	Indivumed	1	1628	female	69.0	not reported		1.0		Stage IB	Adenocarcinoma with mixed subtypes	0.73	72.5	0.0	8.100000000000001	28413182.0
+TCGA-18-3406-01A	LUSC	18	3406	TCGA-18-3406	01	A	False	1	Princess Margaret Hospital (Canada)	1	0980	male	67.0	white	200.0	4.0		Stage IA	Squamous cell carcinoma, NOS	0.48	70.0	1.0		40615001.0
+TCGA-18-3407-01A	LUSC	18	3407	TCGA-18-3407	01	A	False	1	Princess Margaret Hospital (Canada)	1	0980	male	72.0	asian	40.0	3.0		Stage IB	Squamous cell carcinoma, NOS	0.29	77.5	12.5		48962077.0
+TCGA-18-3408-01A	LUSC	18	3408	TCGA-18-3408	01	A	False	1	Princess Margaret Hospital (Canada)	1	0980	female	77.0	white	30.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.76	87.5	6.0		37255376.0
+TCGA-18-3410-01A	LUSC	18	3410	TCGA-18-3410	01	A	False	1	Princess Margaret Hospital (Canada)	1	0980	male	81.0	not reported		3.0	Peripheral Lung	Stage IIB	Squamous cell carcinoma, NOS	0.65	85.0	5.0		55249823.0
+TCGA-18-3411-01A	LUSC	18	3411	TCGA-18-3411	01	A	False	1	Princess Margaret Hospital (Canada)	1	0980	female	63.0	not reported	50.0	2.0		Stage IIIA	Squamous cell carcinoma, NOS	0.53	77.5	3.0		58675189.0
+TCGA-18-3412-01A	LUSC	18	3412	TCGA-18-3412	01	A	False	1	Princess Margaret Hospital (Canada)	1	0980	male	52.0	white	25.0	4.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.78	86.5	8.0		61146697.0
+TCGA-18-3414-01A	LUSC	18	3414	TCGA-18-3414	01	A	False	1	Princess Margaret Hospital (Canada)	1	0980	male	73.0	asian	25.0	4.0		Stage IV	Squamous cell carcinoma, NOS	0.77	90.0	2.0		55218428.0
+TCGA-18-3415-01A	LUSC	18	3415	TCGA-18-3415	01	A	False	1	Princess Margaret Hospital (Canada)	1	0980	male	77.0	not reported	30.0	3.0		Stage IB	Squamous cell carcinoma, NOS	0.48	85.0	4.0		39714818.0
+TCGA-18-3416-01A	LUSC	18	3416	TCGA-18-3416	01	A	False	1	Princess Margaret Hospital (Canada)	1	0980	male	83.0	not reported	40.0	3.0		Stage IIB	Squamous cell carcinoma, NOS	0.51	70.0	4.0		39975834.0
+TCGA-18-3417-01A	LUSC	18	3417	TCGA-18-3417	01	A	False	1	Princess Margaret Hospital (Canada)	1	1443	male	65.0	not reported	25.0	3.0		Stage IV	Squamous cell carcinoma, NOS	0.31	65.0	12.5	7.85	22744121.0
+TCGA-18-3419-01A	LUSC	18	3419	TCGA-18-3419	01	A	False	1	Princess Margaret Hospital (Canada)	1	0980	male	73.0	not reported	50.0	4.0		Stage IIB	Squamous cell carcinoma, NOS	0.57	77.5	5.0		40747917.0
+TCGA-18-3421-01A	LUSC	18	3421	TCGA-18-3421	01	A	False	1	Princess Margaret Hospital (Canada)	1	0980	male	65.0	white	40.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.47	80.0	5.0		44429215.0
+TCGA-18-4083-01A	LUSC	18	4083	TCGA-18-4083	01	A	False	1	Princess Margaret Hospital (Canada)	2	1100	male	63.0	white	45.0	2.0		Stage IIB	Squamous cell carcinoma, NOS	0.68	82.5	12.5	7.6000000000000005	52768536.0
+TCGA-18-4086-01A	LUSC	18	4086	TCGA-18-4086	01	A	False	1	Princess Margaret Hospital (Canada)	1	1100	male	64.0	not reported	30.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.6	77.5	7.5	8.55	57351752.0
+TCGA-18-4721-01A	LUSC	18	4721	TCGA-18-4721	01	A	False	1	Princess Margaret Hospital (Canada)	1	1443	male	74.0	white		4.0		Stage IA	Squamous cell carcinoma, NOS	0.39	72.5	7.5	8.7	21735012.0
+TCGA-18-5592-01A	LUSC	18	5592	TCGA-18-5592	01	A	False	1	Princess Margaret Hospital (Canada)	1	1635	male	57.0	not reported	40.0	3.0		Stage IIB	Squamous cell carcinoma, NOS	0.85	47.5	2.5		61555320.0
+TCGA-21-1071-01A	LUSC	21	1071	TCGA-21-1071	01	A	False	1	Fox Chase	2	0692	male	67.0	white	90.0	2.0		Stage IB	Squamous cell carcinoma, NOS	0.29	87.5	12.5	7.75	48526883.0
+TCGA-21-1072-01A	LUSC	21	1072	TCGA-21-1072	01	A	False	1	Fox Chase	1	0692	male	75.0	white		3.0		Stage IB	Squamous cell carcinoma, NOS	0.74	92.5	10.0	8.649999999999999	60443027.0
+TCGA-21-1075-01A	LUSC	21	1075	TCGA-21-1075	01	A	False	1	Fox Chase	1	0692	male	57.0	white	74.0	2.0		Stage IIB	Squamous cell carcinoma, NOS	0.75	95.0	5.0	8.45	60226646.0
+TCGA-21-1076-01A	LUSC	21	1076	TCGA-21-1076	01	A	False	1	Fox Chase	2	0692	female	54.0	white	35.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.2			7.875	59650761.5
+TCGA-21-1079-01A	LUSC	21	1079	TCGA-21-1079	01	A	False	1	Fox Chase	1	0692	male	71.0	white	80.0	3.0		Stage IIIA	Squamous cell carcinoma, NOS	0.6	80.0	0.0	8.25	52180491.0
+TCGA-21-1080-01A	LUSC	21	1080	TCGA-21-1080	01	A	False	1	Fox Chase	1	0692	male	66.0	white	100.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.77	92.5	5.0	8.4	54921696.0
+TCGA-21-1082-01A	LUSC	21	1082	TCGA-21-1082	01	A	False	1	Fox Chase	2	0692	male	61.0	white				Stage IB	Squamous cell carcinoma, NOS	0.69	90.0	1.0	6.6	57954872.0
+TCGA-21-5782-01A	LUSC	21	5782	TCGA-21-5782	01	A	False	1	Fox Chase	1	1635	female	68.0	white	48.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.48	76.0	16.5		25570171.0
+TCGA-21-5783-01A	LUSC	21	5783	TCGA-21-5783	01	A	False	1	Fox Chase	1	2187	male	76.0	white		3.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.57	60.0	20.0		68566831.0
+TCGA-21-5784-01A	LUSC	21	5784	TCGA-21-5784	01	A	False	1	Fox Chase	1	1635	female	80.0	white	14.0	3.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.18	59.0	2.5		57009575.0
+TCGA-21-5786-01A	LUSC	21	5786	TCGA-21-5786	01	A	False	1	Fox Chase	1	1635	male	64.0	white	75.0	2.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.58	80.0	5.0		70075727.0
+TCGA-21-5787-01A	LUSC	21	5787	TCGA-21-5787	01	A	False	1	Fox Chase	1	1635	male	65.0	black or african american	100.0	4.0		Stage IIIA	Squamous cell carcinoma, NOS	0.5	75.0	5.0		62075323.0
+TCGA-22-0940-01A	LUSC	22	0940	TCGA-22-0940	01	A	False	1	Mayo Clinic - Rochester	1	0692	male	71.0	white	25.0	3.0	Peripheral Lung	Stage IIA	Squamous cell carcinoma, NOS	0.4	85.0	2.5	8.8	62625438.0
+TCGA-22-0944-01A	LUSC	22	0944	TCGA-22-0944	01	A	False	1	Mayo Clinic - Rochester	1	0692	male	61.0	white	38.0	2.0		Stage IB	Squamous cell carcinoma, NOS	0.66	65.0	5.0	8.55	72540234.0
+TCGA-22-1000-01A	LUSC	22	1000	TCGA-22-1000	01	A	False	1	Mayo Clinic - Rochester	1	A32Z	male	76.0	white	40.0	4.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.18	65.0	10.0	8.5	56184872.0
+TCGA-22-1002-01A	LUSC	22	1002	TCGA-22-1002	01	A	False	1	Mayo Clinic - Rochester	2	0692	male	69.0	white	85.0	4.0		Stage IA	Squamous cell carcinoma, NOS	0.38	60.0	10.0	8.6	49688160.0
+TCGA-22-1005-01A	LUSC	22	1005	TCGA-22-1005	01	A	False	1	Mayo Clinic - Rochester	2	0692	male	63.0	white	40.0	4.0		Stage IA	Squamous cell carcinoma, NOS	0.12	67.5	1.5	7.15	40506711.0
+TCGA-22-1011-01A	LUSC	22	1011	TCGA-22-1011	01	A	False	1	Mayo Clinic - Rochester	1	0692	male	73.0	white	83.0	2.0		Stage IB	Squamous cell carcinoma, NOS	0.36	60.0	5.0	8.05	49863518.0
+TCGA-22-1012-01A	LUSC	22	1012	TCGA-22-1012	01	A	False	1	Mayo Clinic - Rochester	1	0692	female	80.0	white	60.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.32	70.0	0.0	7.949999999999999	41029289.0
+TCGA-22-1016-01A	LUSC	22	1016	TCGA-22-1016	01	A	False	1	Mayo Clinic - Rochester	2	0692	male	65.0	white	40.0	3.0		Stage IB	Squamous cell carcinoma, NOS	0.33	65.0	4.0	8.5	53281406.0
+TCGA-22-4591-01A	LUSC	22	4591	TCGA-22-4591	01	A	False	1	Mayo Clinic - Rochester	1	1201	male	80.0	white		2.0	Peripheral Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.73	80.0	5.0	8.25	68603354.0
+TCGA-22-4593-01A	LUSC	22	4593	TCGA-22-4593	01	A	False	1	Mayo Clinic - Rochester	1	1820	male	77.0	white	30.0	4.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.77	75.0	10.0		90168522.0
+TCGA-22-4594-01A	LUSC	22	4594	TCGA-22-4594	01	A	False	1	Mayo Clinic - Rochester	1	1201	female	60.0	not reported	40.0	4.0	Peripheral Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.24	70.0	17.5	7.9	55435463.0
+TCGA-22-4595-01A	LUSC	22	4595	TCGA-22-4595	01	A	False	1	Mayo Clinic - Rochester	1	1201	male	57.0	white	37.0	2.0		Stage IIIA	Squamous cell carcinoma, NOS	0.46	67.5	12.5	7.45	65332328.0
+TCGA-22-4596-01A	LUSC	22	4596	TCGA-22-4596	01	A	False	1	Mayo Clinic - Rochester	1	1201	female	69.0	white	40.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.69	70.0	10.0	7.85	52265776.0
+TCGA-22-4599-01A	LUSC	22	4599	TCGA-22-4599	01	A	False	1	Mayo Clinic - Rochester	1	1443	female	73.0	white	25.0	2.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.47	62.5	15.0	7.199999999999999	19879235.999999996
+TCGA-22-4601-01A	LUSC	22	4601	TCGA-22-4601	01	A	False	1	Mayo Clinic - Rochester	1	1443	female	73.0	white	60.0	2.0		Stage IIIA	Squamous cell carcinoma, NOS	0.78	82.5	5.0	7.550000000000001	26141015.0
+TCGA-22-4604-01A	LUSC	22	4604	TCGA-22-4604	01	A	False	1	Mayo Clinic - Rochester	1	1201	male	73.0	white	50.0	2.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.84	60.0	17.5	7.75	76900140.0
+TCGA-22-4605-01A	LUSC	22	4605	TCGA-22-4605	01	A	False	1	Mayo Clinic - Rochester	1	2125	female	78.0	not reported	75.0	4.0		Stage IB	Squamous cell carcinoma, large cell, nonkeratinizing, NOS	0.24	72.5	30.0		58437463.0
+TCGA-22-4607-01A	LUSC	22	4607	TCGA-22-4607	01	A	False	1	Mayo Clinic - Rochester	1	1201	male	75.0	white	20.0	3.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.63	75.0	20.0	8.45	59054226.0
+TCGA-22-4609-01A	LUSC	22	4609	TCGA-22-4609	01	A	False	1	Mayo Clinic - Rochester	1	2125	male	81.0	white	77.0	2.0		Stage IA	Squamous cell carcinoma, NOS	0.42	75.0	25.0		65201427.0
+TCGA-22-4613-01A	LUSC	22	4613	TCGA-22-4613	01	A	False	1	Mayo Clinic - Rochester	1	1443	female	73.0	white	30.0	3.0		Stage IA	Squamous cell carcinoma, NOS	0.62	67.5	12.5	8.7	23994787.0
+TCGA-22-5471-01A	LUSC	22	5471	TCGA-22-5471	01	A	False	1	Mayo Clinic - Rochester	1	1635	male	75.0	white	50.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.44	65.0	5.0		61138294.0
+TCGA-22-5472-01A	LUSC	22	5472	TCGA-22-5472	01	A	False	1	Mayo Clinic - Rochester	1	1635	male	67.0	white	35.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.65	80.0	20.0		57575273.0
+TCGA-22-5473-01A	LUSC	22	5473	TCGA-22-5473	01	A	False	1	Mayo Clinic - Rochester	1	1635	male	78.0	white	45.0	3.0			Squamous cell carcinoma, NOS	0.58	80.0	20.0		69464559.0
+TCGA-22-5474-01A	LUSC	22	5474	TCGA-22-5474	01	A	False	1	Mayo Clinic - Rochester	1	1635	male	74.0	white	50.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.55	71.0	8.0		79097926.0
+TCGA-22-5477-01A	LUSC	22	5477	TCGA-22-5477	01	A	False	1	Mayo Clinic - Rochester	1	1635	male	65.0	white	100.0	2.0		Stage IA	Squamous cell carcinoma, NOS	0.73	90.0	13.0		80716323.0
+TCGA-22-5478-01A	LUSC	22	5478	TCGA-22-5478	01	A	False	1	Mayo Clinic - Rochester	1	1635	male	79.0	not reported		4.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.4	60.0	20.0		76834839.0
+TCGA-22-5479-01A	LUSC	22	5479	TCGA-22-5479	01	A	False	1	Mayo Clinic - Rochester	1	1949	male	64.0	white	35.0	4.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.28	65.0	15.0	8.6	52074230.0
+TCGA-22-5480-01A	LUSC	22	5480	TCGA-22-5480	01	A	False	1	Mayo Clinic - Rochester	1	1635	female	66.0	white	50.0	4.0	Central Lung	Stage IA	Squamous cell carcinoma, NOS	0.71	80.0	5.0		79192088.0
+TCGA-22-5481-01A	LUSC	22	5481	TCGA-22-5481	01	A	False	1	Mayo Clinic - Rochester	1	1949	female	72.0	white	75.0	4.0		Stage IIB	Squamous cell carcinoma, NOS	0.7	80.0	2.0	8.3	53045796.0
+TCGA-22-5482-01A	LUSC	22	5482	TCGA-22-5482	01	A	False	1	Mayo Clinic - Rochester	1	1635	male	81.0	white	60.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.66	80.0	6.0		74695416.0
+TCGA-22-5483-01A	LUSC	22	5483	TCGA-22-5483	01	A	False	1	Mayo Clinic - Rochester	1	1820	male	74.0	white	50.0	4.0		Stage IIA	Squamous cell carcinoma, NOS	0.7	80.0	15.0		91941448.0
+TCGA-22-5485-01A	LUSC	22	5485	TCGA-22-5485	01	A	False	1	Mayo Clinic - Rochester	1	1635	female	58.0	white	60.0	2.0		Stage IA	Squamous cell carcinoma, NOS	0.72	80.0	6.0		74232799.0
+TCGA-22-5489-01A	LUSC	22	5489	TCGA-22-5489	01	A	False	1	Mayo Clinic - Rochester	1	1635	male	64.0	white	70.0	4.0		Stage IA	Squamous cell carcinoma, NOS	0.43	65.0	6.0		79396512.0
+TCGA-22-5491-01A	LUSC	22	5491	TCGA-22-5491	01	A	False	1	Mayo Clinic - Rochester	1	1635	male	74.0	white	57.0	2.0		Stage IA	Squamous cell carcinoma, NOS	0.67	80.0	13.0		74362684.0
+TCGA-22-5492-01A	LUSC	22	5492	TCGA-22-5492	01	A	False	1	Mayo Clinic - Rochester	1	1635	female	73.0	not reported	50.0	4.0		Stage IIIA	Squamous cell carcinoma, NOS	0.56	80.0	5.0		75693812.0
+TCGA-22-A5C4-01A	LUSC	22	A5C4	TCGA-22-A5C4	01	A	False	1	Mayo Clinic - Rochester	1	A27Q	male	70.0	white	80.0	4.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.68	80.0	10.0	9.85	61025314.0
+TCGA-33-4532-01A	LUSC	33	4532	TCGA-33-4532	01	A	False	1	Johns Hopkins	1	1201	male	68.0	white	53.0	2.0		Stage IB	Squamous cell carcinoma, NOS	0.56	85.0	10.0	9.1	64256416.0
+TCGA-33-4547-01A	LUSC	33	4547	TCGA-33-4547	01	A	False	1	Johns Hopkins	1	1201	male	68.0	white	40.0	3.0		Stage IB	Squamous cell carcinoma, NOS	0.49	75.0	4.0	7.4	50443797.0
+TCGA-33-4566-01A	LUSC	33	4566	TCGA-33-4566	01	A	False	1	Johns Hopkins	1	1443	male	40.0	white	20.0	2.0		Stage IB	Squamous cell carcinoma, NOS	0.53	80.0	0.0	9.0	20623734.0
+TCGA-33-4582-01A	LUSC	33	4582	TCGA-33-4582	01	A	False	1	Johns Hopkins	1	1443	male	55.0	white	86.0	2.0		Stage IA	Squamous cell carcinoma, NOS	0.54	67.5	5.0	7.4	55390111.0
+TCGA-33-4583-01A	LUSC	33	4583	TCGA-33-4583	01	A	False	1	Johns Hopkins	1	1443	male	73.0	white	46.0	4.0		Stage IA	Squamous cell carcinoma, NOS	0.52	80.0	17.5	8.3	23314897.0
+TCGA-33-4586-01A	LUSC	33	4586	TCGA-33-4586	01	A	False	1	Johns Hopkins	1	1443	male	57.0	white	108.0	4.0		Stage IIIA	Squamous cell carcinoma, NOS	0.42	65.0	12.5	8.3	62912443.0
+TCGA-33-4587-01A	LUSC	33	4587	TCGA-33-4587	01	A	False	1	Johns Hopkins	1	2125	female	63.0	white		4.0		Stage IB	Squamous cell carcinoma, small cell, nonkeratinizing	0.88	80.0	27.5		70509872.0
+TCGA-33-4589-01A	LUSC	33	4589	TCGA-33-4589	01	A	False	1	Johns Hopkins	1	1443	female	62.0	white	45.0	2.0		Stage IIB	Squamous cell carcinoma, NOS	0.2	62.5	7.5	8.15	48891809.0
+TCGA-33-6738-01A	LUSC	33	6738	TCGA-33-6738	01	A	False	1	Johns Hopkins	1	1949	male	80.0	white	50.0	4.0		Stage IIIA	Squamous cell carcinoma, NOS	0.53	80.0	14.0	7.35	57923245.0
+TCGA-33-A4WN-01A	LUSC	33	A4WN	TCGA-33-A4WN	01	A	False	1	Johns Hopkins	1	A262	male	60.0	white	60.0	2.0		Stage IB	Squamous cell carcinoma, NOS	0.39	90.0	0.0	8.15	54612497.0
+TCGA-33-A5GW-01A	LUSC	33	A5GW	TCGA-33-A5GW	01	A	False	1	Johns Hopkins	1	A27Q	male	67.0	white	50.0	4.0		Stage IIA	Squamous cell carcinoma, NOS	0.82	80.0	5.0	8.600000000000001	50577243.0
+TCGA-33-AAS8-01A	LUSC	33	AAS8	TCGA-33-AAS8	01	A	False	1	Johns Hopkins	1	A405	female	59.0	black or african american	60.0	4.0		Stage IA	Squamous cell carcinoma, NOS	0.64	75.0	10.0	7.45	45902491.0
+TCGA-33-AASB-01A	LUSC	33	AASB	TCGA-33-AASB	01	A	False	1	Johns Hopkins	1	A405	male	66.0	black or african american	40.0	2.0		Stage IB	Squamous cell carcinoma, NOS	0.44	75.0	5.0	7.25	53908144.0
+TCGA-33-AASD-01A	LUSC	33	AASD	TCGA-33-AASD	01	A	False	1	Johns Hopkins	1	A405	male	83.0	black or african american	84.0	2.0		Stage IA	Squamous cell carcinoma, NOS	0.69	90.0	4.0	8.2	54571885.0
+TCGA-33-AASI-01A	LUSC	33	AASI	TCGA-33-AASI	01	A	False	1	Johns Hopkins	1	A405	female	65.0	black or african american	60.0	4.0		Stage IIB	Squamous cell carcinoma, NOS	0.52	65.0	20.0	7.199999999999999	44252258.0
+TCGA-33-AASJ-01A	LUSC	33	AASJ	TCGA-33-AASJ	01	A	False	1	Johns Hopkins	1	A405	male	60.0	black or african american		4.0		Stage IB	Squamous cell carcinoma, NOS	0.6	75.0	20.0	8.1	44849494.0
+TCGA-33-AASL-01A	LUSC	33	AASL	TCGA-33-AASL	01	A	False	1	Johns Hopkins	1	A405	female	57.0	black or african american	60.0	2.0		Stage IA	Squamous cell carcinoma, NOS	0.43	80.0	0.0	7.6	40610498.0
+TCGA-34-2596-01A	LUSC	34	2596	TCGA-34-2596	01	A	False	1	University of Pittsburgh	1	0851	male	70.0	white	60.0	3.0		Stage IIB	Squamous cell carcinoma, NOS	0.65	87.5	2.5	9.05	59075424.0
+TCGA-34-2600-01A	LUSC	34	2600	TCGA-34-2600	01	A	False	1	University of Pittsburgh	1	0851	female	76.0	white	50.0	4.0	Central Lung	Stage IA	Squamous cell carcinoma, NOS	0.86	90.0	10.0	8.95	53184688.0
+TCGA-34-2608-01A	LUSC	34	2608	TCGA-34-2608	01	A	False	1	University of Pittsburgh	1	0851	male	84.0	white	60.0	3.0		Stage IB	Squamous cell carcinoma, NOS	0.29	77.5	3.5	8.3	65491363.99999999
+TCGA-34-5231-01A	LUSC	34	5231	TCGA-34-5231	01	A	False	1	University of Pittsburgh	1	1820	male	72.0	white	50.0	3.0		Stage IA	Squamous cell carcinoma, NOS	0.67	75.0	8.5		94851776.0
+TCGA-34-5232-01A	LUSC	34	5232	TCGA-34-5232	01	A	False	1	University of Pittsburgh	1	1820	female	75.0	black or african american				Stage IIA	Squamous cell carcinoma, NOS	0.29	80.0	3.0		87340307.0
+TCGA-34-5234-01A	LUSC	34	5234	TCGA-34-5234	01	A	False	1	University of Pittsburgh	1	1635	female	71.0	white	40.0	4.0	Central Lung	Stage IA	Squamous cell carcinoma, NOS	0.18	55.0	0.0		64549409.0
+TCGA-34-5236-01A	LUSC	34	5236	TCGA-34-5236	01	A	False	1	University of Pittsburgh	1	1820	male	60.0	white				Stage IIB	Squamous cell carcinoma, NOS	0.18	70.0	17.5		103453394.0
+TCGA-34-5239-01A	LUSC	34	5239	TCGA-34-5239	01	A	False	1	University of Pittsburgh	1	1820	male	75.0	white				Stage IIIA	Squamous cell carcinoma, NOS	0.45	72.5	15.0		95631469.0
+TCGA-34-5240-01A	LUSC	34	5240	TCGA-34-5240	01	A	False	1	University of Pittsburgh	1	1443	female	73.0	white	56.0	2.0	Central Lung	Stage IIB	Basaloid squamous cell carcinoma	0.64	80.0	12.5	7.95	60246680.0
+TCGA-34-5241-01A	LUSC	34	5241	TCGA-34-5241	01	A	False	1	University of Pittsburgh	1	1443	male	79.0	white	25.0	3.0		Stage IB	Squamous cell carcinoma, NOS	0.88	72.5	20.0	7.75	54734311.0
+TCGA-34-5927-01A	LUSC	34	5927	TCGA-34-5927	01	A	False	1	University of Pittsburgh	1	1820	female	70.0	white				Stage IA	Squamous cell carcinoma, NOS	0.77	70.0	10.5		78779752.0
+TCGA-34-5928-01A	LUSC	34	5928	TCGA-34-5928	01	A	False	1	University of Pittsburgh	1	1820	female	83.0	white	40.0	3.0		Stage IIB	Squamous cell carcinoma, NOS	0.4	80.0	6.0		104891847.0
+TCGA-34-5929-01A	LUSC	34	5929	TCGA-34-5929	01	A	False	1	University of Pittsburgh	1	1820	female	78.0	white	40.0	3.0		Stage IB	Squamous cell carcinoma, NOS	0.75	80.0	29.5		101592859.0
+TCGA-34-7107-01A	LUSC	34	7107	TCGA-34-7107	01	A	False	1	University of Pittsburgh	1	1949	male	70.0	white		4.0		Stage II	Squamous cell carcinoma, NOS	0.59	70.0	3.5	9.3	65131061.0
+TCGA-34-8454-01A	LUSC	34	8454	TCGA-34-8454	01	A	False	1	University of Pittsburgh	1	2326	female	62.0	white	90.0	4.0		Stage IIIA	Squamous cell carcinoma, NOS	0.45	70.0	2.5		50087889.0
+TCGA-34-8455-01A	LUSC	34	8455	TCGA-34-8455	01	A	False	1	University of Pittsburgh	1	2326	male	67.0	white	50.0	4.0		Stage IV	Squamous cell carcinoma, NOS	0.46	72.5	2.5		44754438.0
+TCGA-34-8456-01A	LUSC	34	8456	TCGA-34-8456	01	A	False	1	University of Pittsburgh	1	2326	female	71.0	white	20.0	5.0		Stage IIA	Squamous cell carcinoma, NOS	0.64	78.0	15.0		35798332.0
+TCGA-34-A5IX-01A	LUSC	34	A5IX	TCGA-34-A5IX	01	A	False	1	University of Pittsburgh	1	A27Q	male	80.0	white		4.0		Stage IIB	Squamous cell carcinoma, NOS	0.36	65.0	0.0	7.35	41743217.0
+TCGA-35-3615-01A	LUAD	35	3615	TCGA-35-3615	01	A	False	0	Cureline	1	0946	male	57.0	white		1.0	Peripheral Lung	Stage IB	Adenocarcinoma, NOS	0.69	80.0	0.0	8.8	76253174.0
+TCGA-37-3783-01A	LUSC	37	3783	TCGA-37-3783	01	A	False	1	Cureline	1	1201	male	51.0	white			Central Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.36	65.0	12.5	7.65	48217148.0
+TCGA-37-3789-01A	LUSC	37	3789	TCGA-37-3789	01	A	False	1	Cureline	1	0980	male	65.0	white		1.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.62	90.0	5.0		56221019.0
+TCGA-37-3792-01A	LUSC	37	3792	TCGA-37-3792	01	A	False	1	Cureline	1	0980	male	69.0	white		1.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.4	80.0	1.0		57433785.0
+TCGA-37-4129-01A	LUSC	37	4129	TCGA-37-4129	01	A	False	1	Cureline	1	1100	female	52.0	white	30.0	4.0	Central Lung	Stage IA	Squamous cell carcinoma, NOS	0.45	82.5	0.0	7.65	54047958.00000001
+TCGA-37-4130-01A	LUSC	37	4130	TCGA-37-4130	01	A	False	1	Cureline	1	1100	male	56.0	white	25.0	4.0	Central Lung	Stage IA	Squamous cell carcinoma, NOS	0.4	75.0	10.0	8.899999999999999	48545320.0
+TCGA-37-4132-01A	LUSC	37	4132	TCGA-37-4132	01	A	False	1	Cureline	1	1100	female	61.0	white		1.0	Peripheral Lung	Stage IV	Squamous cell carcinoma, NOS	0.62	75.0	12.5	7.3999999999999995	52586756.0
+TCGA-37-4133-01A	LUSC	37	4133	TCGA-37-4133	01	A	False	1	Cureline	1	1100	male	63.0	white	40.0	4.0	Peripheral Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.67	77.5	7.5	8.85	54871069.0
+TCGA-37-4135-01A	LUSC	37	4135	TCGA-37-4135	01	A	False	1	Cureline	1	1100	male	68.0	white	45.0	4.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.91	85.0	17.5	8.1	50034851.0
+TCGA-37-4141-01A	LUSC	37	4141	TCGA-37-4141	01	A	False	1	Cureline	1	1100	female	65.0	white		1.0	Peripheral Lung	Stage IA	Squamous cell carcinoma, NOS	0.76	77.5	11.5	8.65	59581001.0
+TCGA-37-5819-01A	LUSC	37	5819	TCGA-37-5819	01	A	False	1	Cureline	1	1635	male	64.0	white	45.0	4.0	Peripheral Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.71	75.0	15.0		62901840.0
+TCGA-37-A5EL-01A	LUSC	37	A5EL	TCGA-37-A5EL	01	A	False	1	Cureline	1	A26W	male	53.0	white			Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.77	95.0	5.0	9.85	57781423.0
+TCGA-37-A5EM-01A	LUSC	37	A5EM	TCGA-37-A5EM	01	A	False	1	Cureline	1	A27Q	male	49.0	white			Central Lung	Stage II	Squamous cell carcinoma, NOS		80.0	10.0	8.4	45387853.0
+TCGA-37-A5EN-01A	LUSC	37	A5EN	TCGA-37-A5EN	01	A	False	1	Cureline	1	A26W	male	59.0	white			Central Lung	Stage IIIB	Squamous cell carcinoma, NOS	0.54	70.0	5.0	8.3	28076310.0
+TCGA-38-4626-01A	LUAD	38	4626	TCGA-38-4626	01	A	False	0	UNC	1	1206	female	57.0	white	40.0	2.0	Central Lung		Adenocarcinoma, NOS	0.28	75.0	0.0	8.2	103673396.0
+TCGA-38-4627-01A	LUAD	38	4627	TCGA-38-4627	01	A	False	0	UNC	1	1206	female	64.0	white		4.0	Central Lung	Stage IIA	Adenocarcinoma, NOS	0.22	70.0	3.0	8.3	64670974.0
+TCGA-38-4628-01A	LUAD	38	4628	TCGA-38-4628	01	A	False	0	UNC	1	1206	female	65.0	white		1.0	Central Lung	Stage IIB	Adenocarcinoma, NOS	0.5	75.0	0.5	8.75	74931567.0
+TCGA-38-4631-01A	LUAD	38	4631	TCGA-38-4631	01	A	False	0	UNC	1	1755	female	72.0	white	40.0	4.0	Peripheral Lung	Stage IB	Adenocarcinoma, NOS	0.49	80.0	9.0	8.6	28990293.0
+TCGA-38-4632-01A	LUAD	38	4632	TCGA-38-4632	01	A	False	0	UNC	1	1755	male	42.0	black or african american	10.0	4.0	Peripheral Lung	Stage IV	Adenocarcinoma, NOS	0.37	70.0	6.0	8.600000000000001	28328001.0
+TCGA-38-6178-01A	LUAD	38	6178	TCGA-38-6178	01	A	False	0	UNC	1	1755	female	70.0	white		1.0	Central Lung	Stage IIIA	Adenocarcinoma, NOS	0.32	67.5	0.0	9.25	24643339.0
+TCGA-38-7271-01A	LUAD	38	7271	TCGA-38-7271	01	A	False	0	UNC	1	2039	female	72.0	white	25.0	4.0		Stage IA	Adenocarcinoma, NOS	0.26	70.0	15.0	7.25	30028699.0
+TCGA-38-A44F-01A	LUAD	38	A44F	TCGA-38-A44F	01	A	False	0	UNC	1	A24H	male	80.0	white	12.0	3.0	Peripheral Lung	Stage IB	Acinar cell carcinoma	0.26	80.0	0.0	7.5	39303564.0
+TCGA-39-5011-01A	LUSC	39	5011	TCGA-39-5011	01	A	False	1	MSKCC	1	1443	female	70.0	white	45.0	4.0	Peripheral Lung	Stage IA	Squamous cell carcinoma, NOS	0.43	80.0	4.5	7.300000000000001	55872569.0
+TCGA-39-5016-01A	LUSC	39	5016	TCGA-39-5016	01	A	False	1	MSKCC	1	1443	male	44.0	white	40.0	4.0	Central Lung	Stage IIA	Basaloid squamous cell carcinoma	0.51	75.0	2.5	7.55	60049069.0
+TCGA-39-5019-01A	LUSC	39	5019	TCGA-39-5019	01	A	False	1	MSKCC	1	1820	male	70.0	white	30.0	3.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.55	55.0	10.5		92071221.0
+TCGA-39-5021-01A	LUSC	39	5021	TCGA-39-5021	01	A	False	1	MSKCC	1	1443	male	70.0	white	114.0	4.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.4	70.0	4.0	7.5	41005156.0
+TCGA-39-5022-01A	LUSC	39	5022	TCGA-39-5022	01	A	False	1	MSKCC	1	1820	male	76.0	white	35.0	4.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.26	67.5	7.5		87874595.0
+TCGA-39-5024-01A	LUSC	39	5024	TCGA-39-5024	01	A	False	1	MSKCC	1	1820	female	65.0	white	40.0	4.0	Central Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.32	70.0	5.0		87478342.0
+TCGA-39-5027-01A	LUSC	39	5027	TCGA-39-5027	01	A	False	1	MSKCC	1	1820	male	73.0	white	40.0	4.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.68	60.0	5.0		79091443.0
+TCGA-39-5028-01A	LUSC	39	5028	TCGA-39-5028	01	A	False	1	MSKCC	1	1443	male	75.0	white	30.0	3.0	Central Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.19	70.0	5.0	8.35	60162716.0
+TCGA-39-5029-01A	LUSC	39	5029	TCGA-39-5029	01	A	False	1	MSKCC	1	1443	male	67.0	white	192.0	4.0	Central Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.54	70.0	3.0	7.55	60676767.0
+TCGA-39-5030-01A	LUSC	39	5030	TCGA-39-5030	01	A	False	1	MSKCC	1	1443	female	81.0	asian	8.0	3.0	Peripheral Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.3	75.0	5.0	8.05	39571953.0
+TCGA-39-5031-01A	LUSC	39	5031	TCGA-39-5031	01	A	False	1	MSKCC	1	1443	female	76.0	not reported	60.0	4.0	Peripheral Lung	Stage IA	Squamous cell carcinoma, NOS	0.4	67.5	10.0	7.65	55601594.0
+TCGA-39-5034-01A	LUSC	39	5034	TCGA-39-5034	01	A	False	1	MSKCC	1	1443	female	73.0	white	84.0	4.0	Peripheral Lung	Stage IIB	Squamous cell carcinoma, NOS	0.51	65.0	10.0	8.25	39524729.0
+TCGA-39-5035-01A	LUSC	39	5035	TCGA-39-5035	01	A	False	1	MSKCC	1	1443	female	72.0	white	47.0	4.0	Central Lung	Stage IA	Squamous cell carcinoma, NOS	0.44	75.0	5.0	7.8	44117017.0
+TCGA-39-5036-01A	LUSC	39	5036	TCGA-39-5036	01	A	False	1	MSKCC	1	1443	male	73.0	white	63.0	4.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.64	72.5	7.5	7.75	44203282.0
+TCGA-39-5037-01A	LUSC	39	5037	TCGA-39-5037	01	A	False	1	MSKCC	1	1443	male	65.0	white	26.0	2.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.49	75.0	5.0	7.15	55426189.0
+TCGA-39-5039-01A	LUSC	39	5039	TCGA-39-5039	01	A	False	1	MSKCC	1	1443	male	76.0	white	64.0	3.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.28	70.0	5.0	7.550000000000001	36496488.0
+TCGA-39-5040-01A	LUSC	39	5040	TCGA-39-5040	01	A	False	1	MSKCC	1	2125	male	59.0	white	60.0	4.0	Peripheral Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.59	67.5	35.0		70493480.0
+TCGA-43-2576-01A	LUSC	43	2576	TCGA-43-2576	01	A	False	1	Christiana Healthcare	1	A32Z	female	62.0	white	20.0	4.0		Stage IIIA	Squamous cell carcinoma, NOS	0.27	57.5	7.5	7.550000000000001	43714400.0
+TCGA-43-2578-01A	LUSC	43	2578	TCGA-43-2578	01	A	False	1	Christiana Healthcare	1	0851	female	59.0	white	64.0	4.0		Stage IA	Squamous cell carcinoma, NOS	0.59	85.0	10.0	8.2	55910315.0
+TCGA-43-2581-01A	LUSC	43	2581	TCGA-43-2581	01	A	False	1	Christiana Healthcare	1	0851	female	47.0	white	30.0	2.0		Stage IIIA	Squamous cell carcinoma, NOS	0.29	90.0	1.5	8.65	59819720.0
+TCGA-43-3394-01A	LUSC	43	3394	TCGA-43-3394	01	A	False	1	Christiana Healthcare	1	0980	male	52.0	black or african american	15.0	2.0		Stage IB	Squamous cell carcinoma, NOS	0.6	77.5	14.5		58400807.0
+TCGA-43-3920-01A	LUSC	43	3920	TCGA-43-3920	01	A	False	1	Christiana Healthcare	1	0980	male	71.0	white	50.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.52	80.0	2.0		51949834.0
+TCGA-43-5668-01A	LUSC	43	5668	TCGA-43-5668	01	A	False	1	Christiana Healthcare	1	1635	male	78.0	white	20.0	3.0		Stage IIA	Squamous cell carcinoma, NOS	0.34	62.5	0.0		77663918.0
+TCGA-43-5670-01A	LUSC	43	5670	TCGA-43-5670	01	A	False	1	Christiana Healthcare	1	2125	male	70.0	white	30.0	3.0		Stage IIA	Squamous cell carcinoma, NOS	0.62	80.0	37.5		60545022.0
+TCGA-43-6143-01A	LUSC	43	6143	TCGA-43-6143	01	A	False	1	Christiana Healthcare	1	1820	male	70.0	white	114.0	4.0		Stage IB	Basaloid squamous cell carcinoma	0.86	90.0	12.5		87737935.0
+TCGA-43-6647-01A	LUSC	43	6647	TCGA-43-6647	01	A	False	1	Christiana Healthcare	1	1820	female	69.0	white	36.0	4.0		Stage IIB	Squamous cell carcinoma, NOS	0.25	37.5	0.0		70721710.0
+TCGA-43-6770-01A	LUSC	43	6770	TCGA-43-6770	01	A	False	1	Christiana Healthcare	1	1820	female	59.0	black or african american	34.0	2.0		Stage IB	Squamous cell carcinoma, NOS	0.69	74.0	21.0		93155595.0
+TCGA-43-6771-01A	LUSC	43	6771	TCGA-43-6771	01	A	False	1	Christiana Healthcare	1	1820	male	85.0	white	40.0	3.0		Stage IB	Squamous cell carcinoma, NOS	0.48	75.5	7.5		97564498.0
+TCGA-43-6773-01A	LUSC	43	6773	TCGA-43-6773	01	A	False	1	Christiana Healthcare	1	1949	male	76.0	white		3.0		Stage IIB	Squamous cell carcinoma, NOS	0.21	60.0	0.0	7.4	49627815.0
+TCGA-43-7656-01A	LUSC	43	7656	TCGA-43-7656	01	A	False	1	Christiana Healthcare	1	2125	male	71.0	white	45.0	4.0		Stage IA	Squamous cell carcinoma, NOS	0.59	60.0	10.0		53591649.0
+TCGA-43-7657-01A	LUSC	43	7657	TCGA-43-7657	01	A	False	1	Christiana Healthcare	1	2125	female	68.0	white	45.0	4.0		Stage IA	Squamous cell carcinoma, NOS	0.44	70.0	20.0		65330889.0
+TCGA-43-7658-01A	LUSC	43	7658	TCGA-43-7658	01	A	False	1	Christiana Healthcare	1	2125	female	75.0	white	12.0	4.0		Stage IA	Squamous cell carcinoma, NOS	0.75	75.0	8.0		69839102.0
+TCGA-43-8115-01A	LUSC	43	8115	TCGA-43-8115	01	A	False	1	Christiana Healthcare	1	2247	female	72.0	white	55.83	4.0		Stage IIA	Squamous cell carcinoma, NOS	0.42	65.0	1.0		38094345.0
+TCGA-43-8116-01A	LUSC	43	8116	TCGA-43-8116	01	A	False	1	Christiana Healthcare	1	2247	male	73.0	white	35.0	2.0		Stage IA	Squamous cell carcinoma, NOS	0.58	65.0	5.0		36359970.0
+TCGA-43-8118-01A	LUSC	43	8118	TCGA-43-8118	01	A	False	1	Christiana Healthcare	1	2403	female	55.0	white	20.0	2.0		Stage IA	Squamous cell carcinoma, NOS	0.33	65.0	0.0		44662923.0
+TCGA-43-A474-01A	LUSC	43	A474	TCGA-43-A474	01	A	False	1	Christiana Healthcare	1	A24H	male	66.0	white	47.0	4.0		Stage IIA	Squamous cell carcinoma, NOS	0.61	70.0	5.0	8.9	50768835.0
+TCGA-43-A475-01A	LUSC	43	A475	TCGA-43-A475	01	A	False	1	Christiana Healthcare	1	A24H	female	67.0	white	100.0	4.0		Stage IIB	Squamous cell carcinoma, NOS	0.34	60.0	0.0	8.2	52020500.0
+TCGA-43-A56U-01A	LUSC	43	A56U	TCGA-43-A56U	01	A	False	1	Christiana Healthcare	1	A26W	female	76.0	white	20.5	4.0		Stage IA	Squamous cell carcinoma, NOS	0.17	70.0	0.0	7.300000000000001	41481761.0
+TCGA-43-A56V-01A	LUSC	43	A56V	TCGA-43-A56V	01	A	False	1	Christiana Healthcare	1	A26W	male	61.0	black or african american	48.0	4.0		Stage IIIA	Squamous cell carcinoma, NOS	0.57	80.0	3.0	7.800000000000001	44080252.0
+TCGA-44-2655-01A	LUAD	44	2655	TCGA-44-2655	01	A	False	0	Christiana Healthcare	1	0946	female	65.0	white	30.0	3.0		Stage IA	Adenocarcinoma, NOS	0.33	40.0	0.0	8.2	86382334.0
+TCGA-44-2656-01A	LUAD	44	2656	TCGA-44-2656	01	A	False	0	Christiana Healthcare	2	0946	male	59.0	white	23.0	4.0		Stage IB	Adenocarcinoma, NOS	0.32	71.25	0.0	8.5	66676653.0
+TCGA-44-2657-01A	LUAD	44	2657	TCGA-44-2657	01	A	False	0	Christiana Healthcare	1	1107	female	74.0	white	25.0	4.0		Stage IB	Adenocarcinoma, NOS	0.34	72.5	0.0	8.6	36069891.0
+TCGA-44-2659-01A	LUAD	44	2659	TCGA-44-2659	01	A	False	0	Christiana Healthcare	1	0946	female	65.0	white	57.0	4.0		Stage IIB	Adenocarcinoma, NOS	0.42	67.5	0.0	7.8	72402484.0
+TCGA-44-2662-01A	LUAD	44	2662	TCGA-44-2662	01	A	False	0	Christiana Healthcare	2	0946	male	65.0	white	56.0	3.0		Stage IB	Adenocarcinoma, NOS	0.26	80.0	9.0	8.8	55566010.0
+TCGA-44-2665-01A	LUAD	44	2665	TCGA-44-2665	01	A	False	0	Christiana Healthcare	2	0946	female	55.0	white		1.0		Stage IIB	Adenocarcinoma, NOS	0.43	81.5	1.0	8.1	48512603.0
+TCGA-44-2666-01A	LUAD	44	2666	TCGA-44-2666	01	A	False	0	Christiana Healthcare	2	0946	male	43.0	white	30.0	2.0		Stage IB	Adenocarcinoma, NOS	0.56	83.33333333333333	0.3333333333333333	9.1	50123653.5
+TCGA-44-3396-01A	LUAD	44	3396	TCGA-44-3396	01	A	False	0	Christiana Healthcare	1	1206	female	74.0	white	50.0	2.0		Stage IIIA	Adenocarcinoma, NOS	0.24	67.5	5.0	8.2	97959719.0
+TCGA-44-3917-01A	LUAD	44	3917	TCGA-44-3917	01	A	False	0	Christiana Healthcare	1	A278	female	33.0	white	16.0	2.0		Stage IB	Adenocarcinoma, NOS	0.38	80.0	1.5	9.1	32146844.000000004
+TCGA-44-3919-01A	LUAD	44	3919	TCGA-44-3919	01	A	False	0	Christiana Healthcare	1	1107	female	71.0	white		1.0		Stage IA	Adenocarcinoma, NOS	0.51	75.0	0.0	7.4	67900869.0
+TCGA-44-4112-01A	LUAD	44	4112	TCGA-44-4112	01	A	False	0	Christiana Healthcare	2	1107	female	60.0	white	30.0	3.0		Stage IB	Adenocarcinoma, NOS	0.57	78.33333333333333	4.0	8.7	43463738.0
+TCGA-44-5645-01A	LUAD	44	5645	TCGA-44-5645	01	A	False	0	Christiana Healthcare	2	1628	female	61.0	black or african american	5.0	3.0		Stage IA	Adenocarcinoma, NOS	0.54	71.66666666666667	5.0	8.149999999999999	40044097.0
+TCGA-44-6145-01A	LUAD	44	6145	TCGA-44-6145	01	A	False	0	Christiana Healthcare	1	1755	female	62.0	white	75.0	4.0		Stage IA	Adenocarcinoma, NOS	0.31	67.5	0.0	9.15	34209850.0
+TCGA-44-6148-01A	LUAD	44	6148	TCGA-44-6148	01	A	False	0	Christiana Healthcare	1	1755	male	60.0	white	60.0	3.0		Stage IA	Mucinous adenocarcinoma	0.3	80.0	0.0	7.45	39178206.0
+TCGA-44-6774-01A	LUAD	44	6774	TCGA-44-6774	01	A	False	0	Christiana Healthcare	1	1858	female	56.0	white	20.0	2.0		Stage IIIA	Adenocarcinoma, NOS	0.45	61.0	10.0	8.25	25388728.0
+TCGA-44-6776-01A	LUAD	44	6776	TCGA-44-6776	01	A	False	0	Christiana Healthcare	1	1858	female	60.0	white	45.0	4.0		Stage IA	Adenocarcinoma, NOS	0.65	87.5	0.0	7.85	31063729.0
+TCGA-44-6777-01A	LUAD	44	6777	TCGA-44-6777	01	A	False	0	Christiana Healthcare	1	1858	female	85.0	white	64.0	4.0		Stage IB	Adenocarcinoma, NOS	0.34	63.0	10.0	8.75	45602151.0
+TCGA-44-6779-01A	LUAD	44	6779	TCGA-44-6779	01	A	False	0	Christiana Healthcare	1	1858	female	50.0	white	15.0	4.0		Stage IIB	Adenocarcinoma, NOS	0.6	85.0	0.0	8.75	25598731.0
+TCGA-44-7659-01A	LUAD	44	7659	TCGA-44-7659	01	A	False	0	Christiana Healthcare	1	2066	male	70.0	white	40.0	2.0		Stage IA	Adenocarcinoma, NOS	0.56	60.0	0.0	7.15	29037929.000000004
+TCGA-44-7662-01A	LUAD	44	7662	TCGA-44-7662	01	A	False	0	Christiana Healthcare	1	2066	male	61.0	white	50.0	2.0		Stage IB	Adenocarcinoma, NOS	0.33	57.5	1.0	7.35	73429389.0
+TCGA-44-7670-01A	LUAD	44	7670	TCGA-44-7670	01	A	False	0	Christiana Healthcare	1	2066	female	47.0	white	30.0	2.0		Stage IIA	Adenocarcinoma, NOS	0.5	75.0	10.0	7.65	64582716.0
+TCGA-44-7671-01A	LUAD	44	7671	TCGA-44-7671	01	A	False	0	Christiana Healthcare	1	2066	male	64.0	black or african american		3.0		Stage IB	Adenocarcinoma with mixed subtypes	0.58	85.0	0.0	7.5	70220747.0
+TCGA-44-7672-01A	LUAD	44	7672	TCGA-44-7672	01	A	False	0	Christiana Healthcare	1	2066	female	52.0	white	20.0	2.0		Stage IA	Adenocarcinoma, NOS	0.21	60.0	0.0	7.15	62570706.0
+TCGA-44-8117-01A	LUAD	44	8117	TCGA-44-8117	01	A	False	0	Christiana Healthcare	1	2241	female	54.0	white	54.0	4.0		Stage IB	Adenocarcinoma, NOS	0.66	80.0	2.0	9.3	75900354.0
+TCGA-44-8119-01A	LUAD	44	8119	TCGA-44-8119	01	A	False	0	Christiana Healthcare	1	2241	male	73.0	white	50.0	2.0		Stage IIB	Adenocarcinoma, NOS	0.55	70.0	11.5	8.05	90176346.0
+TCGA-44-8120-01A	LUAD	44	8120	TCGA-44-8120	01	A	False	0	Christiana Healthcare	1	2241	male	58.0	black or african american	30.0	5.0		Stage IB	Adenocarcinoma, NOS	0.54	60.0	0.0	8.05	69993994.0
+TCGA-44-A479-01A	LUAD	44	A479	TCGA-44-A479	01	A	False	0	Christiana Healthcare	1	A24H	female	73.0	black or african american	40.0	4.0		Stage IB	Adenocarcinoma, NOS	0.36	65.0	0.0	8.8	40284106.0
+TCGA-44-A47A-01A	LUAD	44	A47A	TCGA-44-A47A	01	A	False	0	Christiana Healthcare	1	A24H	female	78.0	white	80.0	4.0		Stage IB	Adenocarcinoma, NOS	0.34	78.0	0.0	9.149999999999999	41051145.0
+TCGA-44-A47B-01A	LUAD	44	A47B	TCGA-44-A47B	01	A	False	0	Christiana Healthcare	1	A24H	male	79.0	white	4.5	3.0		Stage IB	Adenocarcinoma, NOS	0.5	75.0	0.0	8.55	48911043.0
+TCGA-44-A47G-01A	LUAD	44	A47G	TCGA-44-A47G	01	A	False	0	Christiana Healthcare	1	A24H	female	73.0	white	28.0	4.0		Stage IA	Adenocarcinoma, NOS	0.24	75.0	0.0	7.25	41196772.0
+TCGA-44-A4SS-01A	LUAD	44	A4SS	TCGA-44-A4SS	01	A	False	0	Christiana Healthcare	1	A24X	male	73.0	white	90.0	4.0		Stage IA	Adenocarcinoma, NOS	0.25	70.0	0.0	9.350000000000001	38697317.0
+TCGA-44-A4SU-01A	LUAD	44	A4SU	TCGA-44-A4SU	01	A	False	0	Christiana Healthcare	1	A24X	female	67.0	white	50.0	4.0		Stage IA	Adenocarcinoma, NOS	0.59	70.0	0.0	7.300000000000001	48903542.0
+TCGA-46-3765-01A	LUSC	46	3765	TCGA-46-3765	01	A	False	1	St. Joseph's Medical Center (MD)	1	0980	female	59.0	white		2.0	Central Lung	Stage IA	Squamous cell carcinoma, NOS	0.36	75.0	6.5		44906924.0
+TCGA-46-3766-01A	LUSC	46	3766	TCGA-46-3766	01	A	False	1	St. Joseph's Medical Center (MD)	1	0980	female	62.0	white		4.0	Central Lung	Stage IA	Squamous cell carcinoma, NOS	0.17	70.0	3.0		39583890.0
+TCGA-46-3767-01A	LUSC	46	3767	TCGA-46-3767	01	A	False	1	St. Joseph's Medical Center (MD)	1	0980	male	76.0	white		3.0	Central Lung	Stage IA	Squamous cell carcinoma, NOS	0.23	70.0	5.0		45226729.0
+TCGA-46-3768-01A	LUSC	46	3768	TCGA-46-3768	01	A	False	1	St. Joseph's Medical Center (MD)	1	0980	male	58.0	white		4.0	Central Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.75	75.0	8.0		62675252.0
+TCGA-46-3769-01A	LUSC	46	3769	TCGA-46-3769	01	A	False	1	St. Joseph's Medical Center (MD)	1	0980	male	57.0	white		4.0	Central Lung		Squamous cell carcinoma, NOS	0.47	75.0	3.0		56925008.0
+TCGA-46-6025-01A	LUSC	46	6025	TCGA-46-6025	01	A	False	1	St. Joseph's Medical Center (MD)	1	1820	male	71.0	white		4.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.54	75.0	5.0		95833645.0
+TCGA-46-6026-01A	LUSC	46	6026	TCGA-46-6026	01	A	False	1	St. Joseph's Medical Center (MD)	1	1820	male	81.0	white		3.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.9	80.0	22.5		83017516.0
+TCGA-49-4486-01A	LUAD	49	4486	TCGA-49-4486	01	A	False	0	Johns Hopkins	1	1206	male	72.0	white	17.5	3.0		Stage IA	Adenocarcinoma, NOS	0.73	75.0	1.0	8.25	81750346.0
+TCGA-49-4487-01A	LUAD	49	4487	TCGA-49-4487	01	A	False	0	Johns Hopkins	1	1858	female	72.0	white	40.0	4.0		Stage IA	Adenocarcinoma, NOS	0.17	67.5	4.0	8.05	26993827.0
+TCGA-49-4488-01A	LUAD	49	4488	TCGA-49-4488	01	A	False	0	Johns Hopkins	1	1755	female	74.0	white		3.0		Stage IA	Adenocarcinoma, NOS	0.45	60.0	0.0	8.05	28414968.0
+TCGA-49-4490-01A	LUAD	49	4490	TCGA-49-4490	01	A	False	0	Johns Hopkins	1	1858	female	45.0	white	5.0	3.0		Stage IIIA	Adenocarcinoma, NOS	0.26	70.0	0.0	7.85	26041204.0
+TCGA-49-4494-01A	LUAD	49	4494	TCGA-49-4494	01	A	False	0	Johns Hopkins	1	1206	male	77.0	white	50.0	3.0		Stage IIIA	Adenocarcinoma, NOS	0.46	70.0	5.0	8.399999999999999	78194142.0
+TCGA-49-4501-01A	LUAD	49	4501	TCGA-49-4501	01	A	False	0	Johns Hopkins	1	1206	female	67.0	white		1.0		Stage IB	Adenocarcinoma, NOS	0.43	72.5	0.0	7.6	84752869.0
+TCGA-49-4505-01A	LUAD	49	4505	TCGA-49-4505	01	A	False	0	Johns Hopkins	1	1206	female	61.0	white	74.0	4.0		Stage IIB	Adenocarcinoma, NOS	0.45	72.5	0.0	7.300000000000001	84865406.0
+TCGA-49-4506-01A	LUAD	49	4506	TCGA-49-4506	01	A	False	0	Johns Hopkins	1	1206	female	68.0	white	100.0	2.0	Peripheral Lung	Stage IIB	Adenocarcinoma, NOS	0.25	72.5	0.0	7.65	77916704.00000001
+TCGA-49-4507-01A	LUAD	49	4507	TCGA-49-4507	01	A	False	0	Johns Hopkins	1	1206	female	73.0	white	78.0	4.0		Stage IIIA	Adenocarcinoma, NOS	0.35	70.0	0.0	7.9	72181589.0
+TCGA-49-4510-01A	LUAD	49	4510	TCGA-49-4510	01	A	False	0	Johns Hopkins	1	1206	female	51.0	black or african american	55.5	2.0		Stage IIB	Adenocarcinoma, NOS	0.64	75.0	0.0	7.8	83281464.0
+TCGA-49-4512-01A	LUAD	49	4512	TCGA-49-4512	01	A	False	0	Johns Hopkins	1	1858	female	69.0	white		1.0		Stage IIIA	Adenocarcinoma, NOS	0.32	72.5	0.0	7.15	32021139.0
+TCGA-49-4514-01A	LUAD	49	4514	TCGA-49-4514	01	A	False	0	Johns Hopkins	1	1858	female	79.0	white	65.0	3.0		Stage IA	Papillary adenocarcinoma, NOS	0.35	55.0	0.0	7.35	34627613.0
+TCGA-49-6742-01A	LUAD	49	6742	TCGA-49-6742	01	A	False	0	Johns Hopkins	1	1858	male	70.0	white	10.0	3.0		Stage IIA	Mucinous adenocarcinoma	0.49	55.0	0.0	8.1	30207363.0
+TCGA-49-6744-01A	LUAD	49	6744	TCGA-49-6744	01	A	False	0	Johns Hopkins	1	1858	female	64.0	white	20.0	4.0		Stage IIA	Adenocarcinoma with mixed subtypes	0.37	75.0	0.0	8.3	43017353.0
+TCGA-49-6745-01A	LUAD	49	6745	TCGA-49-6745	01	A	False	0	Johns Hopkins	1	1858	male	82.0	white	20.0	4.0		Stage IIIA	Papillary adenocarcinoma, NOS	0.24	75.0	0.0	9.0	41697605.0
+TCGA-49-6761-01A	LUAD	49	6761	TCGA-49-6761	01	A	False	0	Johns Hopkins	1	1949	female	68.0	white	50.0	4.0		Stage IIIA	Adenocarcinoma, NOS	0.29	70.0	20.0	7.300000000000001	31516262.0
+TCGA-49-6767-01A	LUAD	49	6767	TCGA-49-6767	01	A	False	0	Johns Hopkins	1	1858	female	46.0	white	30.0	2.0		Stage IIB	Adenocarcinoma, NOS	0.43	82.5	0.0	7.3	33542388.0
+TCGA-49-AAQV-01A	LUAD	49	AAQV	TCGA-49-AAQV	01	A	False	0	Johns Hopkins	1	A39D	female	63.0	black or african american		1.0		Stage II	Adenocarcinoma with mixed subtypes	0.25	90.0	20.0	7.7	64977563.0
+TCGA-49-AAR0-01A	LUAD	49	AAR0	TCGA-49-AAR0	01	A	False	0	Johns Hopkins	1	A39D	male	57.0	black or african american	37.0	2.0		Stage IA	Adenocarcinoma, NOS	0.51	70.0	0.0	7.199999999999999	45891853.0
+TCGA-49-AAR2-01A	LUAD	49	AAR2	TCGA-49-AAR2	01	A	False	0	Johns Hopkins	1	A39D	male	64.0	black or african american		4.0		Stage IB	Acinar cell carcinoma	0.69	80.0	1.0	7.4	45557913.0
+TCGA-49-AAR3-01A	LUAD	49	AAR3	TCGA-49-AAR3	01	A	False	0	Johns Hopkins	1	A41B	male	69.0	black or african american				Stage IIB	Adenocarcinoma, NOS	0.32	75.0	2.0	7.25	25873348.999999993
+TCGA-49-AAR4-01A	LUAD	49	AAR4	TCGA-49-AAR4	01	A	False	0	Johns Hopkins	1	A41B	male	51.0	black or african american	35.0	2.0		Stage IIIA	Adenocarcinoma, NOS	0.22	65.0	2.0	7.1	35873945.0
+TCGA-49-AAR9-01A	LUAD	49	AAR9	TCGA-49-AAR9	01	A	False	0	Johns Hopkins	1	A41B	male	61.0	black or african american		2.0		Stage IIB	Adenocarcinoma, NOS	0.75	70.0	10.0	7.65	45358523.0
+TCGA-49-AARE-01A	LUAD	49	AARE	TCGA-49-AARE	01	A	False	0	Johns Hopkins	1	A41B	female	51.0	black or african american	15.0	4.0		Stage IA	Adenocarcinoma, NOS	0.42	60.0	0.0	8.3	54237931.0
+TCGA-49-AARN-01A	LUAD	49	AARN	TCGA-49-AARN	01	A	False	0	Johns Hopkins	1	A41B	female	56.0	black or african american		5.0		Stage IA	Adenocarcinoma, NOS	0.43	60.0	5.0	7.05	27362148.0
+TCGA-49-AARO-01A	LUAD	49	AARO	TCGA-49-AARO	01	A	False	0	Johns Hopkins	1	A41B	female	39.0	black or african american		2.0		Stage IA	Papillary adenocarcinoma, NOS	0.28	70.0	1.5	7.1	38013989.0
+TCGA-49-AARQ-01A	LUAD	49	AARQ	TCGA-49-AARQ	01	A	False	0	Johns Hopkins	1	A41B	female	41.0	black or african american	60.0	4.0		Stage I	Adenocarcinoma, NOS	0.52	80.0	0.0	8.350000000000001	42464813.99999999
+TCGA-49-AARR-01A	LUAD	49	AARR	TCGA-49-AARR	01	A	False	0	Johns Hopkins	1	A41B	male	68.0	black or african american		3.0		Stage IA	Adenocarcinoma, NOS	0.64	70.0	0.0	7.15	41306958.0
+TCGA-4B-A93V-01A	LUAD	4B	A93V	TCGA-4B-A93V	01	A	False	0	Mary Bird Perkins Cancer Center - Our Lady of the Lake	1	A39D	female	52.0	black or african american	30.0	4.0	Peripheral Lung	Stage IA	Adenocarcinoma, NOS	0.62	70.0	10.0	7.1	52538923.0
+TCGA-50-5044-01A	LUAD	50	5044	TCGA-50-5044	01	A	False	0	University of Pittsburgh	1	1858	female	72.0	white				Stage IIIB	Adenocarcinoma, NOS	0.23	80.0	0.0	8.15	27287609.0
+TCGA-50-5045-01A	LUAD	50	5045	TCGA-50-5045	01	A	False	0	University of Pittsburgh	1	1628	female	57.0	black or african american					Adenocarcinoma, NOS	0.22	65.0	0.0	8.2	56034840.00000001
+TCGA-50-5049-01A	LUAD	50	5049	TCGA-50-5049	01	A	False	0	University of Pittsburgh	1	1628	male	70.0	white				Stage IA	Adenocarcinoma, NOS	0.26	62.5	3.0	8.3	41231451.00000001
+TCGA-50-5051-01A	LUAD	50	5051	TCGA-50-5051	01	A	False	0	University of Pittsburgh	1	1858	female	42.0	white	30.0	4.0		Stage IIIA	Adenocarcinoma, NOS	0.59	80.0	0.0	8.35	32302107.0
+TCGA-50-5055-01A	LUAD	50	5055	TCGA-50-5055	01	A	False	0	University of Pittsburgh	1	1628	female	79.0	white				Stage IIA	Adenocarcinoma with mixed subtypes	0.13	47.5	0.0	8.25	26875141.0
+TCGA-50-5068-01A	LUAD	50	5068	TCGA-50-5068	01	A	False	0	University of Pittsburgh	1	1628	female	59.0	white				Stage IIB	Adenocarcinoma, NOS	0.24	65.0	5.0	8.25	27817858.0
+TCGA-50-5930-01A	LUAD	50	5930	TCGA-50-5930	01	A	False	0	University of Pittsburgh	1	1755	male	47.0	white				Stage IIIA	Adenocarcinoma with mixed subtypes	0.95	65.0	4.0	7.25	19143672.0
+TCGA-50-5931-01A	LUAD	50	5931	TCGA-50-5931	01	A	False	0	University of Pittsburgh	1	1755	female	75.0	white	40.0	4.0	Central Lung	Stage IB	Adenocarcinoma, NOS	0.86	80.0	5.0	7.3	32259238.0
+TCGA-50-5932-01A	LUAD	50	5932	TCGA-50-5932	01	A	False	0	University of Pittsburgh	1	1755	male	75.0	white			Central Lung	Stage IIB	Adenocarcinoma, NOS	0.84	80.0	0.0	8.55	51244782.0
+TCGA-50-5933-01A	LUAD	50	5933	TCGA-50-5933	01	A	False	0	University of Pittsburgh	1	1755	male	72.0	white			Central Lung	Stage IIIB	Adenocarcinoma, NOS	0.3	70.0	12.5	8.6	39065196.0
+TCGA-50-5935-01A	LUAD	50	5935	TCGA-50-5935	01	A	False	0	University of Pittsburgh	1	1755	female	86.0	white				Stage IA	Adenocarcinoma, NOS	0.39	80.0	0.0	7.35	32997254.0
+TCGA-50-5936-01A	LUAD	50	5936	TCGA-50-5936	01	A	False	0	University of Pittsburgh	1	1628	male	58.0	white				Stage IIIA	Mucinous adenocarcinoma	0.6	80.0	2.5	7.95	27097764.0
+TCGA-50-5939-01A	LUAD	50	5939	TCGA-50-5939	01	A	False	0	University of Pittsburgh	1	1628	male	85.0	white	15.0	3.0		Stage IB	Adenocarcinoma with mixed subtypes	0.38	71.0	5.0	8.4	30992597.0
+TCGA-50-5941-01A	LUAD	50	5941	TCGA-50-5941	01	A	False	0	University of Pittsburgh	1	1755	female	55.0	white	25.0	2.0		Stage IIIA	Adenocarcinoma, NOS	0.27	71.0	5.0	7.7	33915616.0
+TCGA-50-5942-01A	LUAD	50	5942	TCGA-50-5942	01	A	False	0	University of Pittsburgh	1	1755	female	67.0	white	30.0	4.0		Stage IA	Adenocarcinoma, NOS	0.69	80.0	0.0	9.4	37346222.0
+TCGA-50-5944-01A	LUAD	50	5944	TCGA-50-5944	01	A	False	0	University of Pittsburgh	1	1755	female	69.0	white				Stage IA	Acinar cell carcinoma	0.57	80.0	0.0	8.45	36022531.0
+TCGA-50-5946-01A	LUAD	50	5946	TCGA-50-5946	01	A	False	0	University of Pittsburgh	1	1755	male	62.0	white		4.0		Stage IA	Adenocarcinoma with mixed subtypes	0.75	80.0	6.5	8.75	63763109.0
+TCGA-50-6593-01A	LUAD	50	6593	TCGA-50-6593	01	A	False	0	University of Pittsburgh	1	1755	female	49.0	white		4.0		Stage IIIA	Adenocarcinoma with mixed subtypes	0.31	75.0	0.0	8.75	33275502.0
+TCGA-50-6595-01A	LUAD	50	6595	TCGA-50-6595	01	A	False	0	University of Pittsburgh	1	1858	female	74.0	white		3.0		Stage IIIA	Adenocarcinoma, NOS	0.22	77.5	5.0	8.55	32848202.0
+TCGA-50-6597-01A	LUAD	50	6597	TCGA-50-6597	01	A	False	0	University of Pittsburgh	1	1858	female	79.0	white		1.0		Stage IB	Adenocarcinoma, NOS	0.48	75.0	0.0	7.25	27187692.0
+TCGA-50-6673-01A	LUAD	50	6673	TCGA-50-6673	01	A	False	0	University of Pittsburgh	1	1949	female	84.0	white		1.0		Stage I	Adenocarcinoma, NOS	0.35	72.5	2.5	9.25	39206838.0
+TCGA-50-7109-01A	LUAD	50	7109	TCGA-50-7109	01	A	False	0	University of Pittsburgh	1	2039	male	60.0	white	120.0	2.0		Stage IA	Adenocarcinoma, NOS	0.44	57.5	6.0	8.2	41662734.0
+TCGA-50-8457-01A	LUAD	50	8457	TCGA-50-8457	01	A	False	0	University of Pittsburgh	1	2326	female	63.0	black or african american	30.0	4.0		Stage IA	Adenocarcinoma with mixed subtypes	0.6	65.0	0.0	8.0	51683939.0
+TCGA-50-8459-01A	LUAD	50	8459	TCGA-50-8459	01	A	False	0	University of Pittsburgh	1	2326	male	68.0	white	10.0	2.0		Stage IIB	Mucinous adenocarcinoma	0.29	67.5	0.0	7.4	45756037.0
+TCGA-50-8460-01A	LUAD	50	8460	TCGA-50-8460	01	A	False	0	University of Pittsburgh	1	2326	male	74.0	white				Stage IA	Papillary adenocarcinoma, NOS	0.42	80.0	0.0	8.1	42241041.0
+TCGA-51-4079-01A	LUSC	51	4079	TCGA-51-4079	01	A	False	1	UNC	1	1100	female	73.0	black or african american	25.0	4.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.62	77.5	12.5	8.4	59054031.0
+TCGA-51-4080-01A	LUSC	51	4080	TCGA-51-4080	01	A	False	1	UNC	1	1100	male	65.0	black or african american		4.0	Central Lung	Stage IIIB	Basaloid squamous cell carcinoma	0.96	90.0	15.0	8.600000000000001	61034107.0
+TCGA-51-4081-01A	LUSC	51	4081	TCGA-51-4081	01	A	False	1	UNC	1	1100	male	55.0	white	80.0	2.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.63	85.0	10.0	7.35	48426461.0
+TCGA-51-6867-01A	LUSC	51	6867	TCGA-51-6867	01	A	False	1	UNC	1	2045	female	72.0	white	40.0	4.0	Peripheral Lung	Stage I	Squamous cell carcinoma, NOS		95.0	1.5	8.75	65723444.0
+TCGA-52-7622-01A	LUSC	52	7622	TCGA-52-7622	01	A	False	1	University of Miami	1	2125	female	62.0	white	22.0	4.0	Central Lung	Stage IA	Squamous cell carcinoma, NOS	0.39	60.0	0.0		71803969.0
+TCGA-52-7809-01A	LUSC	52	7809	TCGA-52-7809	01	A	False	1	University of Miami	1	2125	male	74.0	white	60.0	2.0	Peripheral Lung	Stage IB	Basaloid squamous cell carcinoma	0.52	85.0	5.0		54893080.0
+TCGA-52-7810-01A	LUSC	52	7810	TCGA-52-7810	01	A	False	1	University of Miami	1	2125	female	60.0	white	20.0	3.0		Stage IIB	Squamous cell carcinoma, NOS	0.51	65.5	1.0		62438733.0
+TCGA-52-7811-01A	LUSC	52	7811	TCGA-52-7811	01	A	False	1	University of Miami	1	2125	male	67.0	white	50.0	2.0		Stage IB	Squamous cell carcinoma, NOS	0.22	61.0	2.5		64102731.0
+TCGA-52-7812-01A	LUSC	52	7812	TCGA-52-7812	01	A	False	1	University of Miami	1	2125	male	68.0	white	30.0	4.0	Central Lung		Squamous cell carcinoma, NOS	0.56	70.0	0.5		49780578.0
+TCGA-53-7626-01A	LUAD	53	7626	TCGA-53-7626	01	A	False	0	University of Miami	1	2066	female	76.0	white	35.0	4.0	Peripheral Lung	Stage IIA	Adenocarcinoma, NOS	0.42	50.0	5.0	8.85	72954241.0
+TCGA-53-7813-01A	LUAD	53	7813	TCGA-53-7813	01	A	False	0	University of Miami	1	2170	female	51.0	white	35.0	4.0		Stage IIIB	Bronchiolo-alveolar carcinoma, non-mucinous	0.36	58.5	0.0	7.25	24639792.0
+TCGA-53-A4EZ-01A	LUAD	53	A4EZ	TCGA-53-A4EZ	01	A	False	0	University of Miami	1	A24X	male	63.0	white	40.0	3.0	Peripheral Lung	Stage IIA	Acinar cell carcinoma	0.47	75.0	10.0	7.05	54392797.0
+TCGA-55-1592-01A	LUAD	55	1592	TCGA-55-1592	01	A	False	0	International Genomics Consortium	1	0946	male	65.0	white		4.0		Stage IA	Adenocarcinoma, NOS	0.49	80.0	15.0	7.8	75839347.0
+TCGA-55-1594-01A	LUAD	55	1594	TCGA-55-1594	01	A	False	0	International Genomics Consortium	1	0946	male	68.0	white		2.0		Stage IIIA	Adenocarcinoma, NOS	0.55	90.0	15.0	9.3	51283631.0
+TCGA-55-1595-01A	LUAD	55	1595	TCGA-55-1595	01	A	False	0	International Genomics Consortium	1	0946	female	74.0	asian		4.0		Stage IA	Clear cell adenocarcinoma, NOS	0.52	90.0	0.0	8.5	71415448.0
+TCGA-55-1596-01A	LUAD	55	1596	TCGA-55-1596	01	A	False	0	International Genomics Consortium	1	0946	male	55.0	asian	50.0	2.0		Stage IIB	Adenocarcinoma, NOS	0.63	85.0	15.0	8.7	35088261.0
+TCGA-55-6543-01A	LUAD	55	6543	TCGA-55-6543	01	A	False	0	International Genomics Consortium	1	1755	female	60.0	white	60.0	4.0	Peripheral Lung	Stage IA	Bronchio-alveolar carcinoma, mucinous	0.65	80.0	0.0	7.95	38111792.0
+TCGA-55-6642-01A	LUAD	55	6642	TCGA-55-6642	01	A	False	0	International Genomics Consortium	1	1858	male	63.0	white		2.0		Stage IB	Adenocarcinoma, NOS	0.37	80.0	0.0	8.85	37893045.00000001
+TCGA-55-6712-01A	LUAD	55	6712	TCGA-55-6712	01	A	False	0	International Genomics Consortium	1	1858	male	71.0	white		4.0		Stage IIA	Adenocarcinoma, NOS	0.29	60.0	0.0	8.600000000000001	29406686.0
+TCGA-55-6970-01A	LUAD	55	6970	TCGA-55-6970	01	A	False	0	International Genomics Consortium	1	1949	female	67.0	white		4.0		Stage IIIA	Papillary adenocarcinoma, NOS	0.56	75.0	0.0	9.649999999999999	65210322.0
+TCGA-55-6971-01A	LUAD	55	6971	TCGA-55-6971	01	A	False	0	International Genomics Consortium	1	1949	female	59.0	white	60.0	4.0		Stage IB	Adenocarcinoma, NOS	0.23	70.0	3.5	9.0	27303888.0
+TCGA-55-6972-01A	LUAD	55	6972	TCGA-55-6972	01	A	False	0	International Genomics Consortium	1	1949	male	72.0	white		2.0		Stage IB	Papillary adenocarcinoma, NOS	0.83	85.0	5.0	7.95	22393758.0
+TCGA-55-6975-01A	LUAD	55	6975	TCGA-55-6975	01	A	False	0	International Genomics Consortium	1	1949	male	61.0	white		4.0		Stage IIB	Adenocarcinoma with mixed subtypes	0.46	65.0	5.0	8.35	25576344.0
+TCGA-55-6978-01A	LUAD	55	6978	TCGA-55-6978	01	A	False	0	International Genomics Consortium	1	1949	male	81.0	white		1.0		Stage IIA	Adenocarcinoma, NOS	0.26	70.0	3.0	9.0	60487568.0
+TCGA-55-6979-01A	LUAD	55	6979	TCGA-55-6979	01	A	False	0	International Genomics Consortium	1	1949	female	59.0	white		3.0		Stage IIB	Adenocarcinoma, NOS	0.33	70.0	5.0	8.649999999999999	30631021.0
+TCGA-55-6980-01A	LUAD	55	6980	TCGA-55-6980	01	A	False	0	International Genomics Consortium	1	1949	male	56.0	white		1.0		Stage IA	Bronchiolo-alveolar carcinoma, non-mucinous	0.31	60.0	0.0	8.1	24993096.0
+TCGA-55-6981-01A	LUAD	55	6981	TCGA-55-6981	01	A	False	0	International Genomics Consortium	1	1949	female	53.0	white		3.0		Stage IIIA	Adenocarcinoma, NOS	0.26	66.0	0.0	8.100000000000001	24458591.0
+TCGA-55-6982-01A	LUAD	55	6982	TCGA-55-6982	01	A	False	0	International Genomics Consortium	1	1949	female	79.0	white		1.0		Stage IIB	Adenocarcinoma, NOS	0.25	60.0	0.0	8.25	27317311.0
+TCGA-55-6983-01A	LUAD	55	6983	TCGA-55-6983	01	A	False	0	International Genomics Consortium	1	1949	male	81.0	white	60.0	4.0		Stage IIB	Mucinous adenocarcinoma	0.27	60.0	0.0	7.35	67008370.0
+TCGA-55-6984-01A	LUAD	55	6984	TCGA-55-6984	01	A	False	0	International Genomics Consortium	1	1949	female	71.0	white				Stage IIB	Adenocarcinoma, NOS	0.81	75.0	10.0	8.399999999999999	29937644.0
+TCGA-55-6985-01A	LUAD	55	6985	TCGA-55-6985	01	A	False	0	International Genomics Consortium	1	1949	female	58.0	white	50.0	4.0		Stage IB	Adenocarcinoma, NOS	0.39	60.0	0.0	7.25	30509945.0
+TCGA-55-6986-01A	LUAD	55	6986	TCGA-55-6986	01	A	False	0	International Genomics Consortium	1	1949	female	74.0	white		1.0		Stage IB	Bronchiolo-alveolar carcinoma, non-mucinous	0.4	80.0	0.0	8.7	30498654.0
+TCGA-55-7227-01A	LUAD	55	7227	TCGA-55-7227	01	A	False	0	International Genomics Consortium	1	2039	male	77.0	white		3.0		Stage IIIA	Adenocarcinoma, NOS		60.0	0.0	8.7	36615449.0
+TCGA-55-7281-01A	LUAD	55	7281	TCGA-55-7281	01	A	False	0	International Genomics Consortium	1	2039	female	70.0	white	20.0	4.0		Stage IA	Adenocarcinoma, NOS	0.42	65.0	10.0	7.6	42969058.0
+TCGA-55-7283-01A	LUAD	55	7283	TCGA-55-7283	01	A	False	0	International Genomics Consortium	1	2039	female	76.0	white	5.0	3.0	Central Lung	Stage IIIA	Bronchiolo-alveolar carcinoma, non-mucinous	0.47	65.0	0.0	8.0	43518478.0
+TCGA-55-7284-01B	LUAD	55	7284	TCGA-55-7284	01	B	False	0	International Genomics Consortium	1	2241	male	74.0	white		3.0		Stage IIB	Bronchiolo-alveolar carcinoma, non-mucinous	0.4	80.0	0.0	8.6	67381455.0
+TCGA-55-7573-01A	LUAD	55	7573	TCGA-55-7573	01	A	False	0	International Genomics Consortium	1	2039	female	72.0	white		3.0	Central Lung	Stage IA	Adenocarcinoma, NOS	0.33	65.0	0.0	8.149999999999999	32109610.0
+TCGA-55-7574-01A	LUAD	55	7574	TCGA-55-7574	01	A	False	0	International Genomics Consortium	1	2039	female	64.0	white	2.0	4.0		Stage IB	Adenocarcinoma, NOS	0.19	60.0	0.0	7.7	27934941.0
+TCGA-55-7576-01A	LUAD	55	7576	TCGA-55-7576	01	A	False	0	International Genomics Consortium	1	2066	male	54.0	black or african american		2.0		Stage IB	Adenocarcinoma, NOS	0.47	60.0	0.0	8.649999999999999	84303819.0
+TCGA-55-7724-01A	LUAD	55	7724	TCGA-55-7724	01	A	False	0	International Genomics Consortium	1	2170	female	76.0	white	50.0	4.0		Stage IB	Adenocarcinoma, NOS	0.28	65.0	8.0	8.5	22772639.0
+TCGA-55-7725-01A	LUAD	55	7725	TCGA-55-7725	01	A	False	0	International Genomics Consortium	1	2170	female	68.0	white	16.0	3.0	Central Lung	Stage IA	Adenocarcinoma, NOS	0.61	65.0	0.0	8.45	23246089.000000004
+TCGA-55-7726-01A	LUAD	55	7726	TCGA-55-7726	01	A	False	0	International Genomics Consortium	1	2170	female	72.0	white	30.0	3.0		Stage IA	Adenocarcinoma, NOS	0.26	60.0	0.0	7.15	25979736.0
+TCGA-55-7727-01A	LUAD	55	7727	TCGA-55-7727	01	A	False	0	International Genomics Consortium	1	2170	male	70.0	white		2.0		Stage IIIA	Adenocarcinoma, NOS	0.56	65.0	3.0	7.3	22529958.0
+TCGA-55-7728-01A	LUAD	55	7728	TCGA-55-7728	01	A	False	0	International Genomics Consortium	1	2187	female	64.0	white	30.0	4.0		Stage IB	Mucinous adenocarcinoma	0.42	65.0	0.0	7.25	67758455.00000001
+TCGA-55-7815-01A	LUAD	55	7815	TCGA-55-7815	01	A	False	0	International Genomics Consortium	1	2170	male	76.0	not reported		1.0		Stage IB	Adenocarcinoma, NOS	0.29	80.0	2.0	8.15	22747132.0
+TCGA-55-7816-01A	LUAD	55	7816	TCGA-55-7816	01	A	False	0	International Genomics Consortium	1	2170	female	49.0	white		1.0		Stage IV	Adenocarcinoma, NOS		70.0	0.0	7.449999999999999	56246228.0
+TCGA-55-7903-01A	LUAD	55	7903	TCGA-55-7903	01	A	False	0	International Genomics Consortium	1	2170	male	64.0	white	40.0	2.0		Stage IA	Adenocarcinoma, NOS	0.64	80.0	5.0	7.35	45030762.0
+TCGA-55-7907-01A	LUAD	55	7907	TCGA-55-7907	01	A	False	0	International Genomics Consortium	1	2170	male	77.0	white	80.0	3.0		Stage IIA	Adenocarcinoma, NOS	0.39	65.0	0.0	7.65	27965236.0
+TCGA-55-7911-01A	LUAD	55	7911	TCGA-55-7911	01	A	False	0	International Genomics Consortium	1	2170	female	70.0	white	96.0	3.0		Stage IA	Adenocarcinoma, NOS	0.23	80.0	0.0	8.3	42014481.0
+TCGA-55-7913-01B	LUAD	55	7913	TCGA-55-7913	01	B	False	0	International Genomics Consortium	1	2241	female	61.0	black or african american	40.0	2.0	Central Lung	Stage IA	Adenocarcinoma, NOS	0.35	75.0	5.0	7.45	73882865.0
+TCGA-55-7914-01A	LUAD	55	7914	TCGA-55-7914	01	A	False	0	International Genomics Consortium	1	2170	female	71.0	white	5.0	2.0	Central Lung	Stage IIA	Adenocarcinoma, NOS	0.56	60.0	0.0	7.949999999999999	42803533.0
+TCGA-55-8085-01A	LUAD	55	8085	TCGA-55-8085	01	A	False	0	International Genomics Consortium	1	2241	male	64.0	white		2.0		Stage IA	Papillary adenocarcinoma, NOS	0.56	80.0	0.0	7.5	64875987.0
+TCGA-55-8087-01A	LUAD	55	8087	TCGA-55-8087	01	A	False	0	International Genomics Consortium	1	2241	female	59.0	white		1.0		Stage IB	Adenocarcinoma, NOS	0.82	65.0	0.0	8.3	71573567.0
+TCGA-55-8089-01A	LUAD	55	8089	TCGA-55-8089	01	A	False	0	International Genomics Consortium	1	2241	male	56.0	white	97.0	2.0	Peripheral Lung	Stage IA	Adenocarcinoma, NOS	0.33	60.0	5.0	8.4	66962229.0
+TCGA-55-8090-01A	LUAD	55	8090	TCGA-55-8090	01	A	False	0	International Genomics Consortium	1	2241	male	80.0	white		2.0		Stage IA	Adenocarcinoma, NOS	0.41	75.0	5.0	7.5	76970371.0
+TCGA-55-8091-01A	LUAD	55	8091	TCGA-55-8091	01	A	False	0	International Genomics Consortium	1	2241	male	74.0	white		3.0		Stage IB	Adenocarcinoma, NOS	0.6	75.0	2.0	7.15	60579652.0
+TCGA-55-8092-01A	LUAD	55	8092	TCGA-55-8092	01	A	False	0	International Genomics Consortium	1	2241	male	75.0	white	40.0	4.0		Stage IIB	Adenocarcinoma, NOS	0.38	65.0	0.0	8.05	67053369.0
+TCGA-55-8094-01A	LUAD	55	8094	TCGA-55-8094	01	A	False	0	International Genomics Consortium	1	2241	male	51.0	white	70.0	4.0	Peripheral Lung	Stage IV	Adenocarcinoma, NOS	0.79	85.0	20.0	7.1	41807600.0
+TCGA-55-8096-01A	LUAD	55	8096	TCGA-55-8096	01	A	False	0	International Genomics Consortium	1	2241	female	67.0	white	104.0	2.0	Central Lung	Stage IB	Adenocarcinoma, NOS	0.25	65.0	5.0	7.550000000000001	75716427.0
+TCGA-55-8097-01A	LUAD	55	8097	TCGA-55-8097	01	A	False	0	International Genomics Consortium	1	2241	female	60.0	white	35.0	4.0		Stage IA	Adenocarcinoma, NOS	0.64	65.0	0.0	7.35	70835524.0
+TCGA-55-8203-01A	LUAD	55	8203	TCGA-55-8203	01	A	False	0	International Genomics Consortium	1	2241	female	69.0	white	50.0	2.0		Stage IA	Adenocarcinoma, NOS	0.38	75.0	0.0	8.45	72843319.0
+TCGA-55-8204-01A	LUAD	55	8204	TCGA-55-8204	01	A	False	0	International Genomics Consortium	1	2241	female	87.0	white		3.0		Stage IB	Adenocarcinoma, NOS	0.34	60.0	5.0	7.800000000000001	57046213.0
+TCGA-55-8205-01A	LUAD	55	8205	TCGA-55-8205	01	A	False	0	International Genomics Consortium	1	2241	female	76.0	white	30.0	4.0	Central Lung	Stage IIA	Adenocarcinoma, NOS	0.22	75.0	2.0	9.8	62357847.0
+TCGA-55-8206-01A	LUAD	55	8206	TCGA-55-8206	01	A	False	0	International Genomics Consortium	1	2241	male	56.0	white		1.0		Stage IA	Adenocarcinoma, NOS	0.46	65.0	0.0	8.2	69932649.0
+TCGA-55-8207-01A	LUAD	55	8207	TCGA-55-8207	01	A	False	0	International Genomics Consortium	1	2241	male	73.0	white		3.0		Stage IB	Acinar cell carcinoma	0.57	80.0	0.0	7.9	65681950.0
+TCGA-55-8208-01A	LUAD	55	8208	TCGA-55-8208	01	A	False	0	International Genomics Consortium	1	2241	female	73.0	white	50.0	2.0	Peripheral Lung	Stage IA	Adenocarcinoma, NOS	0.24	70.0	0.0	7.25	57639141.0
+TCGA-55-8299-01A	LUAD	55	8299	TCGA-55-8299	01	A	False	0	International Genomics Consortium	1	2287	female	61.0	white	20.0	4.0		Stage IA	Adenocarcinoma, NOS		65.0	0.0	8.15	50871939.0
+TCGA-55-8301-01A	LUAD	55	8301	TCGA-55-8301	01	A	False	0	International Genomics Consortium	1	2287	male	58.0	white	100.0	2.0		Stage IB	Adenocarcinoma, NOS	0.26	60.0	0.0	7.1	54486120.00000001
+TCGA-55-8302-01A	LUAD	55	8302	TCGA-55-8302	01	A	False	0	International Genomics Consortium	1	2326	male	54.0	white	59.0	2.0		Stage IB	Adenocarcinoma, NOS	0.46	80.0	2.0	7.4	38908065.0
+TCGA-55-8505-01A	LUAD	55	8505	TCGA-55-8505	01	A	False	0	International Genomics Consortium	1	2403	male	62.0	white		1.0		Stage IIIA	Adenocarcinoma, NOS	0.32	65.0	2.0	7.95	36435718.0
+TCGA-55-8506-01A	LUAD	55	8506	TCGA-55-8506	01	A	False	0	International Genomics Consortium	1	2403	female	62.0	white		2.0	Peripheral Lung	Stage IIB	Adenocarcinoma, NOS	0.45	80.0	5.0	8.3	36823196.0
+TCGA-55-8507-01A	LUAD	55	8507	TCGA-55-8507	01	A	False	0	International Genomics Consortium	1	2403	male	53.0	white	120.0	2.0	Peripheral Lung	Stage IA	Adenocarcinoma, NOS	0.64	80.0	0.0	7.9	37917233.0
+TCGA-55-8508-01A	LUAD	55	8508	TCGA-55-8508	01	A	False	0	International Genomics Consortium	1	2403	female	60.0	black or african american		2.0	Central Lung	Stage IIA	Mucinous adenocarcinoma	0.38	65.0	0.0	7.1	29044643.000000004
+TCGA-55-8510-01A	LUAD	55	8510	TCGA-55-8510	01	A	False	0	International Genomics Consortium	1	2403	female	55.0	white		2.0		Stage IB	Adenocarcinoma, NOS	0.28	75.0	0.0	7.75	36378519.0
+TCGA-55-8511-01A	LUAD	55	8511	TCGA-55-8511	01	A	False	0	International Genomics Consortium	1	2403	female	73.0	white	58.0	2.0		Stage IB	Adenocarcinoma, NOS	0.19	75.0	0.0	8.7	38162691.0
+TCGA-55-8512-01A	LUAD	55	8512	TCGA-55-8512	01	A	False	0	International Genomics Consortium	1	2403	male	41.0	white	19.0	2.0		Stage IV	Bronchiolo-alveolar carcinoma, non-mucinous	0.35	75.0	0.0	7.15	41123856.0
+TCGA-55-8513-01A	LUAD	55	8513	TCGA-55-8513	01	A	False	0	International Genomics Consortium	1	2403	female	77.0	white		1.0		Stage IIB	Mucinous adenocarcinoma	0.5	80.0	0.0	7.5	29313663.0
+TCGA-55-8514-01A	LUAD	55	8514	TCGA-55-8514	01	A	False	0	International Genomics Consortium	1	2403	female	70.0	black or african american	20.0	4.0		Stage IB	Adenocarcinoma, NOS	0.54	65.0	0.0	7.15	34525689.0
+TCGA-55-8614-01A	LUAD	55	8614	TCGA-55-8614	01	A	False	0	International Genomics Consortium	1	2403	male	76.0	white	40.0	3.0		Stage IB	Adenocarcinoma, NOS	0.32	75.0	5.0	7.25	34586515.0
+TCGA-55-8615-01A	LUAD	55	8615	TCGA-55-8615	01	A	False	0	International Genomics Consortium	1	2403	male	67.0	white	67.0	2.0		Stage IIIA	Adenocarcinoma, NOS	0.57	75.0	20.0	7.75	40830613.0
+TCGA-55-8616-01A	LUAD	55	8616	TCGA-55-8616	01	A	False	0	International Genomics Consortium	1	2403	female	58.0	white		4.0		Stage IB	Adenocarcinoma, NOS	0.39	80.0	0.0	7.45	40210323.0
+TCGA-55-8619-01A	LUAD	55	8619	TCGA-55-8619	01	A	False	0	International Genomics Consortium	1	2403	female	72.0	white		1.0		Stage IIB	Mucinous adenocarcinoma	0.24	60.0	5.0	7.05	40720935.0
+TCGA-55-8620-01A	LUAD	55	8620	TCGA-55-8620	01	A	False	0	International Genomics Consortium	1	2403	male	60.0	white	154.0	4.0	Central Lung	Stage IV	Adenocarcinoma, NOS	0.62	80.0	5.0	7.800000000000001	35436054.0
+TCGA-55-8621-01A	LUAD	55	8621	TCGA-55-8621	01	A	False	0	International Genomics Consortium	1	2403	female	75.0	white	30.0	4.0		Stage IA	Adenocarcinoma, NOS	0.2	61.0	0.0	7.15	42974140.0
+TCGA-55-A48X-01A	LUAD	55	A48X	TCGA-55-A48X	01	A	False	0	International Genomics Consortium	1	A24H	female	63.0	white	36.0	4.0		Stage IIA	Adenocarcinoma, NOS	0.28	70.0	0.0	8.05	42140603.0
+TCGA-55-A48Y-01A	LUAD	55	A48Y	TCGA-55-A48Y	01	A	False	0	International Genomics Consortium	1	A24H	male	69.0	white	50.0	2.0		Stage IIA	Adenocarcinoma, NOS	0.36	60.0	0.0	7.85	43835538.0
+TCGA-55-A48Z-01A	LUAD	55	A48Z	TCGA-55-A48Z	01	A	False	0	International Genomics Consortium	1	A24X	female	60.0	white	40.0	4.0	Central Lung	Stage IIIB	Adenocarcinoma with mixed subtypes	0.41	60.0	5.0	7.15	46181571.0
+TCGA-55-A490-01A	LUAD	55	A490	TCGA-55-A490	01	A	False	0	International Genomics Consortium	1	A466	male	78.0	white	34.0	3.0	Peripheral Lung	Stage IIA	Adenocarcinoma, NOS	0.58	90.0	5.0	8.05	46096822.0
+TCGA-55-A491-01A	LUAD	55	A491	TCGA-55-A491	01	A	False	0	International Genomics Consortium	1	A24H	female	81.0	white	45.0	3.0		Stage IA	Adenocarcinoma, NOS	0.45	65.0	12.0	8.3	43535937.0
+TCGA-55-A492-01A	LUAD	55	A492	TCGA-55-A492	01	A	False	0	International Genomics Consortium	1	A24H	female	70.0	white	35.0	3.0		Stage IA	Adenocarcinoma, NOS	0.54	70.0	0.0	8.05	46902050.0
+TCGA-55-A493-01A	LUAD	55	A493	TCGA-55-A493	01	A	False	0	International Genomics Consortium	1	A24H	female	54.0	white	53.0	2.0		Stage IB	Adenocarcinoma, NOS	0.26	90.0	3.0	7.199999999999999	44084175.0
+TCGA-55-A494-01A	LUAD	55	A494	TCGA-55-A494	01	A	False	0	International Genomics Consortium	1	A24X	female	61.0	white	7.0	3.0	Peripheral Lung	Stage IB	Adenocarcinoma, NOS	0.81	90.0	1.0	9.0	46552384.0
+TCGA-55-A4DF-01A	LUAD	55	A4DF	TCGA-55-A4DF	01	A	False	0	International Genomics Consortium	1	A24H	male	88.0	white	60.0	3.0		Stage IA	Adenocarcinoma, NOS	0.42	65.0	0.0	8.149999999999999	43811456.0
+TCGA-55-A4DG-01A	LUAD	55	A4DG	TCGA-55-A4DG	01	A	False	0	International Genomics Consortium	1	A24H	male	71.0	white	100.0	4.0		Stage IA	Adenocarcinoma, NOS	0.41	65.0	0.0	7.35	40410099.0
+TCGA-55-A57B-01A	LUAD	55	A57B	TCGA-55-A57B	01	A	False	0	International Genomics Consortium	1	A39D	female	80.0	black or african american		1.0	Peripheral Lung	Stage IA	Adenocarcinoma with mixed subtypes	0.21	85.0	0.0	9.15	58525313.0
+TCGA-56-1622-01A	LUSC	56	1622	TCGA-56-1622	01	A	False	1	International Genomics Consortium	1	0692	male	58.0	white	86.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.9	90.0	1.0	8.899999999999999	53499202.0
+TCGA-56-5897-01A	LUSC	56	5897	TCGA-56-5897	01	A	False	1	International Genomics Consortium	1	1635	male	74.0	white		3.0		Stage IA	Squamous cell carcinoma, NOS	0.32	65.0	10.0		68130156.0
+TCGA-56-5898-01A	LUSC	56	5898	TCGA-56-5898	01	A	False	1	International Genomics Consortium	1	1635	male	69.0	white		2.0		Stage IA	Squamous cell carcinoma, NOS	0.36	85.0	3.0		51584420.0
+TCGA-56-6545-01A	LUSC	56	6545	TCGA-56-6545	01	A	False	1	International Genomics Consortium	1	1820	female	77.0	white		4.0		Stage IB	Squamous cell carcinoma, NOS	0.32	70.0	2.5		91179527.0
+TCGA-56-6546-01A	LUSC	56	6546	TCGA-56-6546	01	A	False	1	International Genomics Consortium	1	1820	male	67.0	white		4.0		Stage IIA	Squamous cell carcinoma, NOS	0.41	70.0	0.0		79987352.0
+TCGA-56-7221-01A	LUSC	56	7221	TCGA-56-7221	01	A	False	1	International Genomics Consortium	1	2045	male	79.0	white	25.0	3.0		Stage IB	Squamous cell carcinoma, NOS	0.58	75.0	3.0	8.2	68865221.0
+TCGA-56-7222-01A	LUSC	56	7222	TCGA-56-7222	01	A	False	1	International Genomics Consortium	1	2045	male	60.0	white	23.0	2.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.53	70.0	0.0	9.05	60360100.0
+TCGA-56-7223-01A	LUSC	56	7223	TCGA-56-7223	01	A	False	1	International Genomics Consortium	1	2045	male	66.0	white		4.0		Stage IIIA	Squamous cell carcinoma, NOS	0.94	80.0	10.0	9.100000000000001	94908064.0
+TCGA-56-7579-01A	LUSC	56	7579	TCGA-56-7579	01	A	False	1	International Genomics Consortium	1	2045	male	61.0	white	2.0	4.0		Stage IIIA	Squamous cell carcinoma, NOS	0.66	70.0	0.0	8.1	46178906.0
+TCGA-56-7580-01A	LUSC	56	7580	TCGA-56-7580	01	A	False	1	International Genomics Consortium	1	2045	male	84.0	white		3.0		Stage IB	Squamous cell carcinoma, NOS	0.37	60.0	5.0	7.199999999999999	58410206.0
+TCGA-56-7582-01A	LUSC	56	7582	TCGA-56-7582	01	A	False	1	International Genomics Consortium	1	2045	male	83.0	white		3.0		Stage IB	Squamous cell carcinoma, NOS	0.62	75.0	20.0	8.9	43089000.0
+TCGA-56-7730-01A	LUSC	56	7730	TCGA-56-7730	01	A	False	1	International Genomics Consortium	1	2125	male	73.0	white		2.0	Peripheral Lung	Stage IIA	Squamous cell carcinoma, NOS	0.8	75.0	5.0		80713773.0
+TCGA-56-7731-01A	LUSC	56	7731	TCGA-56-7731	01	A	False	1	International Genomics Consortium	1	2125	female	66.0	white	100.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.17	60.0	5.0		61438740.0
+TCGA-56-7822-01A	LUSC	56	7822	TCGA-56-7822	01	A	False	1	International Genomics Consortium	1	2125	male	75.0	black or african american	60.0	4.0		Stage IIB	Squamous cell carcinoma, NOS	0.31	80.0	3.0		60948198.0
+TCGA-56-7823-01B	LUSC	56	7823	TCGA-56-7823	01	B	False	1	International Genomics Consortium	1	2247	female	58.0	white	80.0	4.0		Stage IIA	Squamous cell carcinoma, NOS	0.92	65.0	5.0		33264204.0
+TCGA-56-8082-01A	LUSC	56	8082	TCGA-56-8082	01	A	False	1	International Genomics Consortium	1	2247	female	80.0	white		3.0		Stage IIA	Squamous cell carcinoma, NOS	0.81	75.0	3.0		47285750.0
+TCGA-56-8083-01A	LUSC	56	8083	TCGA-56-8083	01	A	False	1	International Genomics Consortium	1	2247	male	56.0	white	30.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.91	80.0	0.0		37618195.0
+TCGA-56-8201-01A	LUSC	56	8201	TCGA-56-8201	01	A	False	1	International Genomics Consortium	1	2247	male	74.0	white		4.0		Stage IIB	Squamous cell carcinoma, NOS	0.22	60.0	0.0		41989052.0
+TCGA-56-8304-01A	LUSC	56	8304	TCGA-56-8304	01	A	False	1	International Genomics Consortium	1	2326	female	73.0	white	58.0	2.0		Stage IA	Squamous cell carcinoma, NOS	0.54	65.0	10.0		42941015.0
+TCGA-56-8305-01A	LUSC	56	8305	TCGA-56-8305	01	A	False	1	International Genomics Consortium	1	2296	male	72.0	white	100.0	3.0		Stage IB	Squamous cell carcinoma, NOS	0.41	70.0	0.0	8.399999999999999	40900030.0
+TCGA-56-8307-01A	LUSC	56	8307	TCGA-56-8307	01	A	False	1	International Genomics Consortium	1	2296	female	55.0	white	35.0	2.0		Stage IIB	Squamous cell carcinoma, NOS	0.52	80.0	20.0	8.55	44818363.0
+TCGA-56-8308-01A	LUSC	56	8308	TCGA-56-8308	01	A	False	1	International Genomics Consortium	1	2296	male	79.0	white	63.0	3.0		Stage IIB	Squamous cell carcinoma, NOS	0.44	75.0	5.0	7.800000000000001	39684789.0
+TCGA-56-8309-01A	LUSC	56	8309	TCGA-56-8309	01	A	False	1	International Genomics Consortium	1	2296	male	66.0	white	50.0	2.0		Stage IA	Squamous cell carcinoma, NOS	0.31	70.0	0.0	8.600000000000001	52489188.0
+TCGA-56-8503-01A	LUSC	56	8503	TCGA-56-8503	01	A	False	1	International Genomics Consortium	1	2403	female	76.0	white	91.0	2.0	Peripheral Lung	Stage IIB	Squamous cell carcinoma, NOS	0.22	60.0	0.0		35672911.0
+TCGA-56-8504-01A	LUSC	56	8504	TCGA-56-8504	01	A	False	1	International Genomics Consortium	1	2403	male	74.0	white		4.0		Stage IB	Squamous cell carcinoma, NOS	0.35	80.0	2.0		32583110.0
+TCGA-56-8622-01A	LUSC	56	8622	TCGA-56-8622	01	A	False	1	International Genomics Consortium	1	2403	male	68.0	white	40.0	3.0		Stage IB	Squamous cell carcinoma, NOS	0.47	80.0	0.0		48156448.0
+TCGA-56-8623-01A	LUSC	56	8623	TCGA-56-8623	01	A	False	1	International Genomics Consortium	1	A28V	male	71.0	white	45.0	2.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.96	70.0	0.0		70640599.0
+TCGA-56-8624-01A	LUSC	56	8624	TCGA-56-8624	01	A	False	1	International Genomics Consortium	1	2403	male	84.0	white	20.0	3.0		Stage IIB	Squamous cell carcinoma, NOS	0.28	75.0	0.0		40122798.0
+TCGA-56-8625-01A	LUSC	56	8625	TCGA-56-8625	01	A	False	1	International Genomics Consortium	1	2403	female	66.0	white		2.0	Peripheral Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.37	75.0	0.0		40132717.0
+TCGA-56-8626-01A	LUSC	56	8626	TCGA-56-8626	01	A	False	1	International Genomics Consortium	1	2403	male	59.0	white	50.0	2.0		Stage IA	Squamous cell carcinoma, NOS	0.4	60.0	0.0		36663056.0
+TCGA-56-8628-01A	LUSC	56	8628	TCGA-56-8628	01	A	False	1	International Genomics Consortium	1	2403	male	78.0	white		4.0		Stage IA	Squamous cell carcinoma, NOS	0.41	65.0	0.0		37811400.0
+TCGA-56-8629-01A	LUSC	56	8629	TCGA-56-8629	01	A	False	1	International Genomics Consortium	1	2403	male	63.0	white	66.0	4.0		Stage IIA	Squamous cell carcinoma, NOS	0.62	80.0	0.0		42636738.0
+TCGA-56-A49D-01A	LUSC	56	A49D	TCGA-56-A49D	01	A	False	1	International Genomics Consortium	1	A24H	male	67.0	white	53.0	4.0	Central Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.56	85.0	10.0	7.55	42098025.0
+TCGA-56-A4BW-01A	LUSC	56	A4BW	TCGA-56-A4BW	01	A	False	1	International Genomics Consortium	1	A24H	male	55.0	white	120.0	4.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.58	65.0	0.0	7.4	39297603.00000001
+TCGA-56-A4BX-01A	LUSC	56	A4BX	TCGA-56-A4BX	01	A	False	1	International Genomics Consortium	1	A24H	male	70.0	white	83.0	4.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.87	95.0	2.0	8.7	54082365.0
+TCGA-56-A4BY-01A	LUSC	56	A4BY	TCGA-56-A4BY	01	A	False	1	International Genomics Consortium	1	A24H	male	66.0	white	65.0	4.0	Central Lung	Stage IB	Squamous cell carcinoma, keratinizing, NOS	0.45	90.0	0.0	8.5	50873074.0
+TCGA-56-A4ZJ-01A	LUSC	56	A4ZJ	TCGA-56-A4ZJ	01	A	False	1	International Genomics Consortium	1	A262	female	75.0	white	100.0	4.0		Stage IA	Squamous cell carcinoma, large cell, nonkeratinizing, NOS	0.16	61.0	0.0	8.75	51316363.0
+TCGA-56-A4ZK-01A	LUSC	56	A4ZK	TCGA-56-A4ZK	01	A	False	1	International Genomics Consortium	1	A262	female	76.0	white		4.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS		67.0	0.0	8.2	48505430.0
+TCGA-56-A5DR-01A	LUSC	56	A5DR	TCGA-56-A5DR	01	A	False	1	International Genomics Consortium	1	A27Q	male	81.0	white		1.0		Stage IA	Squamous cell carcinoma, NOS		70.0	5.0	8.4	46779653.0
+TCGA-56-A5DS-01A	LUSC	56	A5DS	TCGA-56-A5DS	01	A	False	1	International Genomics Consortium	1	A27Q	female	72.0	white	50.0	2.0		Stage IB	Squamous cell carcinoma, NOS	0.32	70.0	5.0	8.1	43005335.0
+TCGA-56-A62T-01A	LUSC	56	A62T	TCGA-56-A62T	01	A	False	1	International Genomics Consortium	1	A405	male	78.0	black or african american	102.0	2.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.51	75.0	2.0	9.55	57230220.0
+TCGA-58-8386-01A	LUSC	58	8386	TCGA-58-8386	01	A	False	1	Thoraxklinik at University Hospital Heidelberg	1	2296	male	75.0	not reported	65.0	2.0	Central Lung	Stage IV	Squamous cell carcinoma, NOS	0.35	72.5	9.0	9.7	53956911.0
+TCGA-58-8387-01A	LUSC	58	8387	TCGA-58-8387	01	A	False	1	Thoraxklinik at University Hospital Heidelberg	1	2296	male	60.0	white	40.0	4.0	Peripheral Lung	Stage IIA	Squamous cell carcinoma, NOS	0.38	80.0	5.0	8.3	33922684.00000001
+TCGA-58-8388-01A	LUSC	58	8388	TCGA-58-8388	01	A	False	1	Thoraxklinik at University Hospital Heidelberg	1	2326	male	60.0	white	80.0	2.0	Peripheral Lung	Stage IB	Basaloid squamous cell carcinoma	0.71	78.5	12.5		39245899.0
+TCGA-58-8390-01A	LUSC	58	8390	TCGA-58-8390	01	A	False	1	Thoraxklinik at University Hospital Heidelberg	1	2326	male	70.0	white	120.0	4.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.82	80.0	7.0		44521608.0
+TCGA-58-8391-01A	LUSC	58	8391	TCGA-58-8391	01	A	False	1	Thoraxklinik at University Hospital Heidelberg	1	2326	female	57.0	white	30.0	2.0	Central Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.62	86.5	2.5		46366063.0
+TCGA-58-8392-01A	LUSC	58	8392	TCGA-58-8392	01	A	False	1	Thoraxklinik at University Hospital Heidelberg	1	2326	male	70.0	white	80.0	2.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS		54.0	8.5		49309899.0
+TCGA-58-8393-01A	LUSC	58	8393	TCGA-58-8393	01	A	False	1	Thoraxklinik at University Hospital Heidelberg	1	2326	female	68.0	white	7.0	2.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.3	72.5	2.0		48175501.0
+TCGA-58-A46J-01A	LUSC	58	A46J	TCGA-58-A46J	01	A	False	1	Thoraxklinik at University Hospital Heidelberg	1	A24H	male	64.0	white		2.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.51	60.0	20.0	7.4	53172823.0
+TCGA-58-A46K-01A	LUSC	58	A46K	TCGA-58-A46K	01	A	False	1	Thoraxklinik at University Hospital Heidelberg	1	A24H	male	59.0	white	10.0	4.0	Peripheral Lung	Stage IIIA	Basaloid squamous cell carcinoma	0.61	85.0	20.0	8.2	29677918.0
+TCGA-58-A46L-01A	LUSC	58	A46L	TCGA-58-A46L	01	A	False	1	Thoraxklinik at University Hospital Heidelberg	1	A24H	male	73.0	white		5.0	Central Lung	Stage IIIA	Basaloid squamous cell carcinoma	0.58	75.0	5.0	9.8	78933993.0
+TCGA-58-A46M-01A	LUSC	58	A46M	TCGA-58-A46M	01	A	False	1	Thoraxklinik at University Hospital Heidelberg	1	A24H	male	61.0	white		2.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.55	80.0	8.0	9.2	45754246.0
+TCGA-58-A46N-01A	LUSC	58	A46N	TCGA-58-A46N	01	A	False	1	Thoraxklinik at University Hospital Heidelberg	1	A24H	male	52.0	white	50.0	2.0	Central Lung	Stage IB	Basaloid squamous cell carcinoma	0.89	75.0	2.0	8.85	44795669.0
+TCGA-60-2695-01A	LUSC	60	2695	TCGA-60-2695	01	A	False	1	Roswell Park	1	0851	female	74.0	white	64.0	3.0		Stage IB	Basaloid squamous cell carcinoma	0.81	90.0	8.0	7.8	60334218.0
+TCGA-60-2698-01A	LUSC	60	2698	TCGA-60-2698	01	A	False	1	Roswell Park	1	0851	male	62.0	white		4.0		Stage IIB	Squamous cell carcinoma, NOS	0.26	80.0	10.0	8.95	58842830.0
+TCGA-60-2703-01A	LUSC	60	2703	TCGA-60-2703	01	A	False	1	Roswell Park	1	2045	male	73.0	white	50.0	4.0	Peripheral Lung	Stage IIB	Squamous cell carcinoma, NOS	0.26	74.0	40.0	8.0	30552401.0
+TCGA-60-2704-01A	LUSC	60	2704	TCGA-60-2704	01	A	False	1	Roswell Park	1	2045	male	73.0	white	60.0	2.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.21	65.0	25.0	9.25	61813540.0
+TCGA-60-2706-01A	LUSC	60	2706	TCGA-60-2706	01	A	False	1	Roswell Park	1	0851	male	58.0	white	51.0	2.0		Stage IA	Squamous cell carcinoma, NOS	0.48	85.0	15.0	8.45	57099156.0
+TCGA-60-2707-01A	LUSC	60	2707	TCGA-60-2707	01	A	False	1	Roswell Park	1	0851	male	70.0	not reported	49.0	3.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.6	70.0	7.5	8.05	62845975.0
+TCGA-60-2708-01A	LUSC	60	2708	TCGA-60-2708	01	A	False	1	Roswell Park	1	0851	female	64.0	white	20.0	4.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.58	70.0	10.0	8.6	56684506.00000001
+TCGA-60-2709-01A	LUSC	60	2709	TCGA-60-2709	01	A	False	1	Roswell Park	1	1820	male	69.0	black or african american	157.5	2.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.15	60.0	8.5		62786800.0
+TCGA-60-2711-01A	LUSC	60	2711	TCGA-60-2711	01	A	False	1	Roswell Park	1	0851	female	64.0	white	39.0	4.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.65	85.0	5.0	9.1	62892041.0
+TCGA-60-2713-01A	LUSC	60	2713	TCGA-60-2713	01	A	False	1	Roswell Park	1	0851	male	64.0	white	110.0	2.0		Stage IB	Squamous cell carcinoma, NOS	0.63	87.5	20.0	8.25	73165581.0
+TCGA-60-2716-01A	LUSC	60	2716	TCGA-60-2716	01	A	False	1	Roswell Park	1	0851	male	39.0	not reported		1.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.68	82.5	7.0	9.5	67066981.0
+TCGA-60-2719-01A	LUSC	60	2719	TCGA-60-2719	01	A	False	1	Roswell Park	1	0851	female	83.0	white	7.0	3.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.79	82.5	6.0	9.05	67049285.0
+TCGA-60-2720-01A	LUSC	60	2720	TCGA-60-2720	01	A	False	1	Roswell Park	1	0851	female	60.0	white	110.0	4.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.33	77.5	6.5	7.6	46025349.0
+TCGA-60-2721-01A	LUSC	60	2721	TCGA-60-2721	01	A	False	1	Roswell Park	1	0851	male	73.0	white	93.0	4.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.61	85.0	7.5	8.25	56991568.0
+TCGA-60-2722-01A	LUSC	60	2722	TCGA-60-2722	01	A	False	1	Roswell Park	1	0851	male	66.0	white	90.0	4.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.81	85.0	10.0	9.0	61361614.0
+TCGA-60-2723-01A	LUSC	60	2723	TCGA-60-2723	01	A	False	1	Roswell Park	1	0851	female	74.0	white	58.0	4.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.39	85.0	16.5	8.75	61897391.0
+TCGA-60-2724-01A	LUSC	60	2724	TCGA-60-2724	01	A	False	1	Roswell Park	1	0851	male	47.0	white	60.0	4.0		Stage IIIA	Squamous cell carcinoma, NOS	0.47	85.0	10.0	8.7	59493584.0
+TCGA-60-2725-01A	LUSC	60	2725	TCGA-60-2725	01	A	False	1	Roswell Park	1	1201	male	74.0	white	56.0	3.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.35	60.0	5.0	8.65	47203553.0
+TCGA-60-2726-01A	LUSC	60	2726	TCGA-60-2726	01	A	False	1	Roswell Park	1	0851	male	56.0	white	42.0	4.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.48	77.5	15.0	6.75	47771997.0
+TCGA-62-8394-01A	LUAD	62	8394	TCGA-62-8394	01	A	False	0	Thoraxklinik at University Hospital Heidelberg	1	2326	female	65.0	white		1.0	Central Lung	Stage IIIB	Adenocarcinoma with mixed subtypes	0.53	77.5	15.0	7.75	47702642.0
+TCGA-62-8395-01A	LUAD	62	8395	TCGA-62-8395	01	A	False	0	Thoraxklinik at University Hospital Heidelberg	1	2326	female	80.0	white		1.0	Central Lung	Stage IIB	Adenocarcinoma with mixed subtypes	0.65	75.0	0.5	8.3	44092313.0
+TCGA-62-8397-01A	LUAD	62	8397	TCGA-62-8397	01	A	False	0	Thoraxklinik at University Hospital Heidelberg	1	2326	female	70.0	white		1.0	Peripheral Lung	Stage IIB	Adenocarcinoma with mixed subtypes	0.69	65.0	0.0	7.2	18571641.0
+TCGA-62-8398-01A	LUAD	62	8398	TCGA-62-8398	01	A	False	0	Thoraxklinik at University Hospital Heidelberg	1	2326	male	55.0	white	20.0	4.0	Central Lung	Stage IIIA	Adenocarcinoma with mixed subtypes	0.5	72.5	4.5	9.4	55609197.0
+TCGA-62-8399-01A	LUAD	62	8399	TCGA-62-8399	01	A	False	0	Thoraxklinik at University Hospital Heidelberg	1	2326	male	62.0	white	70.0	4.0	Peripheral Lung	Stage IIIA	Adenocarcinoma with mixed subtypes	0.5	70.0	18.0	7.3	51254577.0
+TCGA-62-8402-01A	LUAD	62	8402	TCGA-62-8402	01	A	False	0	Thoraxklinik at University Hospital Heidelberg	1	2326	female	73.0	white		1.0	Peripheral Lung	Stage IIIA	Adenocarcinoma with mixed subtypes	0.5	70.0	7.0	8.149999999999999	41192711.0
+TCGA-62-A46O-01A	LUAD	62	A46O	TCGA-62-A46O	01	A	False	0	Thoraxklinik at University Hospital Heidelberg	1	A24H	female	65.0	white	48.0	2.0	Central Lung	Stage IB	Adenocarcinoma, NOS	0.82	93.0	13.0	8.35	37535998.0
+TCGA-62-A46P-01A	LUAD	62	A46P	TCGA-62-A46P	01	A	False	0	Thoraxklinik at University Hospital Heidelberg	1	A24H	male	65.0	white	40.0	4.0	Central Lung	Stage IB	Adenocarcinoma with mixed subtypes	0.7	70.0	0.0	7.85	30434138.0
+TCGA-62-A46R-01A	LUAD	62	A46R	TCGA-62-A46R	01	A	False	0	Thoraxklinik at University Hospital Heidelberg	1	A24H	female	54.0	white	25.0	4.0	Central Lung	Stage IB	Adenocarcinoma with mixed subtypes	0.42	60.0	0.0	8.0	41869214.0
+TCGA-62-A46S-01A	LUAD	62	A46S	TCGA-62-A46S	01	A	False	0	Thoraxklinik at University Hospital Heidelberg	1	A24H	male	73.0	white	40.0	4.0	Peripheral Lung	Stage IB	Papillary adenocarcinoma, NOS	0.45	75.0	0.0	8.2	50907416.0
+TCGA-62-A46U-01A	LUAD	62	A46U	TCGA-62-A46U	01	A	False	0	Thoraxklinik at University Hospital Heidelberg	1	A24H	female	71.0	white		1.0	Central Lung	Stage IIB	Adenocarcinoma with mixed subtypes	0.25	65.0	1.0	9.4	48528961.0
+TCGA-62-A46V-01A	LUAD	62	A46V	TCGA-62-A46V	01	A	False	0	Thoraxklinik at University Hospital Heidelberg	1	A24H	female	78.0	white		3.0	Peripheral Lung	Stage IB	Adenocarcinoma with mixed subtypes	0.52	75.0	0.0	8.3	42599033.0
+TCGA-62-A46Y-01A	LUAD	62	A46Y	TCGA-62-A46Y	01	A	False	0	Thoraxklinik at University Hospital Heidelberg	1	A24H	female	70.0	white		1.0	Peripheral Lung	Stage IIIA	Adenocarcinoma with mixed subtypes	0.48	75.0	0.0	8.05	45434403.0
+TCGA-62-A470-01A	LUAD	62	A470	TCGA-62-A470	01	A	False	0	Thoraxklinik at University Hospital Heidelberg	1	A24H	male	84.0	white	30.0	3.0	Central Lung	Stage IB	Acinar cell carcinoma	0.59	80.0	5.0	7.1	18001906.0
+TCGA-62-A471-01A	LUAD	62	A471	TCGA-62-A471	01	A	False	0	Thoraxklinik at University Hospital Heidelberg	1	A24H	male	64.0	white	30.0	4.0	Peripheral Lung	Stage IIB	Adenocarcinoma, NOS	0.46	70.0	0.0	7.65	43156475.0
+TCGA-62-A472-01A	LUAD	62	A472	TCGA-62-A472	01	A	False	0	Thoraxklinik at University Hospital Heidelberg	1	A24H	male	70.0	white	60.0	2.0	Central Lung	Stage IIB	Adenocarcinoma, NOS	0.4	70.0	0.0	8.0	21164625.0
+TCGA-63-5128-01A	LUSC	63	5128	TCGA-63-5128	01	A	False	1	Ontario Institute for Cancer Research	1	1443	male		not reported		4.0		Stage IB	Squamous cell carcinoma, NOS	0.72	80.0	15.0	8.1	50158054.0
+TCGA-63-5131-01A	LUSC	63	5131	TCGA-63-5131	01	A	False	1	Ontario Institute for Cancer Research	1	1443	male		not reported	50.0	4.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.54	77.5	5.5	7.8	54931936.0
+TCGA-63-6202-01A	LUSC	63	6202	TCGA-63-6202	01	A	False	1	Ontario Institute for Cancer Research	1	1820	male		not reported	35.0	4.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.42	80.0	0.0		63264954.0
+TCGA-63-7020-01A	LUSC	63	7020	TCGA-63-7020	01	A	False	1	Ontario Institute for Cancer Research	1	1949	male		not reported	50.0	4.0	Peripheral Lung	Stage IA	Squamous cell carcinoma, NOS	0.48	82.5	8.0	9.05	36392169.0
+TCGA-63-7021-01A	LUSC	63	7021	TCGA-63-7021	01	A	False	1	Ontario Institute for Cancer Research	1	1949	male		not reported	21.0	4.0	Peripheral Lung	Stage IA	Squamous cell carcinoma, NOS	0.26	60.0	2.0	7.35	45832187.0
+TCGA-63-7022-01A	LUSC	63	7022	TCGA-63-7022	01	A	False	1	Ontario Institute for Cancer Research	1	1949	female		not reported	30.0	4.0	Peripheral Lung	Stage IA	Squamous cell carcinoma, NOS	0.22	65.0	16.0	8.45	45413080.0
+TCGA-63-7023-01A	LUSC	63	7023	TCGA-63-7023	01	A	False	1	Ontario Institute for Cancer Research	1	1949	male		not reported	55.0	4.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.85	70.5	3.0	9.3	46862074.0
+TCGA-63-A5M9-01A	LUSC	63	A5M9	TCGA-63-A5M9	01	A	False	1	Ontario Institute for Cancer Research	1	A26W	female		not reported	25.0	4.0		Stage IIB	Squamous cell carcinoma, NOS	0.6	95.0	4.0	8.350000000000001	55277155.0
+TCGA-63-A5MB-01A	LUSC	63	A5MB	TCGA-63-A5MB	01	A	False	1	Ontario Institute for Cancer Research	1	A26W	male	62.0	not reported	25.0	3.0		Stage IB	Squamous cell carcinoma, NOS	0.65	90.0	10.0	9.75	53355442.0
+TCGA-63-A5MG-01A	LUSC	63	A5MG	TCGA-63-A5MG	01	A	False	1	Ontario Institute for Cancer Research	1	A27Q	male	68.0	not reported		3.0		Stage IB	Squamous cell carcinoma, NOS	0.31	70.0	10.0	8.15	44453809.0
+TCGA-63-A5MH-01A	LUSC	63	A5MH	TCGA-63-A5MH	01	A	False	1	Ontario Institute for Cancer Research	1	A27Q	male	68.0	not reported	35.0	5.0		Stage IA	Squamous cell carcinoma, NOS	0.91	90.0	1.0	8.55	39563031.0
+TCGA-63-A5MI-01A	LUSC	63	A5MI	TCGA-63-A5MI	01	A	False	1	Ontario Institute for Cancer Research	1	A27Q	male	65.0	not reported	50.0	4.0	Peripheral Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.47	90.0	0.0	9.350000000000001	41438754.0
+TCGA-63-A5MJ-01A	LUSC	63	A5MJ	TCGA-63-A5MJ	01	A	False	1	Ontario Institute for Cancer Research	1	A27Q	male	54.0	not reported		2.0		Stage IIB	Squamous cell carcinoma, NOS	0.44	80.0	0.0	7.65	67953775.0
+TCGA-63-A5ML-01A	LUSC	63	A5ML	TCGA-63-A5ML	01	A	False	1	Ontario Institute for Cancer Research	1	A27Q	male	68.0	not reported	60.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.71	100.0	20.0	9.4	37906765.0
+TCGA-63-A5MM-01A	LUSC	63	A5MM	TCGA-63-A5MM	01	A	False	1	Ontario Institute for Cancer Research	1	A26W	female	69.0	not reported	30.0	3.0		Stage IIB	Squamous cell carcinoma, NOS	0.35	75.0	8.0	8.8	52104518.0
+TCGA-63-A5MN-01A	LUSC	63	A5MN	TCGA-63-A5MN	01	A	False	1	Ontario Institute for Cancer Research	1	A27Q	female	78.0	not reported		1.0		Stage IIB	Squamous cell carcinoma, NOS	0.2	60.0	12.0	8.45	49517644.00000001
+TCGA-63-A5MP-01A	LUSC	63	A5MP	TCGA-63-A5MP	01	A	False	1	Ontario Institute for Cancer Research	1	A26W	male	56.0	not reported	41.0	4.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.33	70.0	8.0	8.4	81278168.0
+TCGA-63-A5MR-01A	LUSC	63	A5MR	TCGA-63-A5MR	01	A	False	1	Ontario Institute for Cancer Research	1	A27Q	female	70.0	not reported	120.0	4.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.32	67.5	15.0	8.2	47858382.0
+TCGA-63-A5MS-01A	LUSC	63	A5MS	TCGA-63-A5MS	01	A	False	1	Ontario Institute for Cancer Research	1	A26W	male	78.0	not reported	6.0	3.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.2	70.0	1.0	7.45	14305997.0
+TCGA-63-A5MT-01A	LUSC	63	A5MT	TCGA-63-A5MT	01	A	False	1	Ontario Institute for Cancer Research	1	A26W	male	74.0	not reported	100.0	4.0	Peripheral Lung	Stage IIB	Squamous cell carcinoma, NOS	0.39	65.0	2.0	7.65	23312343.0
+TCGA-63-A5MU-01A	LUSC	63	A5MU	TCGA-63-A5MU	01	A	False	1	Ontario Institute for Cancer Research	1	A26W	male	48.0	not reported	15.0	4.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.81	75.0	0.0	7.7	39359487.0
+TCGA-63-A5MV-01A	LUSC	63	A5MV	TCGA-63-A5MV	01	A	False	1	Ontario Institute for Cancer Research	1	A26W	male	69.0	not reported	50.0	4.0	Peripheral Lung	Stage IIA	Squamous cell carcinoma, NOS	0.35	60.0	5.0	7.800000000000001	44242069.0
+TCGA-63-A5MW-01A	LUSC	63	A5MW	TCGA-63-A5MW	01	A	False	1	Ontario Institute for Cancer Research	1	A26W	male	76.0	not reported	60.0	4.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.66	65.0	3.0	7.9	50702605.0
+TCGA-63-A5MY-01A	LUSC	63	A5MY	TCGA-63-A5MY	01	A	False	1	Ontario Institute for Cancer Research	1	A26W	male	63.0	not reported	40.0	4.0		Stage IA	Squamous cell carcinoma, NOS	0.85	70.0	2.0	8.600000000000001	48008239.0
+TCGA-64-1676-01A	LUAD	64	1676	TCGA-64-1676	01	A	False	0	Fox Chase	1	0946	male	58.0	white	60.0	2.0	Central Lung	Stage IA	Adenocarcinoma, NOS	0.51	87.5	2.0	7.8	36435686.0
+TCGA-64-1677-01A	LUAD	64	1677	TCGA-64-1677	01	A	False	0	Fox Chase	1	0946	female	77.0	white	50.0	2.0		Stage IIIA	Adenocarcinoma, NOS	0.32	92.5	2.0	6.9	23048855.0
+TCGA-64-1678-01A	LUAD	64	1678	TCGA-64-1678	01	A	False	0	Fox Chase	1	0946	female	70.0	white	20.0	3.0			Adenocarcinoma, NOS	0.57	82.5	11.5	8.4	31782400.0
+TCGA-64-1679-01A	LUAD	64	1679	TCGA-64-1679	01	A	False	0	Fox Chase	1	2066	female	58.0	white	40.0	2.0		Stage IIIA	Adenocarcinoma, NOS	0.26	62.5	32.5	9.0	77767889.0
+TCGA-64-1680-01A	LUAD	64	1680	TCGA-64-1680	01	A	False	0	Fox Chase	1	0946	male	63.0	white	50.0	3.0		Stage IV	Adenocarcinoma with mixed subtypes	0.61	90.0	4.5	9.2	32812080.999999993
+TCGA-64-1681-01A	LUAD	64	1681	TCGA-64-1681	01	A	False	0	Fox Chase	1	2066	female	61.0	white		3.0		Stage IA	Adenocarcinoma, NOS	0.31	37.5	60.0	7.15	60327122.0
+TCGA-64-5774-01A	LUAD	64	5774	TCGA-64-5774	01	A	False	0	Fox Chase	1	1628	male	60.0	white	45.0	4.0	Central Lung	Stage IB	Adenocarcinoma, NOS	0.76	80.0	3.0	8.899999999999999	43217538.0
+TCGA-64-5778-01A	LUAD	64	5778	TCGA-64-5778	01	A	False	0	Fox Chase	1	1628	male	60.0	white	68.0	4.0	Central Lung	Stage IB	Bronchiolo-alveolar carcinoma, non-mucinous	0.59	75.0	0.0	8.3	41930525.0
+TCGA-64-5781-01A	LUAD	64	5781	TCGA-64-5781	01	A	False	0	Fox Chase	1	1628	female	55.0	white	25.0	4.0	Central Lung	Stage IB	Adenocarcinoma with mixed subtypes	0.38	75.0	1.5	8.0	35218872.0
+TCGA-66-2727-01A	LUSC	66	2727	TCGA-66-2727	01	A	False	1	Indivumed	1	0980	female	55.0	not reported	56.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.47	90.0	0.0		62913592.0
+TCGA-66-2734-01A	LUSC	66	2734	TCGA-66-2734	01	A	False	1	Indivumed	1	0980	female	62.0	not reported	40.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.36	70.0	15.0		67737119.0
+TCGA-66-2737-01A	LUSC	66	2737	TCGA-66-2737	01	A	False	1	Indivumed	1	0980	male	72.0	not reported	40.0	3.0		Stage IIB	Squamous cell carcinoma, NOS	0.48	70.0	3.5		56486331.0
+TCGA-66-2742-01A	LUSC	66	2742	TCGA-66-2742	01	A	False	1	Indivumed	1	0980	male	70.0	not reported	44.0	3.0		Stage IV	Squamous cell carcinoma, NOS	0.44	85.0	5.0		48891626.0
+TCGA-66-2744-01A	LUSC	66	2744	TCGA-66-2744	01	A	False	1	Indivumed	1	0980	male	71.0	not reported	63.0	4.0		Stage IIB	Squamous cell carcinoma, NOS	0.37	90.0	20.0		49636759.0
+TCGA-66-2753-01A	LUSC	66	2753	TCGA-66-2753	01	A	False	1	Indivumed	1	0980	male	69.0	not reported	162.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.39	70.0	9.0		63920071.0
+TCGA-66-2754-01A	LUSC	66	2754	TCGA-66-2754	01	A	False	1	Indivumed	1	0980	male	67.0	not reported	40.0	4.0		Stage IIIA	Squamous cell carcinoma, NOS	0.87	90.0	17.5		46522367.0
+TCGA-66-2755-01A	LUSC	66	2755	TCGA-66-2755	01	A	False	1	Indivumed	1	0851	male	63.0	not reported	20.0	3.0		Stage IB	Squamous cell carcinoma, NOS	0.3	82.5	13.5	9.15	60779969.0
+TCGA-66-2756-01A	LUSC	66	2756	TCGA-66-2756	01	A	False	1	Indivumed	1	0851	male	68.0	not reported		4.0		Stage IIIB	Squamous cell carcinoma, NOS	0.71	85.0	11.5	8.9	52665446.0
+TCGA-66-2757-01A	LUSC	66	2757	TCGA-66-2757	01	A	False	1	Indivumed	1	0851	female	65.0	not reported	72.0	4.0		Stage IA	Squamous cell carcinoma, NOS	0.86	85.0	3.0	8.8	52658213.0
+TCGA-66-2758-01A	LUSC	66	2758	TCGA-66-2758	01	A	False	1	Indivumed	1	0851	male	71.0	not reported	56.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.5	80.0	20.0	8.600000000000001	61584912.0
+TCGA-66-2759-01A	LUSC	66	2759	TCGA-66-2759	01	A	False	1	Indivumed	1	0851	male	66.0	not reported	16.0	3.0		Stage IIIA	Squamous cell carcinoma, NOS	0.5	82.5	17.5	8.600000000000001	59064331.0
+TCGA-66-2763-01A	LUSC	66	2763	TCGA-66-2763	01	A	False	1	Indivumed	1	0851	female	63.0	not reported	40.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.67	85.0	6.5	8.600000000000001	73523936.0
+TCGA-66-2765-01A	LUSC	66	2765	TCGA-66-2765	01	A	False	1	Indivumed	1	0851	male	64.0	not reported	108.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.51	80.0	7.5	8.85	66420612.0
+TCGA-66-2766-01A	LUSC	66	2766	TCGA-66-2766	01	A	False	1	Indivumed	1	0851	male	54.0	not reported	80.0	4.0		Stage IIIA	Squamous cell carcinoma, NOS	0.75	90.0	20.0	8.5	58313100.0
+TCGA-66-2767-01A	LUSC	66	2767	TCGA-66-2767	01	A	False	1	Indivumed	1	0851	male	62.0	not reported	43.0	4.0		Stage IIIB	Squamous cell carcinoma, NOS	0.27	70.0	11.0	7.8	60206349.0
+TCGA-66-2768-01A	LUSC	66	2768	TCGA-66-2768	01	A	False	1	Indivumed	1	0851	male	57.0	not reported		2.0		Stage IIB	Squamous cell carcinoma, NOS	0.57	90.0	5.0	8.1	67250942.0
+TCGA-66-2769-01A	LUSC	66	2769	TCGA-66-2769	01	A	False	1	Indivumed	1	0851	male	75.0	not reported	33.0	3.0		Stage IIIB	Squamous cell carcinoma, NOS	0.32	70.0	9.0	9.1	58569890.0
+TCGA-66-2770-01A	LUSC	66	2770	TCGA-66-2770	01	A	False	1	Indivumed	1	0851	male	79.0	not reported	25.0	3.0		Stage IB	Squamous cell carcinoma, NOS	0.64	77.5	9.0	8.649999999999999	64744348.0
+TCGA-66-2771-01A	LUSC	66	2771	TCGA-66-2771	01	A	False	1	Indivumed	1	0980	male	60.0	not reported	70.0	4.0		Stage IIB	Squamous cell carcinoma, NOS	0.44	72.5	5.0		41348152.0
+TCGA-66-2773-01A	LUSC	66	2773	TCGA-66-2773	01	A	False	1	Indivumed	1	1201	male	69.0	not reported	58.0	3.0		Stage IB	Squamous cell carcinoma, NOS	0.41	60.0	3.5	8.0	49580239.0
+TCGA-66-2777-01A	LUSC	66	2777	TCGA-66-2777	01	A	False	1	Indivumed	1	1201	male	71.0	not reported	12.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.3	62.5	5.0	9.0	48078954.0
+TCGA-66-2778-01A	LUSC	66	2778	TCGA-66-2778	01	A	False	1	Indivumed	1	0851	female	68.0	not reported	37.0	4.0		Stage IIIB	Squamous cell carcinoma, NOS	0.38	85.0	15.0	9.1	58307610.0
+TCGA-66-2780-01A	LUSC	66	2780	TCGA-66-2780	01	A	False	1	Indivumed	1	0851	male	65.0	not reported	28.0	3.0		Stage IB	Squamous cell carcinoma, NOS	0.47	72.5	10.0	8.4	64222762.0
+TCGA-66-2781-01A	LUSC	66	2781	TCGA-66-2781	01	A	False	1	Indivumed	1	0851	male	67.0	not reported	80.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.4	70.0	17.5	8.35	64388479.0
+TCGA-66-2782-01A	LUSC	66	2782	TCGA-66-2782	01	A	False	1	Indivumed	1	0851	male	71.0	not reported	50.0	4.0		Stage IIB	Squamous cell carcinoma, NOS	0.52	75.0	5.5	8.55	67525863.0
+TCGA-66-2783-01A	LUSC	66	2783	TCGA-66-2783	01	A	False	1	Indivumed	1	1201	male	67.0	not reported	65.0	4.0		Stage IIIB	Squamous cell carcinoma, NOS	0.57	62.5	10.0	8.75	43275768.0
+TCGA-66-2785-01A	LUSC	66	2785	TCGA-66-2785	01	A	False	1	Indivumed	1	0851	male	65.0	not reported	70.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.4	70.0	20.0	8.100000000000001	56694347.0
+TCGA-66-2786-01A	LUSC	66	2786	TCGA-66-2786	01	A	False	1	Indivumed	1	0851	female	68.0	not reported	74.0	4.0		Stage IA	Squamous cell carcinoma, NOS	0.57	85.0	3.0	8.95	61908334.0
+TCGA-66-2787-01A	LUSC	66	2787	TCGA-66-2787	01	A	False	1	Indivumed	1	0980	male	57.0	not reported	40.0	4.0		Stage IA	Squamous cell carcinoma, NOS	0.36	75.0	6.0		48953482.0
+TCGA-66-2788-01A	LUSC	66	2788	TCGA-66-2788	01	A	False	1	Indivumed	1	0980	male	56.0	not reported	80.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.41	72.5	8.5		58715572.0
+TCGA-66-2789-01A	LUSC	66	2789	TCGA-66-2789	01	A	False	1	Indivumed	1	0980	male	73.0	not reported	40.0	4.0		Stage IIIB	Squamous cell carcinoma, NOS	0.55	75.0	15.0		59522050.0
+TCGA-66-2790-01A	LUSC	66	2790	TCGA-66-2790	01	A	False	1	Indivumed	1	0980	male	72.0	not reported	57.0	4.0		Stage IIB	Squamous cell carcinoma, NOS	0.57	72.5	7.5		59062025.0
+TCGA-66-2791-01A	LUSC	66	2791	TCGA-66-2791	01	A	False	1	Indivumed	1	0980	male	66.0	not reported	25.0	4.0		Stage IIIB	Squamous cell carcinoma, NOS	0.45	70.0	5.5		56206276.0
+TCGA-66-2792-01A	LUSC	66	2792	TCGA-66-2792	01	A	False	1	Indivumed	1	0980	male	58.0	not reported	10.0	4.0		Stage IIB	Squamous cell carcinoma, NOS	0.66	72.5	14.0		60910588.0
+TCGA-66-2793-01A	LUSC	66	2793	TCGA-66-2793	01	A	False	1	Indivumed	1	1201	male	68.0	not reported	112.0	4.0		Stage IIIB	Squamous cell carcinoma, NOS	0.85	65.0	4.0	8.899999999999999	38079490.0
+TCGA-66-2794-01A	LUSC	66	2794	TCGA-66-2794	01	A	False	1	Indivumed	1	1201	male	64.0	not reported	100.0	4.0		Stage IIIB	Squamous cell carcinoma, NOS	0.64	67.5	5.0	8.75	44824919.0
+TCGA-66-2795-01A	LUSC	66	2795	TCGA-66-2795	01	A	False	1	Indivumed	1	0980	male	68.0	not reported	86.0	4.0		Stage IIIB	Squamous cell carcinoma, NOS	0.66	77.5	17.5		39979443.0
+TCGA-66-2800-01A	LUSC	66	2800	TCGA-66-2800	01	A	False	1	Indivumed	1	1201	male	70.0	not reported	75.0	4.0		Stage IIIB	Squamous cell carcinoma, NOS	0.52	65.0	20.0	8.1	46755421.0
+TCGA-67-3770-01A	LUAD	67	3770	TCGA-67-3770	01	A	False	0	St. Joseph's Medical Center (MD)	1	0946	female	70.0	white		3.0	Central Lung	Stage IA	Adenocarcinoma, NOS	0.65	80.0	3.0	8.1	26245140.0
+TCGA-67-3771-01A	LUAD	67	3771	TCGA-67-3771	01	A	False	0	St. Joseph's Medical Center (MD)	1	0946	female	77.0	black or african american		4.0	Central Lung	Stage IA	Adenocarcinoma, NOS	0.46	75.0	16.5	8.4	32381649.0
+TCGA-67-3772-01A	LUAD	67	3772	TCGA-67-3772	01	A	False	0	St. Joseph's Medical Center (MD)	1	0946	female	82.0	white		1.0		Stage IB	Adenocarcinoma, NOS	0.45	72.5	3.5	8.3	50950480.0
+TCGA-67-3773-01A	LUAD	67	3773	TCGA-67-3773	01	A	False	0	St. Joseph's Medical Center (MD)	1	0946	female	84.0	white		3.0	Central Lung	Stage IB	Adenocarcinoma, NOS	0.7	80.0	0.0	8.6	28439456.0
+TCGA-67-3774-01A	LUAD	67	3774	TCGA-67-3774	01	A	False	0	St. Joseph's Medical Center (MD)	1	0946	female	73.0	white		3.0		Stage IB	Adenocarcinoma, NOS	0.48	77.5	0.0	8.2	37965407.0
+TCGA-67-4679-01B	LUAD	67	4679	TCGA-67-4679	01	B	False	0	St. Joseph's Medical Center (MD)	1	1755	male	69.0	white		4.0	Central Lung		Adenocarcinoma, NOS	0.71	75.0	0.0	7.15	39532072.0
+TCGA-67-6215-01A	LUAD	67	6215	TCGA-67-6215	01	A	False	0	St. Joseph's Medical Center (MD)	1	1755	female	52.0	white		1.0	Central Lung	Stage IB	Adenocarcinoma, NOS	0.69	80.0	0.0	9.7	77072339.0
+TCGA-67-6216-01A	LUAD	67	6216	TCGA-67-6216	01	A	False	0	St. Joseph's Medical Center (MD)	1	1755	female	57.0	white		1.0	Central Lung	Stage IA	Adenocarcinoma, NOS	0.56	55.0	0.0	8.7	38802258.0
+TCGA-67-6217-01A	LUAD	67	6217	TCGA-67-6217	01	A	False	0	St. Joseph's Medical Center (MD)	1	1755	female	73.0	white		3.0	Central Lung	Stage IIA	Adenocarcinoma, NOS	0.25	57.5	0.0	8.149999999999999	38494301.0
+TCGA-68-7755-01A	LUSC	68	7755	TCGA-68-7755	01	A	False	1	Washington University - Cleveland Clinic	1	2125	female	60.0	white	78.0	4.0	Peripheral Lung	Stage IIA	Squamous cell carcinoma, NOS	0.62	70.0	5.0		67387283.0
+TCGA-68-7756-01A	LUSC	68	7756	TCGA-68-7756	01	A	False	1	Washington University - Cleveland Clinic	1	2125	male	84.0	white	20.0	3.0	Peripheral Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.49	55.0	15.0		71949141.0
+TCGA-68-7757-01B	LUSC	68	7757	TCGA-68-7757	01	B	False	1	Washington University - Cleveland Clinic	1	2296	male	74.0	white	25.0	4.0		Stage IA	Squamous cell carcinoma, NOS	0.34	65.0	8.0	7.65	43250587.0
+TCGA-68-8250-01A	LUSC	68	8250	TCGA-68-8250	01	A	False	1	Washington University - Cleveland Clinic	1	2296	male	66.0	black or african american	50.0	4.0		Stage IA	Squamous cell carcinoma, NOS	0.44	80.0	5.0	8.85	47128345.0
+TCGA-68-8251-01A	LUSC	68	8251	TCGA-68-8251	01	A	False	1	Washington University - Cleveland Clinic	1	2296	male	78.0	white	52.0	3.0		Stage IB	Squamous cell carcinoma, NOS	0.33	70.0	15.0	7.95	51257315.0
+TCGA-68-A59I-01A	LUSC	68	A59I	TCGA-68-A59I	01	A	False	1	Washington University - Cleveland Clinic	1	A262	female	73.0	black or african american	50.0	4.0		Stage IIIA	Squamous cell carcinoma, NOS	0.29	85.0	0.0	8.3	48348229.0
+TCGA-68-A59J-01A	LUSC	68	A59J	TCGA-68-A59J	01	A	False	1	Washington University - Cleveland Clinic	1	A26W	female	74.0	white	45.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.45	77.0	20.0	9.9	55700030.0
+TCGA-69-7760-01A	LUAD	69	7760	TCGA-69-7760	01	A	False	0	Washington University - Cleveland Clinic	1	2170	male	73.0	white		1.0	Peripheral Lung	Stage IIB	Adenocarcinoma with mixed subtypes	0.65	65.0	5.0	7.95	40762980.0
+TCGA-69-7761-01A	LUAD	69	7761	TCGA-69-7761	01	A	False	0	Washington University - Cleveland Clinic	1	2170	male	84.0	white	20.0	3.0	Peripheral Lung	Stage IB	Acinar cell carcinoma	0.23	55.0	0.0	9.149999999999999	43059029.0
+TCGA-69-7763-01A	LUAD	69	7763	TCGA-69-7763	01	A	False	0	Washington University - Cleveland Clinic	1	2170	male	69.0	white	7.5	4.0	Peripheral Lung	Stage IA	Adenocarcinoma with mixed subtypes	0.35	57.5	0.0	8.05	39743981.0
+TCGA-69-7764-01A	LUAD	69	7764	TCGA-69-7764	01	A	False	0	Washington University - Cleveland Clinic	1	2170	male	75.0	white	30.0	3.0	Peripheral Lung	Stage IA	Adenocarcinoma with mixed subtypes	0.8	80.0	0.0	8.5	33447747.0
+TCGA-69-7765-01A	LUAD	69	7765	TCGA-69-7765	01	A	False	0	Washington University - Cleveland Clinic	1	2170	male	56.0	black or african american		4.0	Peripheral Lung		Adenocarcinoma with mixed subtypes	0.41	65.0	0.0	8.0	38262444.0
+TCGA-69-7980-01A	LUAD	69	7980	TCGA-69-7980	01	A	False	0	Washington University - Cleveland Clinic	1	2187	female	70.0	white	80.0	4.0		Stage I	Adenocarcinoma, NOS	0.55	80.0	0.0	8.0	66788589.0
+TCGA-69-8253-01A	LUAD	69	8253	TCGA-69-8253	01	A	False	0	Washington University - Cleveland Clinic	1	2287	female	59.0	black or african american	7.8	4.0		Stage IIA	Adenocarcinoma with mixed subtypes	0.39	70.0	0.0	8.0	83417587.00000001
+TCGA-69-8254-01A	LUAD	69	8254	TCGA-69-8254	01	A	False	0	Washington University - Cleveland Clinic	1	2287	male	85.0	white	40.0	3.0			Adenocarcinoma with mixed subtypes	0.41	65.0	0.0	8.8	91437231.0
+TCGA-69-8255-01A	LUAD	69	8255	TCGA-69-8255	01	A	False	0	Washington University - Cleveland Clinic	1	2287	male	71.0	white	40.0	2.0		Stage IA	Solid carcinoma, NOS	0.37	60.0	0.0	9.149999999999999	94625118.0
+TCGA-69-8453-01A	LUAD	69	8453	TCGA-69-8453	01	A	False	0	Washington University - Cleveland Clinic	1	2326	male	77.0	white	12.0	3.0	Peripheral Lung	Stage IIB	Mucinous adenocarcinoma	0.56	70.0	0.0	8.1	46795203.0
+TCGA-69-A59K-01A	LUAD	69	A59K	TCGA-69-A59K	01	A	False	0	Washington University - Cleveland Clinic	1	A262	female	60.0	black or african american	25.0	4.0		Stage IIB	Adenocarcinoma with mixed subtypes		97.0	0.0	9.45	51691595.99999999
+TCGA-6A-AB49-01A	LUSC	6A	AB49	TCGA-6A-AB49	01	A	False	1	University of Kansas	1	A405	female	73.0	black or african american	50.0	3.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.69	80.0	5.0	7.65	55619710.0
+TCGA-70-6722-01A	LUSC	70	6722	TCGA-70-6722	01	A	False	1	ILSBio	1	1820	male	47.0	asian		1.0		Stage IIIA	Squamous cell carcinoma, NOS	0.32	72.5	8.0		90464376.0
+TCGA-70-6723-01A	LUSC	70	6723	TCGA-70-6723	01	A	False	1	ILSBio	1	1820	male	65.0	asian		1.0		Stage IIA	Papillary squamous cell carcinoma	0.86	85.0	9.0		86861151.0
+TCGA-71-6725-01A	LUAD	71	6725	TCGA-71-6725	01	A	False	0	ILSBio	1	1858	female	48.0	asian		2.0		Stage IB	Papillary adenocarcinoma, NOS	0.63	77.5	1.5	7.55	71287647.0
+TCGA-71-8520-01A	LUAD	71	8520	TCGA-71-8520	01	A	False	0	ILSBio	1	2403	female	60.0	asian		1.0		Stage IB	Adenocarcinoma, NOS		77.5	0.0	8.899999999999999	32479553.0
+TCGA-73-4658-01A	LUAD	73	4658	TCGA-73-4658	01	A	False	0	Roswell Park	1	1755	female	80.0	white	25.0	3.0	Central Lung	Stage IB	Adenocarcinoma, NOS	0.29	50.0	0.0	7.85	37936612.0
+TCGA-73-4659-01A	LUAD	73	4659	TCGA-73-4659	01	A	False	0	Roswell Park	1	1206	male	66.0	white	12.0	3.0	Central Lung	Stage IIIA	Adenocarcinoma, NOS	0.33	85.0	0.0	8.899999999999999	103639275.0
+TCGA-73-4662-01A	LUAD	73	4662	TCGA-73-4662	01	A	False	0	Roswell Park	1	1206	female	65.0	white	10.0	3.0	Peripheral Lung	Stage IA	Adenocarcinoma, NOS	0.48	85.0	5.0	8.2	91931113.0
+TCGA-73-4666-01A	LUAD	73	4666	TCGA-73-4666	01	A	False	0	Roswell Park	1	1206	female	52.0	white	10.0	4.0	Central Lung	Stage IV	Adenocarcinoma, NOS	0.45	92.5	5.0	8.75	77821130.0
+TCGA-73-4668-01A	LUAD	73	4668	TCGA-73-4668	01	A	False	0	Roswell Park	1	1206	female	66.0	american indian or alaska native	55.0	4.0	Peripheral Lung	Stage IIB	Micropapillary carcinoma, NOS	0.53	80.0	5.0	7.6	91375192.0
+TCGA-73-4675-01A	LUAD	73	4675	TCGA-73-4675	01	A	False	0	Roswell Park	1	1206	male	59.0	white	41.0	4.0	Peripheral Lung	Stage IIIA	Adenocarcinoma, NOS	0.57	82.5	0.0	7.1	78086024.0
+TCGA-73-4677-01A	LUAD	73	4677	TCGA-73-4677	01	A	False	0	Roswell Park	1	1206	male	74.0	white		3.0	Peripheral Lung		Adenocarcinoma, NOS	0.47	85.0	0.0	8.4	84453627.0
+TCGA-73-7498-01A	LUAD	73	7498	TCGA-73-7498	01	A	False	0	Roswell Park	1	2187	female	58.0	white	28.0	4.0	Peripheral Lung	Stage IA	Bronchiolo-alveolar carcinoma, non-mucinous	0.62	77.5	0.0	8.4	77498327.00000001
+TCGA-73-7499-01A	LUAD	73	7499	TCGA-73-7499	01	A	False	0	Roswell Park	1	2187	female	81.0	white		1.0	Peripheral Lung	Stage IB	Adenocarcinoma with mixed subtypes	0.38	60.0	0.0	8.75	59381799.0
+TCGA-73-A9RS-01A	LUAD	73	A9RS	TCGA-73-A9RS	01	A	False	0	Roswell Park	1	A41B	male	41.0	black or african american	11.0	2.0	Peripheral Lung	Stage IIB	Adenocarcinoma, NOS	0.61	77.5	0.0	8.95	22385182.0
+TCGA-75-5122-01A	LUAD	75	5122	TCGA-75-5122	01	A	False	0	Ontario Institute for Cancer Research	1	1755	male		not reported	20.0	3.0	Peripheral Lung	Stage IB	Adenocarcinoma, NOS	0.32	67.5	0.0	8.6	37517214.0
+TCGA-75-5126-01A	LUAD	75	5126	TCGA-75-5126	01	A	False	0	Ontario Institute for Cancer Research	1	1755	female		not reported	40.0	4.0	Peripheral Lung	Stage IIIA	Papillary adenocarcinoma, NOS	0.24	32.5	5.0	8.1	29078060.0
+TCGA-75-5146-01A	LUAD	75	5146	TCGA-75-5146	01	A	False	0	Ontario Institute for Cancer Research	1	1628	male		not reported		3.0	Peripheral Lung	Stage IB	Bronchiolo-alveolar carcinoma, non-mucinous	0.58	70.0	0.0	7.5	31199974.0
+TCGA-75-5147-01A	LUAD	75	5147	TCGA-75-5147	01	A	False	0	Ontario Institute for Cancer Research	1	1628	female		not reported		1.0	Peripheral Lung	Stage IB	Bronchiolo-alveolar carcinoma, non-mucinous	0.4	67.5	5.0	8.55	69504415.0
+TCGA-75-6203-01A	LUAD	75	6203	TCGA-75-6203	01	A	False	0	Ontario Institute for Cancer Research	1	1755	female		not reported		1.0		Stage IIIA	Adenocarcinoma, NOS	0.26	75.5	0.0	7.2	34595062.0
+TCGA-75-6205-01A	LUAD	75	6205	TCGA-75-6205	01	A	False	0	Ontario Institute for Cancer Research	1	1755	female		not reported		1.0	Peripheral Lung	Stage IB	Adenocarcinoma, NOS	0.27	71.0	0.0	7.75	23897778.0
+TCGA-75-6206-01A	LUAD	75	6206	TCGA-75-6206	01	A	False	0	Ontario Institute for Cancer Research	1	1755	male		not reported	20.0	3.0	Peripheral Lung	Stage IB	Adenocarcinoma, NOS	0.7	80.0	0.0	9.25	31976628.0
+TCGA-75-6207-01A	LUAD	75	6207	TCGA-75-6207	01	A	False	0	Ontario Institute for Cancer Research	1	1755	male		not reported	10.0	3.0	Peripheral Lung	Stage IIIA	Adenocarcinoma, NOS	0.64	82.5	5.0	9.6	39903199.0
+TCGA-75-6211-01A	LUAD	75	6211	TCGA-75-6211	01	A	False	0	Ontario Institute for Cancer Research	1	1755	female		not reported	34.0	2.0		Stage IB	Adenocarcinoma, NOS	0.39	70.0	0.0	9.15	31030856.0
+TCGA-75-6212-01A	LUAD	75	6212	TCGA-75-6212	01	A	False	0	Ontario Institute for Cancer Research	1	1755	female		not reported		1.0	Peripheral Lung	Stage IIB	Micropapillary carcinoma, NOS	0.43	80.0	0.0	8.85	30908501.0
+TCGA-75-6214-01A	LUAD	75	6214	TCGA-75-6214	01	A	False	0	Ontario Institute for Cancer Research	1	1949	female		not reported	40.0	2.0	Peripheral Lung	Stage IIIA	Adenocarcinoma, NOS	0.64	70.0	5.0	7.300000000000001	71589012.0
+TCGA-75-7025-01A	LUAD	75	7025	TCGA-75-7025	01	A	False	0	Ontario Institute for Cancer Research	1	1949	male		not reported		3.0	Peripheral Lung	Stage IB	Adenocarcinoma, NOS	0.34	80.0	2.0	7.0	61259781.0
+TCGA-75-7027-01A	LUAD	75	7027	TCGA-75-7027	01	A	False	0	Ontario Institute for Cancer Research	1	1949	male		not reported	50.0	2.0	Peripheral Lung	Stage IB	Adenocarcinoma, NOS	0.62	70.0	8.0	8.95	78045949.0
+TCGA-75-7030-01A	LUAD	75	7030	TCGA-75-7030	01	A	False	0	Ontario Institute for Cancer Research	1	1949	male		not reported		1.0	Peripheral Lung	Stage IIB	Adenocarcinoma, NOS		60.0	5.0	7.9	24875971.0
+TCGA-75-7031-01A	LUAD	75	7031	TCGA-75-7031	01	A	False	0	Ontario Institute for Cancer Research	1	1949	female		not reported	5.0	3.0	Peripheral Lung	Stage IB	Adenocarcinoma, NOS	0.49	63.5	2.5	7.45	24664083.0
+TCGA-77-6842-01A	LUSC	77	6842	TCGA-77-6842	01	A	False	1	Prince Charles Hospital	1	1949	male	79.0	white	22.5	4.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.48	77.5	4.0	9.3	51285855.0
+TCGA-77-6843-01A	LUSC	77	6843	TCGA-77-6843	01	A	False	1	Prince Charles Hospital	1	1949	male	74.0	white	30.0	2.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.74	85.0	1.5	8.95	47100075.0
+TCGA-77-6844-01A	LUSC	77	6844	TCGA-77-6844	01	A	False	1	Prince Charles Hospital	1	1949	male	74.0	white	45.0	4.0	Central Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.66	77.5	1.0	8.8	64086605.0
+TCGA-77-6845-01A	LUSC	77	6845	TCGA-77-6845	01	A	False	1	Prince Charles Hospital	1	1949	male	69.0	white	51.0	4.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.78	77.5	32.5	9.2	64320935.0
+TCGA-77-7138-01A	LUSC	77	7138	TCGA-77-7138	01	A	False	1	Prince Charles Hospital	1	2045	male	67.0	not reported	20.0	3.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS		70.0	0.0	7.550000000000001	65001400.0
+TCGA-77-7139-01A	LUSC	77	7139	TCGA-77-7139	01	A	False	1	Prince Charles Hospital	1	2045	male	56.0	white	2.0	4.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.72	70.0	0.0	8.35	59408949.0
+TCGA-77-7140-01A	LUSC	77	7140	TCGA-77-7140	01	A	False	1	Prince Charles Hospital	1	2045	female	69.0	white		1.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.78	60.0	5.0	7.9	62040150.0
+TCGA-77-7141-01A	LUSC	77	7141	TCGA-77-7141	01	A	False	1	Prince Charles Hospital	1	2045	male	64.0	white	70.0	4.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.61	77.5	6.5	9.05	70442313.0
+TCGA-77-7142-01A	LUSC	77	7142	TCGA-77-7142	01	A	False	1	Prince Charles Hospital	1	2045	female	59.0	white	52.5	4.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.39	67.5	0.0	8.5	57209990.0
+TCGA-77-7335-01A	LUSC	77	7335	TCGA-77-7335	01	A	False	1	Prince Charles Hospital	1	2045	female	62.0	white	52.0	3.0	Central Lung	Stage IIIB	Squamous cell carcinoma, keratinizing, NOS	0.41	50.0	4.0	8.0	37313242.0
+TCGA-77-7337-01A	LUSC	77	7337	TCGA-77-7337	01	A	False	1	Prince Charles Hospital	1	2045	male	65.0	white	79.5	4.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.52	65.0	0.0	9.5	64790424.0
+TCGA-77-7338-01A	LUSC	77	7338	TCGA-77-7338	01	A	False	1	Prince Charles Hospital	1	2045	male	64.0	white	41.25	2.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.52	70.0	1.0	9.25	60542443.0
+TCGA-77-7463-01A	LUSC	77	7463	TCGA-77-7463	01	A	False	1	Prince Charles Hospital	1	2045	male	75.0	white	42.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.41	65.0	0.0	7.199999999999999	55394066.0
+TCGA-77-7465-01A	LUSC	77	7465	TCGA-77-7465	01	A	False	1	Prince Charles Hospital	1	2045	male	58.0	white	120.0	2.0		Stage IIA	Squamous cell carcinoma, NOS	0.68	70.0	0.0	7.1	53484106.0
+TCGA-77-8007-01A	LUSC	77	8007	TCGA-77-8007	01	A	False	1	Prince Charles Hospital	1	2187	male	68.0	not reported	100.0	2.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.21	42.5	45.0		76831707.0
+TCGA-77-8008-01A	LUSC	77	8008	TCGA-77-8008	01	A	False	1	Prince Charles Hospital	1	2187	male	68.0	not reported	61.5	4.0	Central Lung	Stage IB	Squamous cell carcinoma, keratinizing, NOS	0.27	65.0	5.0		76010684.0
+TCGA-77-8009-01A	LUSC	77	8009	TCGA-77-8009	01	A	False	1	Prince Charles Hospital	1	2187	male	68.0	not reported	97.5	4.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.67	75.0	5.0		61020940.0
+TCGA-77-8128-01A	LUSC	77	8128	TCGA-77-8128	01	A	False	1	Prince Charles Hospital	1	2247	male	60.0	not reported	113.0	2.0	Central Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.64	70.0	10.0		44238651.0
+TCGA-77-8130-01A	LUSC	77	8130	TCGA-77-8130	01	A	False	1	Prince Charles Hospital	1	2247	male	69.0	not reported	32.25	4.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.39	65.0	0.0		42270399.0
+TCGA-77-8131-01A	LUSC	77	8131	TCGA-77-8131	01	A	False	1	Prince Charles Hospital	1	2247	male	72.0	not reported	69.0	4.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.23	60.0	20.0		33022379.0
+TCGA-77-8133-01A	LUSC	77	8133	TCGA-77-8133	01	A	False	1	Prince Charles Hospital	1	2247	male	74.0	not reported	22.0	2.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.4	60.0	10.0		36993296.0
+TCGA-77-8136-01A	LUSC	77	8136	TCGA-77-8136	01	A	False	1	Prince Charles Hospital	1	2247	female	74.0	not reported	135.0	2.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.34	60.0	18.0		33952260.0
+TCGA-77-8139-01A	LUSC	77	8139	TCGA-77-8139	01	A	False	1	Prince Charles Hospital	1	2247	male	72.0	not reported	52.0	2.0	Peripheral Lung	Stage IIB	Squamous cell carcinoma, NOS	0.3	60.0	0.0		32858879.0
+TCGA-77-8140-01A	LUSC	77	8140	TCGA-77-8140	01	A	False	1	Prince Charles Hospital	1	2247	female	66.0	not reported	78.0	4.0	Peripheral Lung	Stage IIB	Squamous cell carcinoma, NOS	0.53	60.0	0.0		28270068.0
+TCGA-77-8143-01A	LUSC	77	8143	TCGA-77-8143	01	A	False	1	Prince Charles Hospital	1	2247	male	76.0	not reported	30.0	4.0	Peripheral Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.66	65.0	5.0		45018896.0
+TCGA-77-8144-01A	LUSC	77	8144	TCGA-77-8144	01	A	False	1	Prince Charles Hospital	1	2247	male	70.0	not reported	59.0	2.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.57	75.0	0.0		48087452.0
+TCGA-77-8145-01A	LUSC	77	8145	TCGA-77-8145	01	A	False	1	Prince Charles Hospital	1	2247	male	73.0	not reported	57.0	2.0	Central Lung	Stage IIIB	Squamous cell carcinoma, NOS	0.41	60.0	8.0		26575291.0
+TCGA-77-8146-01A	LUSC	77	8146	TCGA-77-8146	01	A	False	1	Prince Charles Hospital	1	2247	male	72.0	not reported	75.0	2.0	Peripheral Lung	Stage IA	Squamous cell carcinoma, NOS		70.0	15.0		22373480.0
+TCGA-77-8148-01A	LUSC	77	8148	TCGA-77-8148	01	A	False	1	Prince Charles Hospital	1	2247	male	68.0	not reported	60.0	4.0	Central Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.68	65.0	5.0		36356646.0
+TCGA-77-8150-01A	LUSC	77	8150	TCGA-77-8150	01	A	False	1	Prince Charles Hospital	1	2247	male	64.0	not reported	46.0	2.0	Central Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.56	65.0	0.0		15705253.0
+TCGA-77-8153-01A	LUSC	77	8153	TCGA-77-8153	01	A	False	1	Prince Charles Hospital	1	2403	female	77.0	not reported	25.0	3.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.76	75.0	20.0		38449164.0
+TCGA-77-8154-01A	LUSC	77	8154	TCGA-77-8154	01	A	False	1	Prince Charles Hospital	1	2247	male	67.0	not reported	40.0	4.0	Peripheral Lung	Stage IA	Squamous cell carcinoma, NOS	0.68	75.0	0.0		32815418.0
+TCGA-77-8156-01A	LUSC	77	8156	TCGA-77-8156	01	A	False	1	Prince Charles Hospital	1	2247	male	60.0	not reported	57.5	2.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.23	60.0	8.0		31345006.0
+TCGA-77-A5FZ-01A	LUSC	77	A5FZ	TCGA-77-A5FZ	01	A	False	1	Prince Charles Hospital	1	A27Q	male	64.0	not reported	141.0	4.0	Central Lung	Stage IIIB	Papillary squamous cell carcinoma	0.46	50.0	11.0	7.2	39924526.0
+TCGA-77-A5G1-01A	LUSC	77	A5G1	TCGA-77-A5G1	01	A	False	1	Prince Charles Hospital	1	A27Q	male	75.0	not reported	53.0	4.0	Central Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.25	60.0	10.0	9.35	51478196.0
+TCGA-77-A5G3-01A	LUSC	77	A5G3	TCGA-77-A5G3	01	A	False	1	Prince Charles Hospital	1	A27Q	male	63.0	not reported	40.0	4.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.65	95.0	15.0	8.600000000000001	48722204.0
+TCGA-77-A5G6-01A	LUSC	77	A5G6	TCGA-77-A5G6	01	A	False	1	Prince Charles Hospital	1	A27Q	male	66.0	not reported	74.0	2.0	Peripheral Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.7	60.0	10.0	9.350000000000001	40805164.0
+TCGA-77-A5G7-01B	LUSC	77	A5G7	TCGA-77-A5G7	01	B	False	1	Prince Charles Hospital	1	A27Q	male	63.0	not reported	69.0	2.0	Peripheral Lung	Stage IA	Squamous cell carcinoma, NOS	0.58	60.0	10.0	7.8	34311312.0
+TCGA-77-A5G8-01B	LUSC	77	A5G8	TCGA-77-A5G8	01	B	False	1	Prince Charles Hospital	1	A27Q	male	70.0	not reported	90.0	4.0	Peripheral Lung	Stage IIB	Squamous cell carcinoma, NOS	0.44	60.0	10.0	7.199999999999999	33084081.0
+TCGA-77-A5GB-01B	LUSC	77	A5GB	TCGA-77-A5GB	01	B	False	1	Prince Charles Hospital	1	A27Q	male	90.0	not reported	52.0	2.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, keratinizing, NOS	0.28	80.0	5.0	7.35	16899633.0
+TCGA-77-A5GF-01A	LUSC	77	A5GF	TCGA-77-A5GF	01	A	False	1	Prince Charles Hospital	1	A27Q	male	70.0	not reported	60.0	4.0	Peripheral Lung	Stage IIA	Squamous cell carcinoma, NOS	0.56	65.0	10.0	9.149999999999999	21073311.0
+TCGA-77-A5GH-01A	LUSC	77	A5GH	TCGA-77-A5GH	01	A	False	1	Prince Charles Hospital	1	A27Q	male	81.0	not reported	11.0	3.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.46	65.0	3.0	8.7	18226796.0
+TCGA-78-7143-01A	LUAD	78	7143	TCGA-78-7143	01	A	False	0	Prince Charles Hospital	1	2039	female	62.0	white		1.0	Central Lung	Stage IB	Bronchiolo-alveolar carcinoma, non-mucinous	0.52	72.5	5.0	8.85	45762738.0
+TCGA-78-7145-01A	LUAD	78	7145	TCGA-78-7145	01	A	False	0	Prince Charles Hospital	1	2039	female	52.0	white	25.0	4.0	Peripheral Lung	Stage IV	Adenocarcinoma, NOS	0.63	77.5	10.0	9.35	39503840.0
+TCGA-78-7147-01A	LUAD	78	7147	TCGA-78-7147	01	A	False	0	Prince Charles Hospital	1	2039	female	67.0	white	50.0	2.0	Peripheral Lung	Stage IIB	Adenocarcinoma, NOS	0.62	75.0	3.5	8.3	53557048.0
+TCGA-78-7148-01A	LUAD	78	7148	TCGA-78-7148	01	A	False	0	Prince Charles Hospital	1	2039	male	71.0	white	57.0	2.0	Peripheral Lung	Stage IIB	Adenocarcinoma with mixed subtypes	0.6	67.5	0.0	9.0	44447893.0
+TCGA-78-7149-01A	LUAD	78	7149	TCGA-78-7149	01	A	False	0	Prince Charles Hospital	1	2039	male	71.0	white	115.0	2.0	Central Lung	Stage IIIB	Adenocarcinoma with mixed subtypes	0.6	75.0	5.0	8.2	45379241.0
+TCGA-78-7150-01A	LUAD	78	7150	TCGA-78-7150	01	A	False	0	Prince Charles Hospital	1	2039	male	59.0	white	37.0	4.0	Central Lung	Stage IIB	Adenocarcinoma, NOS	0.46	80.0	15.0	8.95	44307265.0
+TCGA-78-7152-01A	LUAD	78	7152	TCGA-78-7152	01	A	False	0	Prince Charles Hospital	1	2039	male	65.0	white	40.0	4.0	Peripheral Lung	Stage IB	Adenocarcinoma with mixed subtypes	0.55	65.0	10.0	7.4	23192896.0
+TCGA-78-7153-01A	LUAD	78	7153	TCGA-78-7153	01	A	False	0	Prince Charles Hospital	1	2039	female	65.0	white	20.0	4.0	Peripheral Lung	Stage IB	Adenocarcinoma with mixed subtypes	0.57	67.5	2.5	7.550000000000001	42825228.0
+TCGA-78-7154-01A	LUAD	78	7154	TCGA-78-7154	01	A	False	0	Prince Charles Hospital	1	2039	male	72.0	white	112.5	4.0	Peripheral Lung	Stage IIIA	Adenocarcinoma, NOS	0.5	77.5	1.5	8.75	41339647.0
+TCGA-78-7155-01A	LUAD	78	7155	TCGA-78-7155	01	A	False	0	Prince Charles Hospital	1	2039	male	68.0	white	48.0	4.0	Peripheral Lung	Stage IB	Adenocarcinoma, NOS	0.82	75.0	14.0	9.4	34533346.0
+TCGA-78-7156-01A	LUAD	78	7156	TCGA-78-7156	01	A	False	0	Prince Charles Hospital	1	2039	male	62.0	white	84.0	3.0	Peripheral Lung	Stage IV	Adenocarcinoma with mixed subtypes	0.8	80.0	0.0	9.15	36754736.0
+TCGA-78-7158-01A	LUAD	78	7158	TCGA-78-7158	01	A	False	0	Prince Charles Hospital	1	2039	female	59.0	white	14.0	4.0	Peripheral Lung	Stage IIIB	Adenocarcinoma with mixed subtypes	0.9	75.0	0.0	9.35	52277626.0
+TCGA-78-7159-01A	LUAD	78	7159	TCGA-78-7159	01	A	False	0	Prince Charles Hospital	1	2039	female	60.0	white	21.0	4.0	Peripheral Lung	Stage IA	Adenocarcinoma with mixed subtypes	0.29	70.0	11.5	9.15	43537351.0
+TCGA-78-7160-01A	LUAD	78	7160	TCGA-78-7160	01	A	False	0	Prince Charles Hospital	1	2039	male	61.0	white	43.8	4.0	Central Lung	Stage IV	Adenocarcinoma with mixed subtypes	0.29	60.0	0.0	9.0	35772892.0
+TCGA-78-7161-01A	LUAD	78	7161	TCGA-78-7161	01	A	False	0	Prince Charles Hospital	1	2039	female	69.0	white	27.8	4.0	Peripheral Lung	Stage IIB	Adenocarcinoma with mixed subtypes	0.75	80.0	0.0	9.2	65866294.0
+TCGA-78-7162-01A	LUAD	78	7162	TCGA-78-7162	01	A	False	0	Prince Charles Hospital	1	2066	male	75.0	white	12.0	2.0	Peripheral Lung	Stage IA	Adenocarcinoma with mixed subtypes	0.27	60.0	0.0	7.65	60861964.0
+TCGA-78-7163-01A	LUAD	78	7163	TCGA-78-7163	01	A	False	0	Prince Charles Hospital	1	2066	male	60.0	white	41.0	4.0	Peripheral Lung	Stage IB	Adenocarcinoma, NOS	0.68	80.0	0.0	7.300000000000001	59479879.00000001
+TCGA-78-7166-01A	LUAD	78	7166	TCGA-78-7166	01	A	False	0	Prince Charles Hospital	1	2066	male	84.0	white	38.0	3.0	Central Lung	Stage IIB	Adenocarcinoma, NOS	0.63	70.0	19.0	7.25	66140963.99999999
+TCGA-78-7167-01A	LUAD	78	7167	TCGA-78-7167	01	A	False	0	Prince Charles Hospital	1	2066	male	77.0	white	64.0	2.0	Peripheral Lung	Stage IV	Papillary adenocarcinoma, NOS	0.84	75.0	0.0	9.25	76702684.00000001
+TCGA-78-7535-01A	LUAD	78	7535	TCGA-78-7535	01	A	False	0	Prince Charles Hospital	1	2066	male	45.0	white	35.0	2.0		Stage IB	Adenocarcinoma, NOS	0.6	80.0	0.0	7.05	70717473.0
+TCGA-78-7536-01A	LUAD	78	7536	TCGA-78-7536	01	A	False	0	Prince Charles Hospital	1	2066	male	69.0	white	44.0	4.0		Stage IIIA	Adenocarcinoma, NOS	0.78	77.5	0.0	9.15	76126859.0
+TCGA-78-7537-01A	LUAD	78	7537	TCGA-78-7537	01	A	False	0	Prince Charles Hospital	1	2066	male	72.0	not reported	20.0	3.0		Stage IB	Adenocarcinoma with mixed subtypes	0.74	80.0	0.0	7.4	69858327.00000001
+TCGA-78-7539-01A	LUAD	78	7539	TCGA-78-7539	01	A	False	0	Prince Charles Hospital	1	2066	female	75.0	white	2.2	3.0		Stage IIA	Adenocarcinoma with mixed subtypes	0.52	75.0	0.0	7.85	68605988.0
+TCGA-78-7540-01A	LUAD	78	7540	TCGA-78-7540	01	A	False	0	Prince Charles Hospital	1	2066	female	66.0	white		1.0		Stage IB	Bronchio-alveolar carcinoma, mucinous	0.59	85.0	0.0	8.100000000000001	71375451.0
+TCGA-78-7542-01A	LUAD	78	7542	TCGA-78-7542	01	A	False	0	Prince Charles Hospital	1	2066	male	56.0	white	60.0	2.0		Stage IB	Adenocarcinoma, NOS	0.35	80.0	19.0	8.0	74692302.0
+TCGA-78-7633-01A	LUAD	78	7633	TCGA-78-7633	01	A	False	0	Prince Charles Hospital	1	2066	male	67.0	white	94.0	4.0		Stage IB	Adenocarcinoma with mixed subtypes	0.75	77.5	0.0	9.0	80355766.0
+TCGA-78-8640-01A	LUAD	78	8640	TCGA-78-8640	01	A	False	0	Prince Charles Hospital	1	2403	male	59.0	not reported	45.0	2.0	Peripheral Lung	Stage IIA	Adenocarcinoma, NOS	0.35	70.0	5.0	7.3	36379387.0
+TCGA-78-8648-01A	LUAD	78	8648	TCGA-78-8648	01	A	False	0	Prince Charles Hospital	1	2403	female	58.0	not reported	45.0	2.0	Peripheral Lung	Stage IIB	Adenocarcinoma, NOS		80.0	0.0	7.65	33825282.99999999
+TCGA-78-8655-01A	LUAD	78	8655	TCGA-78-8655	01	A	False	0	Prince Charles Hospital	1	2403	female	77.0	not reported	10.0	4.0	Peripheral Lung	Stage IA	Adenocarcinoma with mixed subtypes	0.46	60.0	0.0	7.8999999999999995	31285261.0
+TCGA-78-8660-01A	LUAD	78	8660	TCGA-78-8660	01	A	False	0	Prince Charles Hospital	1	2403	male	69.0	not reported	11.0	4.0	Peripheral Lung	Stage IIB	Adenocarcinoma, NOS	0.33	70.0	0.0	7.35	37138562.0
+TCGA-78-8662-01A	LUAD	78	8662	TCGA-78-8662	01	A	False	0	Prince Charles Hospital	1	2403	female	53.0	not reported	45.0	2.0	Peripheral Lung	Stage IB	Adenocarcinoma, NOS	0.79	75.0	0.0	9.25	31026854.0
+TCGA-79-5596-01A	LUSC	79	5596	TCGA-79-5596	01	A	False	1	Ontario Institute for Cancer Research (OICR)/Ottawa	1	1949	male		not reported	40.0	4.0	Peripheral Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.69	70.0	12.0	8.3	65299146.0
+TCGA-80-5607-01A	LUAD	80	5607	TCGA-80-5607	01	A	False	0	Ontario Institute for Cancer Research (OICR)/Ottawa	1	1949	female		not reported	15.0	3.0	Peripheral Lung	Stage IIB	Adenocarcinoma, NOS	0.49	70.0	0.0	8.85	26523703.0
+TCGA-80-5608-01A	LUAD	80	5608	TCGA-80-5608	01	A	False	0	Ontario Institute for Cancer Research (OICR)/Ottawa	1	1949	female		not reported	26.0	2.0	Peripheral Lung	Stage IA	Adenocarcinoma, NOS	0.48	90.0	0.0	7.1	65831072.0
+TCGA-83-5908-01A	LUAD	83	5908	TCGA-83-5908	01	A	False	0	CHI-Penrose Colorado	1	2287	female	59.0	white	69.0	4.0		Stage IA	Adenocarcinoma, NOS	0.4	60.0	2.0	9.35	54429065.0
+TCGA-85-6175-01A	LUSC	85	6175	TCGA-85-6175	01	A	False	1	Asterand	1	1820	female	63.0	white		1.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.3	70.0	2.0		90389236.0
+TCGA-85-6560-01A	LUSC	85	6560	TCGA-85-6560	01	A	False	1	Asterand	1	1820	male	59.0	white	40.0	4.0	Peripheral Lung	Stage IIA	Squamous cell carcinoma, NOS	0.49	82.5	7.5		90555641.0
+TCGA-85-6561-01A	LUSC	85	6561	TCGA-85-6561	01	A	False	1	Asterand	1	1820	male	66.0	white	35.0	4.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.4	57.5	15.0		86184554.0
+TCGA-85-6798-01A	LUSC	85	6798	TCGA-85-6798	01	A	False	1	Asterand	1	1949	male	57.0	white	35.0	2.0	Central Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.47	75.0	20.0	8.149999999999999	57455460.0
+TCGA-85-7696-01A	LUSC	85	7696	TCGA-85-7696	01	A	False	1	Asterand	1	2125	male	64.0	white	30.0	4.0	Central Lung	Stage IA	Squamous cell carcinoma, NOS	0.76	70.0	6.5		75455041.0
+TCGA-85-7697-01A	LUSC	85	7697	TCGA-85-7697	01	A	False	1	Asterand	1	2125	male	49.0	white	30.0	3.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.36	45.0	3.5		75202049.0
+TCGA-85-7698-01A	LUSC	85	7698	TCGA-85-7698	01	A	False	1	Asterand	1	2125	male	48.0	white	44.0	3.0	Central Lung	Stage IA	Squamous cell carcinoma, NOS	0.63	62.5	10.0		67942019.0
+TCGA-85-7699-01A	LUSC	85	7699	TCGA-85-7699	01	A	False	1	Asterand	1	2125	male	73.0	white	74.0	3.0	Central Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.65	71.5	7.5		73609946.0
+TCGA-85-7710-01A	LUSC	85	7710	TCGA-85-7710	01	A	False	1	Asterand	1	2125	female	59.0	white	45.0	2.0		Stage IA	Squamous cell carcinoma, NOS	0.73	80.0	3.5		57724867.0
+TCGA-85-7843-01A	LUSC	85	7843	TCGA-85-7843	01	A	False	1	Asterand	1	2125	male	50.0	white	35.0	2.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.41	72.5	0.0		74131174.0
+TCGA-85-7844-01A	LUSC	85	7844	TCGA-85-7844	01	A	False	1	Asterand	1	2125	male	71.0	white	40.0	2.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.33	70.0	0.0		65610736.0
+TCGA-85-7950-01A	LUSC	85	7950	TCGA-85-7950	01	A	False	1	Asterand	1	2187	male	46.0	white	27.0	2.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.52	75.0	19.0		42711212.0
+TCGA-85-8048-01A	LUSC	85	8048	TCGA-85-8048	01	A	False	1	Asterand	1	2247	male	62.0	white	50.0	2.0	Peripheral Lung	Stage IA	Squamous cell carcinoma, NOS	0.18	65.0	3.5		37785877.0
+TCGA-85-8049-01A	LUSC	85	8049	TCGA-85-8049	01	A	False	1	Asterand	1	2247	male	57.0	white		1.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.2	60.0	1.0		45285143.0
+TCGA-85-8052-01A	LUSC	85	8052	TCGA-85-8052	01	A	False	1	Asterand	1	2247	male	53.0	white	40.0	2.0	Peripheral Lung	Stage IIB	Squamous cell carcinoma, NOS	0.37	70.0	10.0		28935146.0
+TCGA-85-8070-01A	LUSC	85	8070	TCGA-85-8070	01	A	False	1	Asterand	1	2247	male	71.0	white	50.0	2.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.95	85.0	8.0		31438683.0
+TCGA-85-8071-01A	LUSC	85	8071	TCGA-85-8071	01	A	False	1	Asterand	1	2247	male	52.0	white	30.0	2.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.86	85.0	5.0		26777296.0
+TCGA-85-8072-01A	LUSC	85	8072	TCGA-85-8072	01	A	False	1	Asterand	1	2247	male	60.0	white	15.0	2.0	Central Lung	Stage IA	Squamous cell carcinoma, NOS	0.42	65.0	0.0		30615830.0
+TCGA-85-8276-01A	LUSC	85	8276	TCGA-85-8276	01	A	False	1	Asterand	1	2296	male	62.0	white	20.0	2.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.26	65.0	6.5	8.3	42094910.0
+TCGA-85-8277-01A	LUSC	85	8277	TCGA-85-8277	01	A	False	1	Asterand	1	2296	male	70.0	white		1.0		Stage IIIA	Squamous cell carcinoma, NOS	0.56	70.0	5.0	8.25	47560612.0
+TCGA-85-8287-01A	LUSC	85	8287	TCGA-85-8287	01	A	False	1	Asterand	1	2296	male	72.0	white	50.0	2.0	Central Lung	Stage IA	Squamous cell carcinoma, NOS	0.34	70.0	5.0	9.1	45859349.99999999
+TCGA-85-8288-01A	LUSC	85	8288	TCGA-85-8288	01	A	False	1	Asterand	1	2296	male	70.0	white	50.0	2.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.61	80.0	5.0	8.5	50940201.0
+TCGA-85-8350-01A	LUSC	85	8350	TCGA-85-8350	01	A	False	1	Asterand	1	2296	male	61.0	white	40.0	2.0	Peripheral Lung	Stage IA	Squamous cell carcinoma, NOS	0.32	70.0	0.0	8.850000000000001	46192274.0
+TCGA-85-8351-01A	LUSC	85	8351	TCGA-85-8351	01	A	False	1	Asterand	1	2296	male	72.0	white	60.0	2.0	Peripheral Lung	Stage IIA	Squamous cell carcinoma, NOS	0.49	75.0	12.5	9.5	45283415.0
+TCGA-85-8352-01A	LUSC	85	8352	TCGA-85-8352	01	A	False	1	Asterand	1	2326	male	67.0	white	50.0	2.0	Peripheral Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.93	80.0	5.0		44534900.0
+TCGA-85-8353-01A	LUSC	85	8353	TCGA-85-8353	01	A	False	1	Asterand	1	2296	male	72.0	white	50.0	2.0	Peripheral Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.41	60.0	20.0	9.3	52420076.0
+TCGA-85-8354-01A	LUSC	85	8354	TCGA-85-8354	01	A	False	1	Asterand	1	2326	male	53.0	white	30.0	2.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.75	80.0	0.0		43436907.0
+TCGA-85-8355-01A	LUSC	85	8355	TCGA-85-8355	01	A	False	1	Asterand	1	2296	male	63.0	white		1.0	Central Lung	Stage IA	Squamous cell carcinoma, NOS	0.23	70.0	15.0	9.3	49110405.0
+TCGA-85-8479-01A	LUSC	85	8479	TCGA-85-8479	01	A	False	1	Asterand	1	2326	male	66.0	white	90.0	4.0	Central Lung	Stage IA	Papillary squamous cell carcinoma	0.67	72.5	7.5		48733251.0
+TCGA-85-8481-01A	LUSC	85	8481	TCGA-85-8481	01	A	False	1	Asterand	1	2326	male	70.0	white	80.0	4.0	Peripheral Lung	Stage IIB	Squamous cell carcinoma, NOS	0.29	65.0	0.0		39922893.0
+TCGA-85-8580-01A	LUSC	85	8580	TCGA-85-8580	01	A	False	1	Asterand	1	2403	female	52.0	white	38.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.33	60.0	8.0		35294505.0
+TCGA-85-8582-01A	LUSC	85	8582	TCGA-85-8582	01	A	False	1	Asterand	1	2403	male	49.0	white	40.0	2.0	Central Lung	Stage IA	Squamous cell carcinoma, keratinizing, NOS	0.21	60.0	5.0		35869188.0
+TCGA-85-8584-01A	LUSC	85	8584	TCGA-85-8584	01	A	False	1	Asterand	1	2403	male	71.0	white	50.0	2.0	Central Lung	Stage IIA	Papillary squamous cell carcinoma	0.39	75.0	5.0		36785648.0
+TCGA-85-8664-01A	LUSC	85	8664	TCGA-85-8664	01	A	False	1	Asterand	1	2403	male	73.0	white	60.0	2.0		Stage IIB	Squamous cell carcinoma, NOS	0.65	80.0	0.0		42077318.0
+TCGA-85-8666-01A	LUSC	85	8666	TCGA-85-8666	01	A	False	1	Asterand	1	2403	male	65.0	white	55.0	2.0		Stage IB	Squamous cell carcinoma, NOS	0.27	57.5	0.0		39213565.0
+TCGA-85-A4CL-01A	LUSC	85	A4CL	TCGA-85-A4CL	01	A	False	1	Asterand	1	A26W	male	65.0	white	40.0	2.0	Central Lung	Stage IA	Squamous cell carcinoma, NOS	0.65	57.5	10.0	8.75	54632267.0
+TCGA-85-A4CN-01A	LUSC	85	A4CN	TCGA-85-A4CN	01	A	False	1	Asterand	1	A24H	female	56.0	white		4.0	Peripheral Lung	Stage IIB	Squamous cell carcinoma, NOS	0.54	75.0	5.0	7.4	37024378.0
+TCGA-85-A4JB-01A	LUSC	85	A4JB	TCGA-85-A4JB	01	A	False	1	Asterand	1	A262	male	74.0	white	25.0	2.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.33	55.0	13.5	7.4	44739305.0
+TCGA-85-A4JC-01A	LUSC	85	A4JC	TCGA-85-A4JC	01	A	False	1	Asterand	1	A24Z	male	84.0	white	25.0	2.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.48	85.0	5.0	7.9	37575404.0
+TCGA-85-A4PA-01A	LUSC	85	A4PA	TCGA-85-A4PA	01	A	False	1	Asterand	1	A24Z	male	61.0	white	40.0	4.0	Central Lung	Stage IB	Squamous cell carcinoma, large cell, nonkeratinizing, NOS	0.43	75.0	0.0	7.85	38738676.0
+TCGA-85-A4QQ-01A	LUSC	85	A4QQ	TCGA-85-A4QQ	01	A	False	1	Asterand	1	A262	male	68.0	white	50.0	2.0	Central Lung	Stage IB	Squamous cell carcinoma, keratinizing, NOS	0.56	60.0	10.0	7.800000000000001	54230084.0
+TCGA-85-A4QR-01A	LUSC	85	A4QR	TCGA-85-A4QR	01	A	False	1	Asterand	1	A24Z	male	67.0	white	50.0	4.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.73	90.0	0.0	8.5	45196631.0
+TCGA-85-A50M-01A	LUSC	85	A50M	TCGA-85-A50M	01	A	False	1	Asterand	1	A262	male	47.0	asian	15.0	4.0	Peripheral Lung	Stage IIA	Squamous cell carcinoma, NOS	0.19	60.0	0.0	8.350000000000001	51904110.0
+TCGA-85-A50Z-01A	LUSC	85	A50Z	TCGA-85-A50Z	01	A	False	1	Asterand	1	A262	male	57.0	white	45.0	2.0	Peripheral Lung	Stage IIA	Squamous cell carcinoma, NOS	0.36	95.0	0.0	7.6	50526520.0
+TCGA-85-A510-01A	LUSC	85	A510	TCGA-85-A510	01	A	False	1	Asterand	1	A26W	female	74.0	white	45.0	2.0	Peripheral Lung	Stage IIB	Squamous cell carcinoma, NOS	0.55	100.0	10.0	8.25	34718988.0
+TCGA-85-A511-01A	LUSC	85	A511	TCGA-85-A511	01	A	False	1	Asterand	1	A262	male	62.0	white	40.0	2.0	Peripheral Lung	Stage IIB	Squamous cell carcinoma, NOS	0.25	95.0	15.0	9.05	47371337.0
+TCGA-85-A512-01A	LUSC	85	A512	TCGA-85-A512	01	A	False	1	Asterand	1	A26W	male	46.0	white	25.0	2.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.77	95.0	10.0	7.9	42191756.0
+TCGA-85-A513-01A	LUSC	85	A513	TCGA-85-A513	01	A	False	1	Asterand	1	A26W	female	60.0	asian		1.0	Peripheral Lung	Stage IA	Squamous cell carcinoma, NOS	0.24	60.0	0.0	7.15	41258270.0
+TCGA-85-A53L-01A	LUSC	85	A53L	TCGA-85-A53L	01	A	False	1	Asterand	1	A26W	male	63.0	asian	30.0	4.0	Peripheral Lung	Stage IIA	Squamous cell carcinoma, NOS	0.43	65.0	20.0	7.25	57908054.0
+TCGA-85-A5B5-01A	LUSC	85	A5B5	TCGA-85-A5B5	01	A	False	1	Asterand	1	A26W	male	58.0	white	15.0	4.0	Central Lung	Stage IA	Squamous cell carcinoma, NOS	0.8	65.0	10.0	7.3	46667009.0
+TCGA-86-6562-01A	LUAD	86	6562	TCGA-86-6562	01	A	False	0	Asterand	1	1755	male	52.0	white		1.0	Central Lung	Stage IIA	Adenocarcinoma, NOS	0.46	75.0	6.5	8.85	36779372.0
+TCGA-86-6851-01A	LUAD	86	6851	TCGA-86-6851	01	A	False	0	Asterand	1	1949	female	73.0	white	52.0	2.0		Stage IIA	Adenocarcinoma with mixed subtypes	0.32	80.0	0.0	9.15	78564862.0
+TCGA-86-7713-01A	LUAD	86	7713	TCGA-86-7713	01	A	False	0	Asterand	1	2066	male	70.0	white		1.0	Peripheral Lung	Stage IIA	Adenocarcinoma, NOS	0.65	70.0	0.0	9.45	78300251.0
+TCGA-86-7714-01A	LUAD	86	7714	TCGA-86-7714	01	A	False	0	Asterand	1	2170	female	61.0	black or african american	43.0	2.0	Peripheral Lung	Stage IIIA	Adenocarcinoma with mixed subtypes	0.67	80.0	0.0	8.7	22613184.0
+TCGA-86-8054-01A	LUAD	86	8054	TCGA-86-8054	01	A	False	0	Asterand	1	2241	male	61.0	white	9.0	2.0	Central Lung	Stage IIB	Acinar cell carcinoma	0.74	82.5	17.5	8.8	61774793.0
+TCGA-86-8055-01A	LUAD	86	8055	TCGA-86-8055	01	A	False	0	Asterand	1	2241	male	79.0	white	60.0	2.0	Peripheral Lung	Stage IIA	Adenocarcinoma, NOS	0.28	60.0	3.0	9.3	67078723.0
+TCGA-86-8056-01A	LUAD	86	8056	TCGA-86-8056	01	A	False	0	Asterand	1	2241	female	63.0	white	36.0	3.0	Peripheral Lung	Stage IIIA	Adenocarcinoma with mixed subtypes	0.37	87.5	3.5	9.7	71340640.0
+TCGA-86-8073-01A	LUAD	86	8073	TCGA-86-8073	01	A	False	0	Asterand	1	2241	male	58.0	white	40.0	2.0	Peripheral Lung	Stage IB	Bronchiolo-alveolar adenocarcinoma, NOS	0.43	80.0	1.0	8.35	75919997.0
+TCGA-86-8074-01A	LUAD	86	8074	TCGA-86-8074	01	A	False	0	Asterand	1	2241	female	62.0	white	40.0	2.0	Peripheral Lung	Stage IIA	Papillary adenocarcinoma, NOS	0.51	80.0	2.0	8.25	80196986.0
+TCGA-86-8075-01A	LUAD	86	8075	TCGA-86-8075	01	A	False	0	Asterand	1	2241	female	66.0	white		1.0	Peripheral Lung	Stage IB	Adenocarcinoma, NOS	0.3	75.0	0.0	8.3	72559699.0
+TCGA-86-8076-01A	LUAD	86	8076	TCGA-86-8076	01	A	False	0	Asterand	1	2241	male	42.0	white		1.0	Peripheral Lung	Stage IA	Papillary adenocarcinoma, NOS	0.24	60.0	5.0	7.85	61687077.0
+TCGA-86-8278-01A	LUAD	86	8278	TCGA-86-8278	01	A	False	0	Asterand	1	2287	female	63.0	white		1.0	Peripheral Lung	Stage IIB	Mucinous adenocarcinoma	0.56	80.0	0.0	9.05	84585719.0
+TCGA-86-8279-01A	LUAD	86	8279	TCGA-86-8279	01	A	False	0	Asterand	1	2287	male	46.0	white		1.0	Peripheral Lung	Stage IIA	Adenocarcinoma, NOS	0.5	80.0	4.0	9.05	70000639.0
+TCGA-86-8280-01A	LUAD	86	8280	TCGA-86-8280	01	A	False	0	Asterand	1	2287	female	54.0	white		1.0	Peripheral Lung	Stage IIA	Bronchiolo-alveolar carcinoma, non-mucinous	0.45	72.5	0.0	8.2	58854103.0
+TCGA-86-8281-01A	LUAD	86	8281	TCGA-86-8281	01	A	False	0	Asterand	1	2287	male	75.0	white	30.0	3.0	Peripheral Lung	Stage IA	Adenocarcinoma, NOS	0.54	85.0	0.0	8.5	60982746.0
+TCGA-86-8358-01A	LUAD	86	8358	TCGA-86-8358	01	A	False	0	Asterand	1	2326	male	44.0	white	20.0	2.0	Peripheral Lung	Stage IB	Adenocarcinoma, NOS	0.72	80.0	12.5	8.850000000000001	28226833.0
+TCGA-86-8359-01A	LUAD	86	8359	TCGA-86-8359	01	A	False	0	Asterand	1	2326	male	52.0	white	36.0	2.0	Peripheral Lung	Stage IIIA	Adenocarcinoma, NOS	0.44	72.5	0.0	7.6	34596836.0
+TCGA-86-8585-01A	LUAD	86	8585	TCGA-86-8585	01	A	False	0	Asterand	1	2403	male	57.0	white		1.0	Peripheral Lung	Stage IB	Solid carcinoma, NOS	0.29	75.0	5.0	7.6	32154495.0
+TCGA-86-8668-01A	LUAD	86	8668	TCGA-86-8668	01	A	False	0	Asterand	1	2403	female	61.0	white		1.0	Peripheral Lung	Stage IA	Bronchio-alveolar carcinoma, mucinous	0.41	67.5	0.0	9.45	28921504.0
+TCGA-86-8669-01A	LUAD	86	8669	TCGA-86-8669	01	A	False	0	Asterand	1	2403	male	64.0	white	47.0	2.0	Peripheral Lung	Stage IA	Adenocarcinoma, NOS	0.57	80.0	0.0	9.7	33645680.0
+TCGA-86-8671-01A	LUAD	86	8671	TCGA-86-8671	01	A	False	0	Asterand	1	2403	female	72.0	white		1.0	Peripheral Lung	Stage IIB	Papillary adenocarcinoma, NOS	1.0	58.0	0.0	7.85	39813396.0
+TCGA-86-8672-01A	LUAD	86	8672	TCGA-86-8672	01	A	False	0	Asterand	1	2403	male	59.0	white		1.0	Central Lung	Stage IIB	Adenocarcinoma, NOS	0.32	65.0	10.0	8.8	30195578.0
+TCGA-86-8673-01A	LUAD	86	8673	TCGA-86-8673	01	A	False	0	Asterand	1	2403	male	61.0	white	54.0	2.0		Stage IB	Bronchiolo-alveolar carcinoma, non-mucinous	0.4	65.0	14.0	7.6	35518792.0
+TCGA-86-8674-01A	LUAD	86	8674	TCGA-86-8674	01	A	False	0	Asterand	1	2403	male	50.0	white	37.5	4.0	Peripheral Lung	Stage IIA	Papillary adenocarcinoma, NOS	0.58	70.0	0.0	7.45	37256926.0
+TCGA-86-A456-01A	LUAD	86	A456	TCGA-86-A456	01	A	False	0	Asterand	1	A24H	female	78.0	asian		4.0	Peripheral Lung	Stage IA	Papillary adenocarcinoma, NOS	0.36	100.0	0.0	7.65	36233662.0
+TCGA-86-A4D0-01A	LUAD	86	A4D0	TCGA-86-A4D0	01	A	False	0	Asterand	1	A24H	male	48.0	white		2.0		Stage IIA	Adenocarcinoma, NOS	0.79	82.5	15.0	7.55	46659058.0
+TCGA-86-A4JF-01A	LUAD	86	A4JF	TCGA-86-A4JF	01	A	False	0	Asterand	1	A24X	male	56.0	white		4.0	Central Lung	Stage IIB	Adenocarcinoma, NOS	0.25	85.0	5.0	7.4	49411204.0
+TCGA-86-A4P7-01A	LUAD	86	A4P7	TCGA-86-A4P7	01	A	False	0	Asterand	1	A24X	female	63.0	white		1.0	Peripheral Lung	Stage IB	Adenocarcinoma, NOS	0.19	67.5	0.0	7.35	45020230.0
+TCGA-86-A4P8-01A	LUAD	86	A4P8	TCGA-86-A4P8	01	A	False	0	Asterand	1	A24X	female	59.0	white		1.0		Stage IIIA	Adenocarcinoma, NOS	0.46	60.0	0.0	7.4	47777321.0
+TCGA-90-6837-01A	LUSC	90	6837	TCGA-90-6837	01	A	False	1	ABS - IUPUI	1	1949	male	64.0	white	40.0	4.0		Stage IIB	Squamous cell carcinoma, NOS		32.5	7.5	8.9	63039807.0
+TCGA-90-7766-01A	LUSC	90	7766	TCGA-90-7766	01	A	False	1	ABS - IUPUI	1	2125	female	66.0	white	30.0	2.0		Stage IA	Squamous cell carcinoma, NOS	0.59	61.0	0.0		64751430.0
+TCGA-90-7767-01A	LUSC	90	7767	TCGA-90-7767	01	A	False	1	ABS - IUPUI	1	2125	male	56.0	white	25.0	3.0		Stage IIB	Squamous cell carcinoma, NOS	0.54	59.0	2.5		62940419.0
+TCGA-90-7769-01A	LUSC	90	7769	TCGA-90-7769	01	A	False	1	ABS - IUPUI	1	2125	male	55.0	white	36.0	3.0		Stage IIB	Squamous cell carcinoma, NOS	0.73	63.0	8.5		62313776.0
+TCGA-90-7964-01A	LUSC	90	7964	TCGA-90-7964	01	A	False	1	ABS - IUPUI	1	2187	male	70.0	white	180.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.71	61.0	0.0		60582142.0
+TCGA-90-A4ED-01A	LUSC	90	A4ED	TCGA-90-A4ED	01	A	False	1	ABS - IUPUI	1	A24Z	male	69.0	white	30.0	3.0		Stage IB	Squamous cell carcinoma, NOS	0.38	65.0	5.0	7.550000000000001	41516893.0
+TCGA-90-A4EE-01A	LUSC	90	A4EE	TCGA-90-A4EE	01	A	False	1	ABS - IUPUI	1	A24Z	male	53.0	white	68.0	2.0		Stage IIA	Squamous cell carcinoma, NOS	0.42	70.0	20.0	8.8	46777979.0
+TCGA-90-A59Q-01A	LUSC	90	A59Q	TCGA-90-A59Q	01	A	False	1	ABS - IUPUI	1	A26W	female	61.0	white	80.0	2.0		Stage IIA	Squamous cell carcinoma, NOS	0.28	65.0	10.0	7.699999999999999	41051511.0
+TCGA-91-6828-01A	LUAD	91	6828	TCGA-91-6828	01	A	False	0	ABS - IUPUI	1	1858	male	70.0	white		3.0		Stage IA	Adenocarcinoma, NOS	0.37	67.5	0.0	9.1	24166057.0
+TCGA-91-6829-01A	LUAD	91	6829	TCGA-91-6829	01	A	False	0	ABS - IUPUI	1	1858	male	78.0	white	94.5	4.0		Stage IB	Bronchiolo-alveolar carcinoma, non-mucinous	0.49	75.0	5.0	9.350000000000001	39010072.0
+TCGA-91-6835-01A	LUAD	91	6835	TCGA-91-6835	01	A	False	0	ABS - IUPUI	1	1858	female	81.0	white	25.0	3.0		Stage IA	Adenocarcinoma, NOS	0.21	70.0	10.0	9.05	42841858.0
+TCGA-91-6840-01A	LUAD	91	6840	TCGA-91-6840	01	A	False	0	ABS - IUPUI	1	1949	female	59.0	white	50.0	3.0		Stage IA	Adenocarcinoma, NOS	0.62	75.0	0.0	9.15	26467925.0
+TCGA-91-6847-01A	LUAD	91	6847	TCGA-91-6847	01	A	False	0	ABS - IUPUI	1	1949	female	62.0	white		3.0		Stage IB	Adenocarcinoma, NOS	0.85	67.5	20.0	8.35	58003569.0
+TCGA-91-6849-01A	LUAD	91	6849	TCGA-91-6849	01	A	False	0	ABS - IUPUI	1	1949	female	75.0	black or african american	30.0	3.0		Stage IIIA	Adenocarcinoma, NOS	0.62	77.5	1.5	7.15	24263021.0
+TCGA-91-7771-01A	LUAD	91	7771	TCGA-91-7771	01	A	False	0	ABS - IUPUI	1	2170	male	62.0	white	75.0	4.0		Stage IIB	Adenocarcinoma, NOS	0.32	61.0	0.0	8.95	39929652.0
+TCGA-91-8496-01A	LUAD	91	8496	TCGA-91-8496	01	A	False	0	ABS - IUPUI	1	2403	female	63.0	white		1.0		Stage IB	Bronchiolo-alveolar carcinoma, non-mucinous	0.5	57.5	0.0	9.100000000000001	32280609.0
+TCGA-91-8497-01A	LUAD	91	8497	TCGA-91-8497	01	A	False	0	ABS - IUPUI	1	2403	female	75.0	white		1.0		Stage IA	Adenocarcinoma, NOS	0.45	72.5	0.0	7.15	32921817.0
+TCGA-91-8499-01A	LUAD	91	8499	TCGA-91-8499	01	A	False	0	ABS - IUPUI	1	2403	female	76.0	white	90.0	2.0		Stage IA	Adenocarcinoma, NOS	0.77	70.0	37.5	7.6	31675012.0
+TCGA-91-A4BC-01A	LUAD	91	A4BC	TCGA-91-A4BC	01	A	False	0	ABS - IUPUI	1	A24H	male	59.0	white	30.0	4.0		Stage IIA	Adenocarcinoma, NOS	0.22	72.5	0.5	7.75	37712946.0
+TCGA-91-A4BD-01A	LUAD	91	A4BD	TCGA-91-A4BD	01	A	False	0	ABS - IUPUI	1	A24H	male	78.0	white		3.0		Stage IIA	Adenocarcinoma, NOS	0.55	75.0	0.0	7.199999999999999	29993739.0
+TCGA-92-7340-01A	LUSC	92	7340	TCGA-92-7340	01	A	False	1	Washington University - St. Louis	1	2045	female	45.0	white	15.0	4.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.39	60.0	0.0	8.65	63845479.0
+TCGA-92-7341-01A	LUSC	92	7341	TCGA-92-7341	01	A	False	1	Washington University - St. Louis	1	2045	male	71.0	white	50.0	2.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.51	65.0	5.0	8.149999999999999	66450985.0
+TCGA-92-8063-01A	LUSC	92	8063	TCGA-92-8063	01	A	False	1	Washington University - St. Louis	1	2247	male	52.0	white	74.0	2.0	Central Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.51	75.0	10.0		31635591.0
+TCGA-92-8064-01A	LUSC	92	8064	TCGA-92-8064	01	A	False	1	Washington University - St. Louis	1	2247	male	58.0	white	30.0	4.0	Central Lung		Squamous cell carcinoma, NOS	0.31	70.0	5.0		31741091.0
+TCGA-92-8065-01A	LUSC	92	8065	TCGA-92-8065	01	A	False	1	Washington University - St. Louis	1	2247	female	74.0	white	14.0	3.0	Central Lung	Stage IIB	Squamous cell carcinoma, keratinizing, NOS	0.5	80.0	5.0		50448373.0
+TCGA-93-7347-01A	LUAD	93	7347	TCGA-93-7347	01	A	False	0	Washington University - St. Louis	1	2187	female	76.0	white	11.0	3.0	Central Lung	Stage IA	Adenocarcinoma with mixed subtypes	0.3	62.5	0.0	7.6	57875149.0
+TCGA-93-7348-01A	LUAD	93	7348	TCGA-93-7348	01	A	False	0	Washington University - St. Louis	1	2039	female	75.0	white	42.0	4.0	Central Lung	Stage IA	Adenocarcinoma, NOS	0.45	60.0	0.0	7.2	37777874.0
+TCGA-93-8067-01A	LUAD	93	8067	TCGA-93-8067	01	A	False	0	Washington University - St. Louis	1	2287	male	77.0	asian	20.0	4.0	Peripheral Lung	Stage IB	Adenocarcinoma, NOS	0.32	75.0	5.0	7.85	79537180.0
+TCGA-93-A4JN-01A	LUAD	93	A4JN	TCGA-93-A4JN	01	A	False	0	Washington University - St. Louis	1	A24X	male	71.0	white	40.0	3.0		Stage IV	Acinar cell carcinoma	0.37	77.5	0.0	7.75	49627796.0
+TCGA-93-A4JO-01A	LUAD	93	A4JO	TCGA-93-A4JO	01	A	False	0	Washington University - St. Louis	1	A24X	male	70.0	white	50.0	4.0		Stage IA	Adenocarcinoma with mixed subtypes	0.2	45.0	0.0	7.4	42276050.0
+TCGA-93-A4JP-01A	LUAD	93	A4JP	TCGA-93-A4JP	01	A	False	0	Washington University - St. Louis	1	A24X	male	64.0	asian		1.0		Stage IV	Papillary adenocarcinoma, NOS	0.27	65.0	0.0	7.949999999999999	52086423.0
+TCGA-93-A4JQ-01A	LUAD	93	A4JQ	TCGA-93-A4JQ	01	A	False	0	Washington University - St. Louis	1	A24X	male	49.0	white		3.0		Stage IA	Acinar cell carcinoma	0.2	72.5	0.0	7.0	51203481.0
+TCGA-94-7033-01A	LUSC	94	7033	TCGA-94-7033	01	A	False	1	Washington University - Emory	1	1949	male	73.0	white	30.0	4.0		Stage IB	Squamous cell carcinoma, NOS	0.44	70.0	3.5	7.15	58430583.0
+TCGA-94-7557-01A	LUSC	94	7557	TCGA-94-7557	01	A	False	1	Washington University - Emory	1	2125	male	73.0	black or african american		2.0		Stage IB	Squamous cell carcinoma, NOS	0.46	65.0	0.0		64382665.0
+TCGA-94-7943-01A	LUSC	94	7943	TCGA-94-7943	01	A	False	1	Washington University - Emory	1	2187	male	80.0	white	30.0	3.0		Stage IA	Squamous cell carcinoma, NOS	0.58	85.0	10.0		63622599.0
+TCGA-94-8035-01A	LUSC	94	8035	TCGA-94-8035	01	A	False	1	Washington University - Emory	1	2247	male	64.0	white	50.0	2.0		Stage IIB	Squamous cell carcinoma, NOS	0.48	80.0	20.0		42881536.0
+TCGA-94-8490-01A	LUSC	94	8490	TCGA-94-8490	01	A	False	1	Washington University - Emory	1	2326	male	70.0	white		5.0		Stage IIB	Squamous cell carcinoma, NOS	0.79	75.0	0.0		46641917.0
+TCGA-94-8491-01A	LUSC	94	8491	TCGA-94-8491	01	A	False	1	Washington University - Emory	1	2326	male	73.0	white	56.0	3.0		Stage IIA	Squamous cell carcinoma, NOS	0.52	65.0	0.0		40902569.0
+TCGA-94-A4VJ-01A	LUSC	94	A4VJ	TCGA-94-A4VJ	01	A	False	1	Washington University - Emory	1	A24Z	female	71.0	white	37.5	4.0	Central Lung	Stage IA	Squamous cell carcinoma, NOS	0.53	80.0	0.0	8.350000000000001	44955937.0
+TCGA-94-A5I4-01A	LUSC	94	A5I4	TCGA-94-A5I4	01	A	False	1	Washington University - Emory	1	A26W	male	61.0	white	80.0	4.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.59	70.0	11.0	8.05	37712688.0
+TCGA-94-A5I6-01A	LUSC	94	A5I6	TCGA-94-A5I6	01	A	False	1	Washington University - Emory	1	A27Q	male	62.0	white	80.0	4.0	Peripheral Lung	Stage IIB	Squamous cell carcinoma, NOS	0.38	60.0	20.0	8.5	44654701.0
+TCGA-95-7039-01A	LUAD	95	7039	TCGA-95-7039	01	A	False	0	Washington University - Emory	1	1949	female	54.0	white	34.0	2.0		Stage IIB	Adenocarcinoma, NOS	0.41	75.0	2.5	8.1	29946067.0
+TCGA-95-7043-01A	LUAD	95	7043	TCGA-95-7043	01	A	False	0	Washington University - Emory	1	1949	female	63.0	white	40.0	4.0		Stage IA	Adenocarcinoma with mixed subtypes	0.76	70.0	1.0	7.25	27592011.0
+TCGA-95-7562-01A	LUAD	95	7562	TCGA-95-7562	01	A	False	0	Washington University - Emory	1	2241	male	71.0	black or african american	10.0	3.0		Stage IIA	Adenocarcinoma, NOS	0.55	70.0	20.0	8.399999999999999	65072140.0
+TCGA-95-7567-01A	LUAD	95	7567	TCGA-95-7567	01	A	False	0	Washington University - Emory	1	2066	male	61.0	white		4.0		Stage IIB	Adenocarcinoma with mixed subtypes	0.53	60.0	5.0	8.899999999999999	74083839.0
+TCGA-95-7947-01A	LUAD	95	7947	TCGA-95-7947	01	A	False	0	Washington University - Emory	1	2187	male	67.0	white	100.0	4.0		Stage IA	Adenocarcinoma with mixed subtypes	0.66	80.0	1.0	8.55	59775286.0
+TCGA-95-7948-01A	LUAD	95	7948	TCGA-95-7948	01	A	False	0	Washington University - Emory	1	2187	female	42.0	white	0.15	3.0		Stage IB	Adenocarcinoma with mixed subtypes	0.71	71.0	0.0	8.4	62265135.0
+TCGA-95-8039-01A	LUAD	95	8039	TCGA-95-8039	01	A	False	0	Washington University - Emory	1	2241	male	72.0	white		1.0		Stage IA	Acinar cell carcinoma	0.47	70.0	3.0	7.35	72156359.0
+TCGA-95-8494-01A	LUAD	95	8494	TCGA-95-8494	01	A	False	0	Washington University - Emory	1	2326	male	67.0	white		5.0		Stage IIA	Adenocarcinoma, NOS	0.53	80.0	0.0	7.550000000000001	31514651.0
+TCGA-95-A4VK-01A	LUAD	95	A4VK	TCGA-95-A4VK	01	A	False	0	Washington University - Emory	1	A262	female	74.0	white	45.0	3.0		Stage IIIA	Adenocarcinoma with mixed subtypes	0.57	75.0	10.0	7.85	43382554.0
+TCGA-95-A4VN-01A	LUAD	95	A4VN	TCGA-95-A4VN	01	A	False	0	Washington University - Emory	1	A262	female	62.0	white	42.0	4.0		Stage IIA	Solid carcinoma, NOS	0.18	75.0	0.0	9.350000000000001	45943852.0
+TCGA-95-A4VP-01A	LUAD	95	A4VP	TCGA-95-A4VP	01	A	False	0	Washington University - Emory	1	A262	female	66.0	white	20.0	4.0		Stage IIIA	Acinar cell carcinoma	0.3	52.5	0.0	7.199999999999999	46188196.0
+TCGA-96-7544-01A	LUSC	96	7544	TCGA-96-7544	01	A	False	1	Washington University - NYU	1	2045	male	83.0	white	65.0	2.0		Stage IIB	Squamous cell carcinoma, NOS	0.58	50.0	1.0	9.149999999999999	71072129.0
+TCGA-96-7545-01A	LUSC	96	7545	TCGA-96-7545	01	A	False	1	Washington University - NYU	1	2045	male	73.0	white	116.0	4.0		Stage IA	Squamous cell carcinoma, NOS	0.4	65.0	3.0	8.3	64011713.0
+TCGA-96-8169-01A	LUSC	96	8169	TCGA-96-8169	01	A	False	1	Washington University - NYU	1	2296	female	67.0	white	35.0	4.0		Stage IA	Squamous cell carcinoma, NOS	0.42	70.0	0.0	9.05	57693819.0
+TCGA-96-8170-01A	LUSC	96	8170	TCGA-96-8170	01	A	False	1	Washington University - NYU	1	2296	female	75.0	white	50.0	4.0		Stage IIA	Squamous cell carcinoma, NOS	0.35	70.0	0.0	8.1	54673114.0
+TCGA-96-A4JL-01A	LUSC	96	A4JL	TCGA-96-A4JL	01	A	False	1	Washington University - NYU	1	A24Z	female	78.0	asian		1.0		Stage IIA	Squamous cell carcinoma, NOS	0.38	80.0	0.0	9.15	47665249.0
+TCGA-97-7546-01A	LUAD	97	7546	TCGA-97-7546	01	A	False	0	Washington University - NYU	1	2039	female	76.0	white	25.0	3.0		Stage IA	Acinar cell carcinoma	0.67	65.0	1.0	7.8	45168893.0
+TCGA-97-7547-01A	LUAD	97	7547	TCGA-97-7547	01	A	False	0	Washington University - NYU	1	2039	female	67.0	white	30.0	3.0		Stage IB	Papillary adenocarcinoma, NOS	0.55	60.0	0.0	8.7	55638147.0
+TCGA-97-7552-01A	LUAD	97	7552	TCGA-97-7552	01	A	False	0	Washington University - NYU	1	2039	male	70.0	white	40.0	3.0		Stage IB	Bronchio-alveolar carcinoma, mucinous	0.18	55.0	0.0	9.149999999999999	50186786.0
+TCGA-97-7553-01A	LUAD	97	7553	TCGA-97-7553	01	A	False	0	Washington University - NYU	1	2039	female	58.0	white	20.0	2.0	Central Lung	Stage IA	Bronchiolo-alveolar carcinoma, non-mucinous	0.29	65.0	0.0	8.2	50929009.0
+TCGA-97-7554-01A	LUAD	97	7554	TCGA-97-7554	01	A	False	0	Washington University - NYU	1	2039	female	83.0	white	30.0	3.0		Stage IIIA	Papillary adenocarcinoma, NOS	0.29	60.0	0.0	9.149999999999999	51049591.0
+TCGA-97-7937-01A	LUAD	97	7937	TCGA-97-7937	01	A	False	0	Washington University - NYU	1	2170	male	65.0	white	35.0	3.0		Stage IB	Micropapillary carcinoma, NOS	0.59	71.0	0.0	7.25	53125800.0
+TCGA-97-7938-01A	LUAD	97	7938	TCGA-97-7938	01	A	False	0	Washington University - NYU	1	2170	female	76.0	white	40.0	3.0		Stage IA	Bronchiolo-alveolar carcinoma, non-mucinous	0.61	70.0	0.0	7.75	35511816.0
+TCGA-97-7941-01A	LUAD	97	7941	TCGA-97-7941	01	A	False	0	Washington University - NYU	1	2187	female	72.0	white	22.5	3.0		Stage IA	Acinar cell carcinoma	0.36	80.0	0.0	7.7	64454214.0
+TCGA-97-8171-01A	LUAD	97	8171	TCGA-97-8171	01	A	False	0	Washington University - NYU	1	2287	male	81.0	asian	65.0	2.0		Stage IV	Papillary adenocarcinoma, NOS	0.82	85.0	2.0	9.0	82509837.0
+TCGA-97-8172-01A	LUAD	97	8172	TCGA-97-8172	01	A	False	0	Washington University - NYU	1	2287	female	75.0	white	20.0	3.0		Stage IB	Acinar cell carcinoma	0.32	70.0	0.0	8.75	80510100.0
+TCGA-97-8174-01A	LUAD	97	8174	TCGA-97-8174	01	A	False	0	Washington University - NYU	1	2287	male	67.0	white	40.0	3.0		Stage IIA	Papillary adenocarcinoma, NOS	0.3	85.0	0.0	9.0	86576281.0
+TCGA-97-8175-01A	LUAD	97	8175	TCGA-97-8175	01	A	False	0	Washington University - NYU	1	2287	female	55.0	white		3.0	Peripheral Lung	Stage IB	Solid carcinoma, NOS	0.43	70.0	0.0	9.25	63381042.0
+TCGA-97-8176-01A	LUAD	97	8176	TCGA-97-8176	01	A	False	0	Washington University - NYU	1	2403	male	63.0	white	40.0	4.0		Stage IIIA	Acinar cell carcinoma	0.53	85.0	0.0	8.2	35338090.0
+TCGA-97-8177-01A	LUAD	97	8177	TCGA-97-8177	01	A	False	0	Washington University - NYU	1	2287	female	59.0	white		1.0		Stage IB	Adenocarcinoma with mixed subtypes	0.25	80.0	0.0	7.25	67880303.0
+TCGA-97-8179-01A	LUAD	97	8179	TCGA-97-8179	01	A	False	0	Washington University - NYU	1	2287	male	72.0	white	60.0	3.0		Stage IA	Acinar cell carcinoma	0.48	80.0	0.0	7.800000000000001	52537420.0
+TCGA-97-8547-01A	LUAD	97	8547	TCGA-97-8547	01	A	False	0	Washington University - NYU	1	2403	female	78.0	not reported		1.0		Stage IIIA	Acinar cell carcinoma	0.48	65.0	0.0	8.5	29538070.0
+TCGA-97-8552-01A	LUAD	97	8552	TCGA-97-8552	01	A	False	0	Washington University - NYU	1	2403	female	55.0	white		1.0		Stage I	Bronchiolo-alveolar carcinoma, non-mucinous	0.27	80.0	0.0	7.1	37392357.0
+TCGA-97-A4LX-01A	LUAD	97	A4LX	TCGA-97-A4LX	01	A	False	0	Washington University - NYU	1	A24X	male	81.0	white	120.0	3.0		Stage IB	Adenocarcinoma with mixed subtypes	0.2	65.0	0.0	8.55	48262941.0
+TCGA-97-A4M0-01A	LUAD	97	A4M0	TCGA-97-A4M0	01	A	False	0	Washington University - NYU	1	A24X	female	60.0	white	34.0	4.0		Stage IB	Adenocarcinoma with mixed subtypes	0.55	65.0	0.0	8.15	47707697.00000001
+TCGA-97-A4M1-01A	LUAD	97	A4M1	TCGA-97-A4M1	01	A	False	0	Washington University - NYU	1	A24X	female	52.0	white	3.0	3.0		Stage IA	Adenocarcinoma with mixed subtypes	0.36	65.0	0.0	7.4	45286269.0
+TCGA-97-A4M2-01A	LUAD	97	A4M2	TCGA-97-A4M2	01	A	False	0	Washington University - NYU	1	A24X	male	66.0	white	100.0	2.0		Stage IA	Adenocarcinoma with mixed subtypes	0.37	65.0	5.0	7.3	47575719.0
+TCGA-97-A4M3-01A	LUAD	97	A4M3	TCGA-97-A4M3	01	A	False	0	Washington University - NYU	1	A24X	female	69.0	white	37.5	3.0		Stage IA	Adenocarcinoma with mixed subtypes	0.69	75.0	0.0	8.8	45455295.0
+TCGA-97-A4M5-01A	LUAD	97	A4M5	TCGA-97-A4M5	01	A	False	0	Washington University - NYU	1	A24X	male	83.0	white	6.0	3.0		Stage IA	Adenocarcinoma with mixed subtypes	0.25	75.0	20.0	8.95	52078673.0
+TCGA-97-A4M6-01A	LUAD	97	A4M6	TCGA-97-A4M6	01	A	False	0	Washington University - NYU	1	A24X	female	45.0	white		1.0		Stage IA	Adenocarcinoma with mixed subtypes	0.43	75.0	4.0	7.35	43762765.0
+TCGA-97-A4M7-01A	LUAD	97	A4M7	TCGA-97-A4M7	01	A	False	0	Washington University - NYU	1	A24X	male	74.0	white	40.0	3.0		Stage IA	Adenocarcinoma with mixed subtypes	0.37	75.0	8.0	7.6	52845308.0
+TCGA-98-7454-01A	LUSC	98	7454	TCGA-98-7454	01	A	False	1	Washington University - Alabama	1	2045	male	73.0	white	60.0	3.0		Stage IB	Squamous cell carcinoma, NOS	0.25	70.0	15.0	8.25	64738429.99999999
+TCGA-98-8020-01A	LUSC	98	8020	TCGA-98-8020	01	A	False	1	Washington University - Alabama	1	2247	female	56.0	black or african american		1.0	Central Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.46	80.0	0.0		35937239.0
+TCGA-98-8021-01A	LUSC	98	8021	TCGA-98-8021	01	A	False	1	Washington University - Alabama	1	2247	female	75.0	white	60.0	4.0		Stage IA	Squamous cell carcinoma, NOS	0.41	70.0	3.0		39122610.0
+TCGA-98-8022-01A	LUSC	98	8022	TCGA-98-8022	01	A	False	1	Washington University - Alabama	1	2247	male	61.0	white	117.0	4.0		Stage IA	Squamous cell carcinoma, NOS	0.42	65.0	0.0		32068672.0
+TCGA-98-8023-01A	LUSC	98	8023	TCGA-98-8023	01	A	False	1	Washington University - Alabama	1	2247	male	70.0	white	75.0	2.0		Stage IIIA	Squamous cell carcinoma, NOS	0.29	70.0	10.0		34514622.0
+TCGA-98-A538-01A	LUSC	98	A538	TCGA-98-A538	01	A	False	1	Washington University - Alabama	1	A262	male	67.0	white	35.0	4.0		Stage IIB	Squamous cell carcinoma, NOS	0.45	80.0	2.0	8.55	55193639.0
+TCGA-98-A539-01A	LUSC	98	A539	TCGA-98-A539	01	A	False	1	Washington University - Alabama	1	A262	male	63.0	white	75.0	2.0		Stage IIB	Squamous cell carcinoma, NOS	0.3	70.0	5.0	7.199999999999999	50669830.0
+TCGA-98-A53A-01A	LUSC	98	A53A	TCGA-98-A53A	01	A	False	1	Washington University - Alabama	1	A262	male	70.0	black or african american	80.0	2.0		Stage IB	Squamous cell carcinoma, NOS	0.7	100.0	0.0	8.350000000000001	41799185.0
+TCGA-98-A53B-01A	LUSC	98	A53B	TCGA-98-A53B	01	A	False	1	Washington University - Alabama	1	A262	male	69.0	white	40.0	2.0		Stage IB	Squamous cell carcinoma, NOS	0.36	90.0	0.0	8.2	48356620.0
+TCGA-98-A53C-01A	LUSC	98	A53C	TCGA-98-A53C	01	A	False	1	Washington University - Alabama	1	A262	female	77.0	white	112.5	4.0		Stage IA	Squamous cell carcinoma, NOS	0.47	80.0	0.0	7.1	48598651.0
+TCGA-98-A53D-01A	LUSC	98	A53D	TCGA-98-A53D	01	A	False	1	Washington University - Alabama	1	A262	male	68.0	white	90.0	4.0		Stage IIB	Squamous cell carcinoma, keratinizing, NOS	0.99	50.0	0.0	7.15	48481295.0
+TCGA-98-A53H-01A	LUSC	98	A53H	TCGA-98-A53H	01	A	False	1	Washington University - Alabama	1	A262	female	76.0	white	40.0	2.0		Stage IA	Squamous cell carcinoma, NOS	0.43	80.0	0.0	7.0	52165528.0
+TCGA-98-A53I-01A	LUSC	98	A53I	TCGA-98-A53I	01	A	False	1	Washington University - Alabama	1	A262	male	64.0	white	70.0	4.0		Stage IIA	Squamous cell carcinoma, NOS	0.52	40.0	0.5	7.65	49192989.0
+TCGA-98-A53J-01A	LUSC	98	A53J	TCGA-98-A53J	01	A	False	1	Washington University - Alabama	1	A26W	male	77.0	white	100.0	3.0		Stage IB	Squamous cell carcinoma, NOS	0.4	90.0	0.0	8.0	37788024.0
+TCGA-99-7458-01A	LUAD	99	7458	TCGA-99-7458	01	A	False	0	Washington University - Alabama	1	2039	female	74.0	white	52.0	4.0		Stage IIIA	Bronchiolo-alveolar carcinoma, non-mucinous	0.36	60.0	0.0	8.1	63839307.0
+TCGA-99-8025-01A	LUAD	99	8025	TCGA-99-8025	01	A	False	0	Washington University - Alabama	1	2241	female	72.0	black or african american	20.0	4.0	Central Lung	Stage IIIA	Adenocarcinoma, NOS	0.43	65.0	0.0	7.25	64644360.0
+TCGA-99-8028-01A	LUAD	99	8028	TCGA-99-8028	01	A	False	0	Washington University - Alabama	1	2241	female	50.0	black or african american	30.0	4.0		Stage IA	Adenocarcinoma, NOS	0.18	60.0	0.0	7.449999999999999	58697024.0
+TCGA-99-8032-01A	LUAD	99	8032	TCGA-99-8032	01	A	False	0	Washington University - Alabama	1	2241	male	61.0	white	90.0	2.0		Stage IA	Adenocarcinoma, NOS	0.31	60.0	5.0	7.0	62508319.0
+TCGA-99-8033-01A	LUAD	99	8033	TCGA-99-8033	01	A	False	0	Washington University - Alabama	1	2241	female	74.0	white		1.0	Peripheral Lung	Stage IV	Adenocarcinoma, NOS	0.29	60.0	1.0	7.6	72954783.0
+TCGA-99-AA5R-01A	LUAD	99	AA5R	TCGA-99-AA5R	01	A	False	0	Washington University - Alabama	1	A39D	female	70.0	black or african american	46.0	2.0		Stage IA	Adenocarcinoma, NOS	0.96	70.0	0.0	7.15	42357255.99999999
+TCGA-J1-A4AH-01A	LUSC	J1	A4AH	TCGA-J1-A4AH	01	A	False	1	ABS - Lahey Clinic	1	A24H	male	70.0	white	100.0	4.0		Stage IIA	Squamous cell carcinoma, NOS	0.33	67.5	32.5	8.25	23802411.0
+TCGA-J2-8192-01A	LUAD	J2	8192	TCGA-J2-8192	01	A	False	0	ABS - Lahey Clinic	1	2241	female	65.0	white		1.0		Stage IIA	Adenocarcinoma, NOS	0.41	73.5	8.5	8.649999999999999	78580814.0
+TCGA-J2-8194-01A	LUAD	J2	8194	TCGA-J2-8194	01	A	False	0	ABS - Lahey Clinic	1	2241	female	69.0	white	20.0	3.0		Stage IIB	Adenocarcinoma with mixed subtypes	0.44	72.5	0.0	9.3	64594010.0
+TCGA-J2-A4AD-01A	LUAD	J2	A4AD	TCGA-J2-A4AD	01	A	False	0	ABS - Lahey Clinic	1	A24H	female	61.0	white	120.0	2.0		Stage IA	Adenocarcinoma, NOS	0.57	70.0	0.0	7.25	52572872.0
+TCGA-J2-A4AE-01A	LUAD	J2	A4AE	TCGA-J2-A4AE	01	A	False	0	ABS - Lahey Clinic	1	A24H	female	77.0	white		1.0		Stage IA	Adenocarcinoma, NOS	0.52	65.0	0.0	7.65	38837889.0
+TCGA-J2-A4AG-01A	LUAD	J2	A4AG	TCGA-J2-A4AG	01	A	False	0	ABS - Lahey Clinic	1	A24H	female	66.0	white	25.0	3.0		Stage IA	Adenocarcinoma, NOS	0.31	65.0	0.0	8.25	36167306.0
+TCGA-L3-A4E7-01A	LUSC	L3	A4E7	TCGA-L3-A4E7	01	A	False	1	Gundersen Lutheran Health System	1	A24Z	male	71.0	white	25.0	2.0	Central Lung	Stage IB	Squamous cell carcinoma, NOS	0.46	85.0	0.0	7.449999999999999	45295173.0
+TCGA-L3-A524-01A	LUSC	L3	A524	TCGA-L3-A524	01	A	False	1	Gundersen Lutheran Health System	1	A262	female	45.0	white	25.6	2.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.59	70.0	20.0	7.55	43370127.0
+TCGA-L4-A4E5-01A	LUAD	L4	A4E5	TCGA-L4-A4E5	01	A	False	0	Gundersen Lutheran Health System	1	A24X	female	48.0	white	33.0	4.0	Central Lung	Stage I	Adenocarcinoma, NOS	0.66	80.0	0.0	8.5	46690615.0
+TCGA-L4-A4E6-01A	LUAD	L4	A4E6	TCGA-L4-A4E6	01	A	False	0	Gundersen Lutheran Health System	1	A24H	male	67.0	white	30.0	3.0	Peripheral Lung	Stage IA	Adenocarcinoma, NOS		77.5	0.0	7.15	43504837.0
+TCGA-L9-A443-01A	LUAD	L9	A443	TCGA-L9-A443	01	A	False	0	Candler	1	A24H	female	63.0	white	90.0	4.0	Central Lung	Stage IA	Adenocarcinoma, NOS	0.48	65.0	3.0	7.699999999999999	38894898.0
+TCGA-L9-A444-01A	LUAD	L9	A444	TCGA-L9-A444	01	A	False	0	Candler	1	A24H	female	60.0	white	10.0	2.0	Central Lung	Stage IA	Adenocarcinoma, NOS	0.37	65.0	2.0	7.95	34132414.0
+TCGA-L9-A50W-01A	LUAD	L9	A50W	TCGA-L9-A50W	01	A	False	0	Candler	1	A39D	male	75.0	black or african american	19.0	3.0		Stage IIA	Adenocarcinoma with mixed subtypes	0.76	100.0	0.0	8.1	56052934.0
+TCGA-L9-A5IP-01A	LUAD	L9	A5IP	TCGA-L9-A5IP	01	A	False	0	Candler	1	A39D	female	40.0	black or african american		4.0		Stage IV	Adenocarcinoma, NOS	0.53	90.0	20.0	8.65	51958729.0
+TCGA-L9-A743-01A	LUAD	L9	A743	TCGA-L9-A743	01	A	False	0	Candler	1	A39D	male	56.0	black or african american	40.5	2.0	Central Lung	Stage IIA	Adenocarcinoma, NOS	0.09	75.0	0.0	8.350000000000001	46964759.0
+TCGA-L9-A7SV-01A	LUAD	L9	A7SV	TCGA-L9-A7SV	01	A	False	0	Candler	1	A39D	male	69.0	black or african american	93.0	3.0		Stage IIA	Adenocarcinoma, NOS	0.83	80.0	10.0	8.65	55979883.0
+TCGA-L9-A8F4-01A	LUAD	L9	A8F4	TCGA-L9-A8F4	01	A	False	0	Candler	1	A39D	female	64.0	black or african american	14.0	2.0		Stage IB	Adenocarcinoma, NOS	0.32	75.0	2.5	8.2	53225666.0
+TCGA-LA-A446-01A	LUSC	LA	A446	TCGA-LA-A446	01	A	False	1	Candler	1	A24Z	male	68.0	white	26.0	2.0	Central Lung	Stage IA	Squamous cell carcinoma, NOS	0.41	100.0	2.0	7.65	48984526.0
+TCGA-LA-A7SW-01A	LUSC	LA	A7SW	TCGA-LA-A7SW	01	A	False	1	Candler	1	A405	male	71.0	black or african american	37.0	4.0		Stage IIIA	Squamous cell carcinoma, NOS	0.48	70.0	10.0	7.550000000000001	46828721.0
+TCGA-MF-A522-01A	LUSC	MF	A522	TCGA-MF-A522	01	A	False	1	University of Minnesota	1	A262	male	54.0	white	45.0	4.0		Stage IB	Squamous cell carcinoma, keratinizing, NOS	0.64	100.0	20.0	8.35	50527332.0
+TCGA-MN-A4N1-01A	LUAD	MN	A4N1	TCGA-MN-A4N1	01	A	False	0	BLN - Baylor	1	A24X	male	60.0	black or african american		2.0		Stage IIA	Adenocarcinoma, NOS	0.48	65.0	0.0	7.449999999999999	50957759.99999999
+TCGA-MN-A4N4-01A	LUAD	MN	A4N4	TCGA-MN-A4N4	01	A	False	0	BLN - Baylor	1	A24X	male	57.0	white		2.0		Stage IA	Adenocarcinoma, NOS	0.34	60.0	0.0	7.25	46062187.0
+TCGA-MN-A4N5-01A	LUAD	MN	A4N5	TCGA-MN-A4N5	01	A	False	0	BLN - Baylor	1	A24X	male	63.0	white		4.0		Stage IA	Adenocarcinoma, NOS	0.38	80.0	0.0	8.55	54194584.0
+TCGA-MP-A4SV-01A	LUAD	MP	A4SV	TCGA-MP-A4SV	01	A	False	0	Mayo Clinic - Rochester	1	A24X	male	67.0	not reported	110.0	2.0		Stage IB	Adenocarcinoma, NOS	0.36	75.0	0.0	8.7	46448795.0
+TCGA-MP-A4SW-01A	LUAD	MP	A4SW	TCGA-MP-A4SW	01	A	False	0	Mayo Clinic - Rochester	1	A24X	male	53.0	white	15.0	3.0		Stage IIB	Adenocarcinoma, NOS	0.46	60.0	0.0	7.6	49242565.0
+TCGA-MP-A4SY-01A	LUAD	MP	A4SY	TCGA-MP-A4SY	01	A	False	0	Mayo Clinic - Rochester	1	A24X	male	61.0	white	40.0	4.0	Central Lung	Stage IIB	Adenocarcinoma, NOS	0.35	65.0	0.0	7.75	49375338.0
+TCGA-MP-A4T4-01A	LUAD	MP	A4T4	TCGA-MP-A4T4	01	A	False	0	Mayo Clinic - Rochester	1	A262	female	68.0	white	50.0	2.0		Stage IIB	Adenocarcinoma, NOS		67.5	12.5	7.5	46093224.0
+TCGA-MP-A4T6-01A	LUAD	MP	A4T6	TCGA-MP-A4T6	01	A	False	0	Mayo Clinic - Rochester	1	A262	female	76.0	white	50.0	3.0	Peripheral Lung	Stage IIIA	Adenocarcinoma, NOS		100.0	0.0	8.6	55079022.0
+TCGA-MP-A4T7-01A	LUAD	MP	A4T7	TCGA-MP-A4T7	01	A	False	0	Mayo Clinic - Rochester	1	A24X	female	75.0	not reported	50.0	4.0		Stage IV	Adenocarcinoma, NOS	0.34	62.5	0.0	7.8	50331820.0
+TCGA-MP-A4T8-01A	LUAD	MP	A4T8	TCGA-MP-A4T8	01	A	False	0	Mayo Clinic - Rochester	1	A24X	male	68.0	not reported	25.0	3.0		Stage IIIA	Adenocarcinoma, NOS	0.59	80.0	10.0	8.4	49314219.0
+TCGA-MP-A4T9-01A	LUAD	MP	A4T9	TCGA-MP-A4T9	01	A	False	0	Mayo Clinic - Rochester	1	A24X	female	54.0	white	24.0	4.0		Stage IIIA	Adenocarcinoma, NOS	0.18	75.0	0.0	7.15	48486987.0
+TCGA-MP-A4TA-01A	LUAD	MP	A4TA	TCGA-MP-A4TA	01	A	False	0	Mayo Clinic - Rochester	1	A24X	female	75.0	white	55.0	4.0	Peripheral Lung	Stage IA	Adenocarcinoma, NOS	0.33	80.0	3.0	7.45	49678437.0
+TCGA-MP-A4TC-01A	LUAD	MP	A4TC	TCGA-MP-A4TC	01	A	False	0	Mayo Clinic - Rochester	1	A24X	male	77.0	white	125.0	3.0		Stage IIIA	Adenocarcinoma, NOS	0.45	69.0	12.5	7.199999999999999	46586925.0
+TCGA-MP-A4TD-01A	LUAD	MP	A4TD	TCGA-MP-A4TD	01	A	False	0	Mayo Clinic - Rochester	1	A262	male	71.0	white	20.0	3.0	Peripheral Lung	Stage IIIA	Adenocarcinoma, NOS		90.0	0.0	7.1	46438482.0
+TCGA-MP-A4TE-01A	LUAD	MP	A4TE	TCGA-MP-A4TE	01	A	False	0	Mayo Clinic - Rochester	1	A466	male	56.0	white	40.0	4.0	Peripheral Lung	Stage IIA	Adenocarcinoma, NOS	0.68	84.0	25.0	8.0	52832107.0
+TCGA-MP-A4TF-01A	LUAD	MP	A4TF	TCGA-MP-A4TF	01	A	False	0	Mayo Clinic - Rochester	1	A262	female	58.0	white	40.0	4.0	Peripheral Lung	Stage IIA	Adenocarcinoma, NOS	0.29	88.0	15.0	7.949999999999999	29691458.0
+TCGA-MP-A4TH-01A	LUAD	MP	A4TH	TCGA-MP-A4TH	01	A	False	0	Mayo Clinic - Rochester	1	A262	female	70.0	white	20.0	3.0	Peripheral Lung	Stage IA	Adenocarcinoma, NOS	0.4	70.0	0.0	9.100000000000001	49160338.0
+TCGA-MP-A4TI-01A	LUAD	MP	A4TI	TCGA-MP-A4TI	01	A	False	0	Mayo Clinic - Rochester	1	A24X	male	72.0	white	35.0	3.0		Stage IIA	Adenocarcinoma, NOS	0.22	60.0	0.0	8.5	41491257.0
+TCGA-MP-A4TJ-01A	LUAD	MP	A4TJ	TCGA-MP-A4TJ	01	A	False	0	Mayo Clinic - Rochester	1	A262	female	62.0	not reported		2.0	Central Lung	Stage IA	Signet ring cell carcinoma		60.0	0.0	8.3	29894087.0
+TCGA-MP-A4TK-01A	LUAD	MP	A4TK	TCGA-MP-A4TK	01	A	False	0	Mayo Clinic - Rochester	1	A24X	female	56.0	not reported	28.0	4.0		Stage IIB	Adenocarcinoma, NOS	0.34	70.0	0.0	7.65	46625891.0
+TCGA-MP-A5C7-01A	LUAD	MP	A5C7	TCGA-MP-A5C7	01	A	False	0	Mayo Clinic - Rochester	1	A262	female	76.0	white	15.0	3.0	Central Lung	Stage IB	Adenocarcinoma, NOS	0.87	80.0	10.0	8.75	58249143.0
+TCGA-NC-A5HD-01A	LUSC	NC	A5HD	TCGA-NC-A5HD	01	A	False	1	Washington University - CHUV	1	A26W	male	79.0	white	50.0	4.0	Peripheral Lung	Stage IIB	Squamous cell carcinoma, NOS	0.61	90.0	10.0	8.15	35523401.0
+TCGA-NC-A5HE-01A	LUSC	NC	A5HE	TCGA-NC-A5HE	01	A	False	1	Washington University - CHUV	1	A26W	male	60.0	white	30.0	4.0	Central Lung	Stage IIB	Squamous cell carcinoma, NOS	0.32	85.0	5.0	7.85	51087388.0
+TCGA-NC-A5HF-01A	LUSC	NC	A5HF	TCGA-NC-A5HF	01	A	False	1	Washington University - CHUV	1	A26W	male	74.0	white		2.0	Peripheral Lung	Stage IIIB	Squamous cell carcinoma, keratinizing, NOS	0.75	100.0	5.0	8.9	44662241.0
+TCGA-NC-A5HG-01A	LUSC	NC	A5HG	TCGA-NC-A5HG	01	A	False	1	Washington University - CHUV	1	A26W	male	59.0	white	80.0	4.0	Central Lung	Stage IIIA	Basaloid squamous cell carcinoma	0.75	90.0	0.0	7.9	48274522.0
+TCGA-NC-A5HH-01A	LUSC	NC	A5HH	TCGA-NC-A5HH	01	A	False	1	Washington University - CHUV	1	A26W	male	53.0	white	60.0	2.0	Peripheral Lung	Stage IA	Basaloid squamous cell carcinoma	0.77	95.0	0.0	7.949999999999999	42172568.0
+TCGA-NC-A5HI-01A	LUSC	NC	A5HI	TCGA-NC-A5HI	01	A	False	1	Washington University - CHUV	1	A26W	female	68.0	white	60.0	2.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.6	100.0	2.0	7.800000000000001	49121903.0
+TCGA-NC-A5HJ-01A	LUSC	NC	A5HJ	TCGA-NC-A5HJ	01	A	False	1	Washington University - CHUV	1	A26W	male	59.0	white	78.0	4.0	Peripheral Lung	Stage IIB	Squamous cell carcinoma, NOS	0.17	95.0	10.0	7.35	41413763.0
+TCGA-NC-A5HK-01A	LUSC	NC	A5HK	TCGA-NC-A5HK	01	A	False	1	Washington University - CHUV	1	A26W	female	58.0	white	40.0	4.0	Peripheral Lung	Stage IIB	Squamous cell carcinoma, NOS	0.48	100.0	5.0	7.9	57619007.0
+TCGA-NC-A5HL-01A	LUSC	NC	A5HL	TCGA-NC-A5HL	01	A	False	1	Washington University - CHUV	1	A26W	male	73.0	white	40.0	4.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.5	95.0	0.0	9.05	42938980.0
+TCGA-NC-A5HM-01A	LUSC	NC	A5HM	TCGA-NC-A5HM	01	A	False	1	Washington University - CHUV	1	A26W	male	76.0	white	50.0	3.0	Peripheral Lung	Stage IB	Squamous cell carcinoma, NOS	0.69	75.0	0.0	7.45	38397138.0
+TCGA-NC-A5HN-01A	LUSC	NC	A5HN	TCGA-NC-A5HN	01	A	False	1	Washington University - CHUV	1	A26W	male	77.0	white	100.0	4.0	Central Lung	Stage IIA	Squamous cell carcinoma, NOS	0.82	90.0	0.0	8.85	53163216.0
+TCGA-NC-A5HO-01A	LUSC	NC	A5HO	TCGA-NC-A5HO	01	A	False	1	Washington University - CHUV	1	A26W	female	70.0	white	30.0	4.0	Central Lung	Stage IIIA	Squamous cell carcinoma, keratinizing, NOS	0.63	75.0	0.0	7.15	26459360.0
+TCGA-NC-A5HP-01A	LUSC	NC	A5HP	TCGA-NC-A5HP	01	A	False	1	Washington University - CHUV	1	A26W	male	69.0	white	50.0	2.0	Peripheral Lung	Stage IV	Squamous cell carcinoma, keratinizing, NOS	0.53	75.0	0.0	9.35	35369531.0
+TCGA-NC-A5HQ-01A	LUSC	NC	A5HQ	TCGA-NC-A5HQ	01	A	False	1	Washington University - CHUV	1	A26W	male	70.0	white		2.0	Central Lung	Stage IIIA	Squamous cell carcinoma, keratinizing, NOS	0.5	70.0	5.0	8.4	50383538.0
+TCGA-NC-A5HR-01A	LUSC	NC	A5HR	TCGA-NC-A5HR	01	A	False	1	Washington University - CHUV	1	A26W	female	75.0	white	35.0	4.0	Central Lung	Stage IIA	Basaloid squamous cell carcinoma	0.66	92.0	10.0	8.15	38493043.0
+TCGA-NC-A5HT-01A	LUSC	NC	A5HT	TCGA-NC-A5HT	01	A	False	1	Washington University - CHUV	1	A26W	male	69.0	white	50.0	4.0	Central Lung	Stage IIIA	Squamous cell carcinoma, NOS	0.73	70.0	0.0	8.25	58094220.0
+TCGA-NJ-A4YF-01A	LUAD	NJ	A4YF	TCGA-NJ-A4YF	01	A	False	0	Washington University - Rush University	1	A262	female	50.0	black or african american	30.0	3.0		Stage IA	Adenocarcinoma with mixed subtypes	0.55	80.0	0.0	7.1	37940247.0
+TCGA-NJ-A4YG-01A	LUAD	NJ	A4YG	TCGA-NJ-A4YG	01	A	False	0	Washington University - Rush University	1	A262	male	65.0	white	104.0	4.0		Stage IB	Adenocarcinoma with mixed subtypes	0.32	47.5	0.0	7.0	40071257.0
+TCGA-NJ-A4YI-01A	LUAD	NJ	A4YI	TCGA-NJ-A4YI	01	A	False	0	Washington University - Rush University	1	A262	female	87.0	white	3.0	3.0		Stage IIIA	Acinar cell carcinoma	0.58	65.0	0.0	7.6	31352331.0
+TCGA-NJ-A4YP-01A	LUAD	NJ	A4YP	TCGA-NJ-A4YP	01	A	False	0	Washington University - Rush University	1	A262	male	52.0	white	60.0	5.0		Stage IB	Adenocarcinoma with mixed subtypes	0.23	65.0	18.0	7.15	101532163.0
+TCGA-NJ-A4YQ-01A	LUAD	NJ	A4YQ	TCGA-NJ-A4YQ	01	A	False	0	Washington University - Rush University	1	A262	female	69.0	white	40.0	4.0		Stage IA	Adenocarcinoma with mixed subtypes	0.29	65.0	0.0	7.4	36671821.0
+TCGA-NJ-A55A-01A	LUAD	NJ	A55A	TCGA-NJ-A55A	01	A	False	0	Washington University - Rush University	1	A262	female	76.0	white	25.0	3.0		Stage IB	Acinar cell carcinoma	0.21	65.0	0.0	7.7	22240434.0
+TCGA-NJ-A55O-01A	LUAD	NJ	A55O	TCGA-NJ-A55O	01	A	False	0	Washington University - Rush University	1	A262	female	56.0	white	30.0	4.0		Stage IIA	Mucinous adenocarcinoma		100.0	0.0	7.35	39619737.0
+TCGA-NJ-A55R-01A	LUAD	NJ	A55R	TCGA-NJ-A55R	01	A	False	0	Washington University - Rush University	1	A262	male	67.0	white	5.0	3.0		Stage IA	Solid carcinoma, NOS	0.23	100.0	0.0	7.1	99398910.99999999
+TCGA-NJ-A7XG-01A	LUAD	NJ	A7XG	TCGA-NJ-A7XG	01	A	False	0	Washington University - Rush University	1	A39D	male	49.0	black or african american		3.0		Stage IIIA	Adenocarcinoma, NOS	0.62	90.0	2.0	8.25	49290082.0
+TCGA-NK-A5CR-01A	LUSC	NK	A5CR	TCGA-NK-A5CR	01	A	False	1	Washington University - Rush University	1	A26W	male	77.0	not reported	40.0	3.0		Stage IB	Squamous cell carcinoma, NOS	0.61	60.0	10.0	9.35	29864113.0
+TCGA-NK-A5CT-01A	LUSC	NK	A5CT	TCGA-NK-A5CT	01	A	False	1	Washington University - Rush University	1	A26W	male	70.0	white	80.0			Stage IA	Squamous cell carcinoma, NOS	0.5	95.0	5.0	8.9	43090127.0
+TCGA-NK-A5CX-01A	LUSC	NK	A5CX	TCGA-NK-A5CX	01	A	False	1	Washington University - Rush University	1	A26W	male	73.0	white	40.0	4.0		Stage IIA	Squamous cell carcinoma, NOS	0.51	80.0	5.0	7.45	46933758.0
+TCGA-NK-A7XE-01A	LUSC	NK	A7XE	TCGA-NK-A7XE	01	A	False	1	Washington University - Rush University	1	A405	male	66.0	black or african american	80.0	5.0		Stage IIIB	Squamous cell carcinoma, NOS	0.53	80.0	5.0	7.05	37157226.0
+TCGA-O1-A52J-01A	LUAD	O1	A52J	TCGA-O1-A52J	01	A	False	0	Washington University - CALGB	1	A262	female	74.0	white	45.0	3.0		Stage IA	Adenocarcinoma, NOS	0.5	75.0	0.0	8.149999999999999	45840816.0
+TCGA-O2-A52N-01A	LUSC	O2	A52N	TCGA-O2-A52N	01	A	False	1	Washington University - CALGB	1	A26W	male	78.0	white	4.125	4.0		Stage I	Squamous cell carcinoma, NOS	0.46	75.0	12.0	8.100000000000001	45002198.0
+TCGA-O2-A52Q-01A	LUSC	O2	A52Q	TCGA-O2-A52Q	01	A	False	1	Washington University - CALGB	1	A26W	female	44.0	white	1.0	2.0		Stage III	Squamous cell carcinoma, NOS	0.52	70.0	20.0	7.5	43676469.0
+TCGA-O2-A52S-01A	LUSC	O2	A52S	TCGA-O2-A52S	01	A	False	1	Washington University - CALGB	1	A262	female	57.0	white	3.0	4.0		Stage III	Squamous cell carcinoma, NOS	0.75	70.0	10.0	9.0	48691194.0
+TCGA-O2-A52V-01A	LUSC	O2	A52V	TCGA-O2-A52V	01	A	False	1	Washington University - CALGB	1	A262	female	75.0	black or african american	1.0	4.0		Stage II	Squamous cell carcinoma, NOS	0.37	75.0	5.0	7.55	50766440.0
+TCGA-O2-A52W-01A	LUSC	O2	A52W	TCGA-O2-A52W	01	A	False	1	Washington University - CALGB	1	A26W	male	63.0	black or african american	2.5	4.0		Stage I	Squamous cell carcinoma, NOS	0.36	65.0	10.0	7.55	45989381.000000015
+TCGA-O2-A5IB-01A	LUSC	O2	A5IB	TCGA-O2-A5IB	01	A	False	1	Washington University - CALGB	1	A27Q	female	71.0	white	2.5	4.0		Stage III	Squamous cell carcinoma, NOS	0.93	90.0	15.0	9.25	70158431.0
+TCGA-S2-AA1A-01A	LUAD	S2	AA1A	TCGA-S2-AA1A	01	A	False	0	Albert Einstein Medical Center	1	A39D	female	68.0	black or african american	95.0	3.0		Stage IA	Bronchio-alveolar carcinoma, mucinous	0.32	60.0	0.0	7.699999999999999	37582696.0
+TCGA-XC-AA0X-01A	LUSC	XC	AA0X	TCGA-XC-AA0X	01	A	False	1	Albert Einstein Medical Center	1	A405	female	77.0	black or african american	30.0	2.0	Central Lung	Stage IA	Squamous cell carcinoma, NOS	0.21	40.0	11.0	9.05	42272856.0

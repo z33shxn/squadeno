@@ -1,0 +1,314 @@
+{
+ "T1_site_batch": {
+  "hypothesis": "institution-grouped CV scores clearly below random CV",
+  "pass_rule": "mean AUROC drop < 0.01",
+  "random_auroc": [
+   0.9901176861824968,
+   0.0013529700101014806
+  ],
+  "institution_auroc": [
+   0.9907495335045355,
+   0.0020141515503684215
+  ],
+  "drop": -0.0006318473220386922,
+  "passed": true,
+  "tss_code_only_accuracy": 1.0
+ },
+ "T2_covariates_only": {
+  "hypothesis": "non-biological covariates alone reproduce the separation",
+  "pass_rule": "covariate model AUROC far below expression model",
+  "covariate_model": {
+   "n": 931,
+   "n_lusc": 479,
+   "auroc": 0.8320616328265005,
+   "auprc": 0.8659933416525805,
+   "accuracy": 0.7346938775510204,
+   "balanced_accuracy": 0.736309974689157,
+   "lusc_recall": 0.6805845511482255,
+   "luad_recall": 0.7920353982300885,
+   "ece": 0.038313443159330586,
+   "brier": 0.16397106991297483
+  },
+  "single_covariate_auroc": {
+   "male": 0.6437937628170782,
+   "age": 0.5487326103423429,
+   "pack_years": 0.6091530105123137,
+   "absolute_purity": 0.5808977035490605,
+   "path_tumour_nuclei": 0.5403333826001809,
+   "rin": 0.5550048958929924,
+   "log_library_size": 0.5979917601197184,
+   "central_location": 0.5210985275370887
+  },
+  "expression_model_auroc": 0.9888456777578658
+ },
+ "T3_strata": [
+  {
+   "stratum": "female",
+   "n": 371,
+   "n_lusc": 124,
+   "auroc": 0.9779939924252319,
+   "accuracy": 0.9487870619946092,
+   "lusc_recall": 0.9032258064516129,
+   "luad_recall": 0.97165991902834
+  },
+  {
+   "stratum": "male",
+   "n": 560,
+   "n_lusc": 355,
+   "auroc": 0.9942287873582961,
+   "accuracy": 0.9714285714285714,
+   "lusc_recall": 0.9633802816901409,
+   "luad_recall": 0.9853658536585366
+  },
+  {
+   "stratum": "never smoker",
+   "n": 85,
+   "n_lusc": 17,
+   "auroc": 0.9965397923875432,
+   "accuracy": 0.9764705882352941,
+   "lusc_recall": 0.8823529411764706,
+   "luad_recall": 1.0
+  },
+  {
+   "stratum": "ever smoker",
+   "n": 822,
+   "n_lusc": 452,
+   "auroc": 0.9880172207605836,
+   "accuracy": 0.9610705596107056,
+   "lusc_recall": 0.9491150442477876,
+   "luad_recall": 0.9756756756756757
+  },
+  {
+   "stratum": "ABSOLUTE purity low tertile",
+   "n": 297,
+   "n_lusc": 125,
+   "auroc": 0.9790697674418604,
+   "accuracy": 0.9494949494949495,
+   "lusc_recall": 0.92,
+   "luad_recall": 0.9709302325581395
+  },
+  {
+   "stratum": "ABSOLUTE purity mid tertile",
+   "n": 305,
+   "n_lusc": 163,
+   "auroc": 0.9937354186468503,
+   "accuracy": 0.9672131147540983,
+   "lusc_recall": 0.9386503067484663,
+   "luad_recall": 1.0
+  },
+  {
+   "stratum": "ABSOLUTE purity high tertile",
+   "n": 308,
+   "n_lusc": 183,
+   "auroc": 0.9908196721311475,
+   "accuracy": 0.9707792207792207,
+   "lusc_recall": 0.9726775956284153,
+   "luad_recall": 0.968
+  },
+  {
+   "stratum": "pathologist tumour nuclei below 60%",
+   "n": 43,
+   "n_lusc": 22,
+   "auroc": 0.9567099567099567,
+   "accuracy": 0.9302325581395349,
+   "lusc_recall": 0.8636363636363636,
+   "luad_recall": 1.0
+  },
+  {
+   "stratum": "pathologist tumour nuclei 60% or more",
+   "n": 887,
+   "n_lusc": 456,
+   "auroc": 0.9902867668009931,
+   "accuracy": 0.963923337091319,
+   "lusc_recall": 0.9517543859649122,
+   "luad_recall": 0.9767981438515081
+  },
+  {
+   "stratum": "RIN below median",
+   "n": 372,
+   "n_lusc": 128,
+   "auroc": 0.9799244364754098,
+   "accuracy": 0.946236559139785,
+   "lusc_recall": 0.90625,
+   "luad_recall": 0.9672131147540983
+  },
+  {
+   "stratum": "RIN at or above median",
+   "n": 372,
+   "n_lusc": 164,
+   "auroc": 0.9961890243902439,
+   "accuracy": 0.978494623655914,
+   "lusc_recall": 0.9634146341463414,
+   "luad_recall": 0.9903846153846154
+  },
+  {
+   "stratum": "depth low tertile",
+   "n": 310,
+   "n_lusc": 109,
+   "auroc": 0.9891825277283308,
+   "accuracy": 0.9548387096774194,
+   "lusc_recall": 0.9541284403669725,
+   "luad_recall": 0.9552238805970149
+  },
+  {
+   "stratum": "depth high tertile",
+   "n": 311,
+   "n_lusc": 178,
+   "auroc": 0.9934949733885275,
+   "accuracy": 0.9807073954983923,
+   "lusc_recall": 0.9662921348314607,
+   "luad_recall": 1.0
+  },
+  {
+   "stratum": "central tumour",
+   "n": 203,
+   "n_lusc": 143,
+   "auroc": 0.9813519813519813,
+   "accuracy": 0.9605911330049262,
+   "lusc_recall": 0.958041958041958,
+   "luad_recall": 0.9666666666666667
+  },
+  {
+   "stratum": "peripheral tumour",
+   "n": 194,
+   "n_lusc": 90,
+   "auroc": 0.9841880341880342,
+   "accuracy": 0.9484536082474226,
+   "lusc_recall": 0.9111111111111111,
+   "luad_recall": 0.9807692307692307
+  },
+  {
+   "stratum": "stage I",
+   "n": 480,
+   "n_lusc": 234,
+   "auroc": 0.9884476408866653,
+   "accuracy": 0.9666666666666667,
+   "lusc_recall": 0.9615384615384616,
+   "luad_recall": 0.9715447154471545
+  },
+  {
+   "stratum": "stage II to IV",
+   "n": 440,
+   "n_lusc": 241,
+   "auroc": 0.9896786838758106,
+   "accuracy": 0.9590909090909091,
+   "lusc_recall": 0.9377593360995851,
+   "luad_recall": 0.9849246231155779
+  },
+  {
+   "stratum": "institution shared by both types",
+   "n": 875,
+   "n_lusc": 428,
+   "auroc": 0.9894938217399486,
+   "accuracy": 0.9634285714285714,
+   "lusc_recall": 0.9485981308411215,
+   "luad_recall": 0.9776286353467561
+  }
+ ],
+ "T4_treatment_and_exclusions": {
+  "cv_error_rate": 0.03759398496240601,
+  "scored": {
+   "neoadjuvant-treated": {
+    "n": 9,
+    "accuracy_vs_label": 0.6666666666666666,
+    "called_lusc": 0.4444444444444444
+   },
+   "prior treatment for another cancer (Do_not_use)": {
+    "n": 20,
+    "accuracy_vs_label": 1.0,
+    "called_lusc": 0.75
+   },
+   "AWG pathology exclusions (NSCLC-NOS/LCNEC)": {
+    "n": 55,
+    "accuracy_vs_label": 0.7818181818181819,
+    "called_lusc": 0.21818181818181817
+   }
+  }
+ },
+ "T5_label_noise_dna": {
+  "hypothesis": "if labels (not the model) are wrong, DNA hallmarks of the other subtype are enriched in disputed tumours",
+  "n_tumours_with_dna": 920,
+  "n_excluded_failed_dna_qc": 9,
+  "n_disputed": 35,
+  "LUSC-labelled": {
+   "disputed_with_other_type_hallmark": [
+    6,
+    19
+   ],
+   "concordant_with_other_type_hallmark": [
+    62,
+    385
+   ],
+   "odds_ratio": 1.9609507640067911,
+   "fisher_p": 0.15290904195680038
+  },
+  "LUAD-labelled": {
+   "disputed_with_other_type_hallmark": [
+    4,
+    6
+   ],
+   "concordant_with_other_type_hallmark": [
+    59,
+    379
+   ],
+   "odds_ratio": 4.2824858757062145,
+   "fisher_p": 0.03871522449922376
+  }
+ },
+ "T6_tumour_content": {
+  "real_low_purity": {
+   "n": 78,
+   "lusc_recall": 0.8,
+   "luad_recall": 0.9767441860465116
+  },
+  "real_higher_purity": {
+   "n": 832,
+   "lusc_recall": 0.9587155963302753,
+   "luad_recall": 0.9797979797979798
+  },
+  "in_silico_dilution": [
+   {
+    "tumour_fraction": 1.0,
+    "auroc": 0.9920326269699041,
+    "accuracy": 0.9634801288936627,
+    "lusc_recall": 0.9498956158663883,
+    "luad_recall": 0.9778761061946902
+   },
+   {
+    "tumour_fraction": 0.5,
+    "auroc": 0.9878526428584626,
+    "accuracy": 0.9387755102040817,
+    "lusc_recall": 0.8935281837160751,
+    "luad_recall": 0.9867256637168141
+   },
+   {
+    "tumour_fraction": 0.3,
+    "auroc": 0.9785365898719678,
+    "accuracy": 0.8560687432867884,
+    "lusc_recall": 0.7265135699373695,
+    "luad_recall": 0.9933628318584071
+   },
+   {
+    "tumour_fraction": 0.2,
+    "auroc": 0.9439789753727346,
+    "accuracy": 0.757250268528464,
+    "lusc_recall": 0.5427974947807933,
+    "luad_recall": 0.9845132743362832
+   },
+   {
+    "tumour_fraction": 0.1,
+    "auroc": 0.8566796607977534,
+    "accuracy": 0.6143931256713212,
+    "lusc_recall": 0.2588726513569937,
+    "luad_recall": 0.9911504424778761
+   },
+   {
+    "tumour_fraction": 0.05,
+    "auroc": 0.7385362203706098,
+    "accuracy": 0.5445757250268528,
+    "lusc_recall": 0.13987473903966596,
+    "luad_recall": 0.9734513274336283
+   }
+  ]
+ }
+}

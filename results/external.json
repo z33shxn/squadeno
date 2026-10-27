@@ -1,0 +1,101 @@
+{
+ "benchmark_mean": {
+  "9 rank rules (ours)": {
+   "auroc": 0.9617,
+   "accuracy": 0.9465,
+   "lusc_recall": 0.9114,
+   "luad_recall": 0.9715
+  },
+  "Hamaneh 2022 8-gene": {
+   "auroc": 0.965,
+   "accuracy": 0.9374,
+   "lusc_recall": 0.923,
+   "luad_recall": 0.9541
+  },
+  "L2 logistic (ours)": {
+   "auroc": 0.9901,
+   "accuracy": 0.9498,
+   "lusc_recall": 0.8851,
+   "luad_recall": 0.9881
+  },
+  "Li 2019 KRT5>AGR2": {
+   "auroc": 0.9229,
+   "accuracy": 0.9289,
+   "lusc_recall": 0.8698,
+   "luad_recall": 0.976
+  }
+ },
+ "notes": {
+  "CPTAC-3": {
+   "l2_genes_missing": 0
+  },
+  "Uppsala RNA-seq (GSE81089)": {
+   "l2_genes_missing": 668
+  }
+ },
+ "cptac3_ancestry_l2": {
+  "Asian": {
+   "n": 131,
+   "n_lusc": 23,
+   "auroc": 1.0,
+   "auprc": 1.0,
+   "accuracy": 0.9923664122137404,
+   "balanced_accuracy": 0.9782608695652174,
+   "lusc_recall": 0.9565217391304348,
+   "luad_recall": 1.0,
+   "ece": 0.030560940510408974,
+   "brier": 0.010554577150253076
+  },
+  "non-Asian": {
+   "n": 206,
+   "n_lusc": 86,
+   "auroc": 0.9912790697674418,
+   "auprc": 0.988450141987488,
+   "accuracy": 0.9320388349514563,
+   "balanced_accuracy": 0.9202519379844961,
+   "lusc_recall": 0.8488372093023255,
+   "luad_recall": 0.9916666666666667,
+   "ece": 0.08418347178701915,
+   "brier": 0.054592231784535865
+  }
+ },
+ "cptac3_ancestry_rules": {
+  "Asian": {
+   "n": 131,
+   "n_lusc": 23,
+   "auroc": 1.0,
+   "auprc": 1.0,
+   "accuracy": 0.9923664122137404,
+   "balanced_accuracy": 0.9953703703703703,
+   "lusc_recall": 1.0,
+   "luad_recall": 0.9907407407407407,
+   "ece": 0.054283290924512305,
+   "brier": 0.012628404485910847
+  },
+  "non-Asian": {
+   "n": 206,
+   "n_lusc": 86,
+   "auroc": 0.9816860465116279,
+   "auprc": 0.9782727648071206,
+   "accuracy": 0.9563106796116505,
+   "balanced_accuracy": 0.9493217054263565,
+   "lusc_recall": 0.9069767441860465,
+   "luad_recall": 0.9916666666666667,
+   "ece": 0.05663430420711973,
+   "brier": 0.03817571616924368
+  }
+ },
+ "cptac3_n": 337,
+ "cptac3_n_asian": 131,
+ "tcga_n_asian": 17,
+ "korea": {
+  "n_luad": 87,
+  "n_normal": 77,
+  "l2_genes_missing": 2973,
+  "luad_called_luad_l2": 0.9540229885057471,
+  "luad_called_luad_rules": 0.9655172413793104,
+  "never_smoker_luad_n": 36,
+  "never_smoker_luad_called_luad_l2": 1.0,
+  "normal_lung_called_luad_l2": 0.935064935064935
+ }
+}

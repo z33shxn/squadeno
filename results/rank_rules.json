@@ -1,0 +1,47 @@
+[
+ {
+  "lusc_gene": "KRT5",
+  "luad_gene": "SLC44A4",
+  "training_score": 0.9192
+ },
+ {
+  "lusc_gene": "DSC3",
+  "luad_gene": "HNF1B",
+  "training_score": 0.9016
+ },
+ {
+  "lusc_gene": "DSG3",
+  "luad_gene": "CAPN8",
+  "training_score": 0.897
+ },
+ {
+  "lusc_gene": "NECTIN1",
+  "luad_gene": "DDAH1",
+  "training_score": 0.8827
+ },
+ {
+  "lusc_gene": "TP63",
+  "luad_gene": "RBM47",
+  "training_score": 0.8821
+ },
+ {
+  "lusc_gene": "KRT6B",
+  "luad_gene": "SPINK1",
+  "training_score": 0.8795
+ },
+ {
+  "lusc_gene": "S1PR5",
+  "luad_gene": "ST3GAL5",
+  "training_score": 0.8756
+ },
+ {
+  "lusc_gene": "CSTA",
+  "luad_gene": "SFTA2",
+  "training_score": 0.8743
+ },
+ {
+  "lusc_gene": "JAG1",
+  "luad_gene": "MLPH",
+  "training_score": 0.8732
+ }
+]

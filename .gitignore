@@ -1,0 +1,12 @@
+# Input data is public and large (about 750 MB): download it with `python -m luadlusc download`
+data/raw/
+data/interim/
+*.part
+results/final_model.pkl
+__pycache__/
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.venv/
+.ruff_cache/
