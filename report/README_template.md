@@ -1,9 +1,9 @@
-# Telling lung adenocarcinoma from lung squamous cell carcinoma with TCGA RNA seq
+# Squadeno: telling lung adenocarcinoma from lung squamous cell carcinoma with TCGA RNA seq
 
-[![tests](https://github.com/z33shxn/tcga-luad-lusc-classifier/actions/workflows/tests.yml/badge.svg)](https://github.com/z33shxn/tcga-luad-lusc-classifier/actions/workflows/tests.yml)
+[![tests](https://github.com/z33shxn/squadeno/actions/workflows/tests.yml/badge.svg)](https://github.com/z33shxn/squadeno/actions/workflows/tests.yml)
 ![python](https://img.shields.io/badge/python-3.12%2B-blue) ![licence](https://img.shields.io/badge/licence-MIT-green)
 
-Lung adenocarcinoma (LUAD) and lung squamous cell carcinoma (LUSC) are the two most common lung cancers, and they are treated differently. This project builds a classifier that tells them apart from tumour RNA, and then works hard to show that it learned tumour biology and not something else: the hospital a sample came from, how it was stored, its RNA quality, how much tumour was in it, or a wrong label.
+Lung adenocarcinoma (LUAD) and lung squamous cell carcinoma (LUSC) are the two most common lung cancers, and they are treated differently. The name Squadeno joins SQUAmous and ADENOcarcinoma, the two cancers it tells apart. This project builds a classifier that tells them apart from tumour RNA, and then works hard to show that it learned tumour biology and not something else: the hospital a sample came from, how it was stored, its RNA quality, how much tumour was in it, or a wrong label.
 
 Everything here can be rebuilt from public data with one command. Every number in this README and in the [three page write up](report/writeup.pdf) is filled in by the code from the files in `results/`.
 
@@ -41,20 +41,20 @@ Against two published classifiers on the same seven cohorts, the nine gene pair 
 You need Python 3.12 or newer, about 1 GB of free disk and an internet connection for the first run.
 
 ```bash
-git clone https://github.com/z33shxn/tcga-luad-lusc-classifier
-cd tcga-luad-lusc-classifier
+git clone https://github.com/z33shxn/squadeno
+cd squadeno
 pip install -r requirements.txt
 pip install -e .
-python -m luadlusc all
+python -m squadeno all
 pytest
 ```
 
-`all` downloads the public inputs (about 750 MB; the CPTAC-3 step fetches 337 files one by one and is the slowest, so the first download can take about an hour), then runs every analysis, draws the figures and rebuilds the write up. On a laptop the analyses take about 10 minutes. Each step can also run on its own: `download`, `cohort`, `model`, `genes`, `confounders`, `external`, `figures`, `report`. `python -m luadlusc verify` compares your downloaded files with the checksums of the files used for the published results (`data/SHA256SUMS.txt`).
+`all` downloads the public inputs (about 750 MB; the CPTAC-3 step fetches 337 files one by one and is the slowest, so the first download can take about an hour), then runs every analysis, draws the figures and rebuilds the write up. On a laptop the analyses take about 10 minutes. Each step can also run on its own: `download`, `cohort`, `model`, `genes`, `confounders`, `external`, `figures`, `report`. `python -m squadeno verify` compares your downloaded files with the checksums of the files used for the published results (`data/SHA256SUMS.txt`).
 
 ## Score your own samples
 
 ```bash
-python -m luadlusc predict examples/cptac3_six_tumours.tsv
+python -m squadeno predict examples/cptac3_six_tumours.tsv
 ```
 
 The input is a table with gene symbols as rows and samples as columns, holding RNA seq TPM or log2(TPM+1). For each sample you get P(LUSC) from the frozen model, the share of the nine gene pair rules that vote LUSC, the call, and a flag when the model is unsure or the two disagree. The model is stored as plain JSON (`results/final_model.json`) and the rules in `results/rank_rules.json`, so they can be used from any language.

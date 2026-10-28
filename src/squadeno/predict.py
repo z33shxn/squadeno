@@ -65,7 +65,7 @@ def score(table: pd.DataFrame, model_path=RESULTS / "final_model.json", rules_pa
 def main(argv=None):
     argv = argv if argv is not None else sys.argv[1:]
     if len(argv) < 1:
-        raise SystemExit("usage: python -m luadlusc predict <expression.tsv or .csv> [output.tsv]")
+        raise SystemExit("usage: python -m squadeno predict <expression.tsv or .csv> [output.tsv]")
     sep = "," if argv[0].lower().endswith(".csv") else "\t"
     table = pd.read_csv(argv[0], sep=sep, index_col=0)
     res = score(table)

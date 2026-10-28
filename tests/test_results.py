@@ -5,9 +5,9 @@ import json
 import pandas as pd
 import pytest
 
-from luadlusc.config import RESULTS
+from squadeno.config import RESULTS
 
-pytestmark = pytest.mark.skipif(not (RESULTS / "cohort.tsv").exists(), reason="run `python -m luadlusc all` first")
+pytestmark = pytest.mark.skipif(not (RESULTS / "cohort.tsv").exists(), reason="run `python -m squadeno all` first")
 
 
 @pytest.fixture(scope="module")

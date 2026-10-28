@@ -1,4 +1,4 @@
-# Input data is public and large (about 750 MB): download it with `python -m luadlusc download`
+# Input data is public and large (about 750 MB): download it with `python -m squadeno download`
 data/raw/
 data/interim/
 *.part

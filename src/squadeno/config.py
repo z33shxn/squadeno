@@ -4,7 +4,7 @@ import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-DATA = Path(os.environ.get("LUADLUSC_DATA", ROOT / "data"))
+DATA = Path(os.environ.get("SQUADENO_DATA", ROOT / "data"))
 RAW = DATA / "raw"
 INTERIM = DATA / "interim"
 RESULTS = ROOT / "results"

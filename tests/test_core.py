@@ -8,10 +8,10 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import StratifiedKFold
 
-from luadlusc import models
-from luadlusc.config import AKIYAMA_CLE_GENES, HAMANEH2022_WEIGHTS, SEEDS
-from luadlusc.io import barcode_parts, collapse_to_symbols
-from luadlusc.metrics import ece, summary
+from squadeno import models
+from squadeno.config import AKIYAMA_CLE_GENES, HAMANEH2022_WEIGHTS, SEEDS
+from squadeno.io import barcode_parts, collapse_to_symbols
+from squadeno.metrics import ece, summary
 
 
 def test_seeds_match_lab_convention():
@@ -149,7 +149,7 @@ def test_missing_genes_add_nothing():
 def test_predict_detects_tpm_and_flags(tmp_path):
     import json
 
-    from luadlusc.predict import score
+    from squadeno.predict import score
 
     X, y = _synthetic(n=60, p=30, seed=7)
     pipe = models.logistic(0.1).fit(X.T.values, y)
@@ -175,7 +175,7 @@ def test_predict_detects_tpm_and_flags(tmp_path):
 def test_predict_merges_repeated_gene_symbols(tmp_path):
     import json
 
-    from luadlusc.predict import score
+    from squadeno.predict import score
 
     X, y = _synthetic(n=40, p=20, seed=8)
     pipe = models.logistic(0.1).fit(X.T.values, y)

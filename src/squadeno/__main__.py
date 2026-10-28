@@ -1,4 +1,4 @@
-"""Command line: `python -m luadlusc <step>`.
+"""Command line: `python -m squadeno <step>`.
 
 Steps (run in order by `all`):
   download    fetch every input from its public source (skips files already present)
@@ -12,7 +12,7 @@ Steps (run in order by `all`):
   report      fill report/writeup.md and README.md from results/ and render report/writeup.pdf
 
 Score your own samples (genes as rows, samples as columns, TPM or log2(TPM+1)):
-  python -m luadlusc predict my_samples.tsv [scores.tsv]
+  python -m squadeno predict my_samples.tsv [scores.tsv]
 """
 
 import argparse
@@ -63,7 +63,7 @@ def main():
         from .predict import main as predict_main
         predict_main(sys.argv[2:])
         return
-    ap = argparse.ArgumentParser(prog="luadlusc", description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap = argparse.ArgumentParser(prog="squadeno", description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("step", choices=("all", "download", "verify") + STEPS)
     a = ap.parse_args()
     if a.step == "all":

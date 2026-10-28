@@ -1,6 +1,6 @@
-# Telling LUAD from LUSC with TCGA RNA seq, and what the model learned
+# Squadeno: telling LUAD from LUSC with TCGA RNA seq, and what it learned
 
-<small>Mohammed Zeeshan, {date}. Code, data list and every result: github.com/z33shxn/tcga-luad-lusc-classifier. All numbers below are filled in by the code from the results files.</small>
+<small>Mohammed Zeeshan, {date}. Code, data list and every result: github.com/z33shxn/squadeno. All numbers below are filled in by the code from the results files.</small>
 
 **In short.** A simple linear model tells LUAD from LUSC with AUROC {inst_auroc} when it is tested on hospitals it never saw. Frozen, it reaches AUROC {cp_auroc} on {cp_n} new CPTAC-3 patients, {n_asian} of them Asian, and nine gene pair rules learned with it hold up on {n_ext_patients} new patients in five independent cohorts from other countries and platforms. Its strongest genes are the squamous, skin like programme that pathologists already stain for in LUSC ({top_lusc_genes}) and glandular genes plus two new leads in LUAD ({top_luad_genes}). Hospital, sex, smoking, RNA quality and tumour purity do not explain it. {short_label_sentence}
 
@@ -58,7 +58,7 @@ For a linear model, the gap between its mean score for LUSC and for LUAD splits 
 
 **Limits.** The labels come from one pathology review per tumour, so part of the measured error is label error. Most TCGA and European patients are white; the Asian checks rest on CPTAC-3 and one Korean cohort. I tested resected tumours, not small biopsies, and low tumour content pushes calls toward LUAD, so biopsies need their own test before any clinical use.
 
-**Reproduce.** `pip install -e .` then `python -m luadlusc all` downloads the public data, reruns every analysis and rebuilds this document.
+**Reproduce.** `pip install -e .` then `python -m squadeno all` downloads the public data, reruns every analysis and rebuilds this document.
 
 ## AI use
 

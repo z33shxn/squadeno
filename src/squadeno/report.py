@@ -262,7 +262,7 @@ def run():
     text = tmpl.format_map(v)
     # "\n" line endings on every system, so a rebuild on Windows leaves the git working tree clean
     (REPORT / "writeup.md").write_text(text, encoding="utf-8", newline="\n")
-    pages = render(text, REPORT / "writeup.pdf", "Telling LUAD from LUSC with TCGA RNA seq", base_dir=REPORT)
+    pages = render(text, REPORT / "writeup.pdf", "Squadeno: telling LUAD from LUSC with TCGA RNA seq", base_dir=REPORT)
     json.dump(v, open(RESULTS / "report_values.json", "w", encoding="utf-8", newline="\n"), indent=1, default=str)
     rt = (REPORT / "README_template.md").read_text(encoding="utf-8")
     miss = sorted(set(re.findall(r"\{(\w+)\}", rt)) - set(v))
