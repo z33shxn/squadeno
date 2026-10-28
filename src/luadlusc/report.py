@@ -51,10 +51,14 @@ def label_noise_sentences(t5):
     def stat(r):
         return f"odds ratio {r['odds_ratio']:.1f}, p = {pfmt(r['fisher_p'])}"
 
-    # (label, called, test result) for each direction
+    def counts(r):
+        (a, b), (c, d) = r["disputed_with_other_type_hallmark"], r["concordant_with_other_type_hallmark"]
+        return f"{a} of {a + b} disputed vs {c} of {c + d} agreed"
+
+    # (label, called, test result) for each direction; two tests, so each is judged at 0.05 / 2 (Bonferroni)
     sides = [("LUSC", "LUAD", t5["LUSC-labelled"]), ("LUAD", "LUSC", t5["LUAD-labelled"])]
-    sig = [s for s in sides if s[2]["fisher_p"] < 0.05]
-    weak = [s for s in sides if s[2]["fisher_p"] >= 0.05]
+    sig = [s for s in sides if s[2]["fisher_p"] < 0.025]
+    weak = [s for s in sides if s[2]["fisher_p"] >= 0.025]
     if len(sig) == 2:
         return ("It does: " + " and ".join(f'"{lab}" tumours called {called} carry {called} changes more often ({stat(r)})' for lab, called, r in sides)
                 + " than the tumours the model agrees with.",
@@ -64,8 +68,10 @@ def label_noise_sentences(t5):
         return (f'Partly: "{lab}" tumours called {called} carry {called} changes more often than the tumours the model agrees with ({stat(r)}); '
                 f'for "{lab2}" tumours called {called2} the trend is the same but not significant ({stat(r2)}).',
                 f"Some of its rare mistakes may be label problems: tumours labelled {lab} but called {called} carry {called} DNA changes more often than expected.")
-    return ("Not clearly: the trend points that way, but neither test is significant (" + "; ".join(stat(r) for _, _, r in sides) + ").",
-            "Its rare mistakes are not clearly explained by DNA changes.")
+    return ("Only weakly. In both directions the disputed tumours carry the other subtype's changes more often ("
+            + "; ".join(f'"{lab}" called {called}: {counts(r)}, {stat(r)}' for lab, called, r in sides)
+            + "), but neither difference holds after correcting for the two tests.",
+            "DNA changes give only weak support to the idea that some of its rare mistakes are label problems.")
 
 
 def build_values():

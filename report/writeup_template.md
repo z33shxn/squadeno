@@ -2,7 +2,7 @@
 
 <small>Mohammed Zeeshan, {date}. Code, data list and every result: github.com/z33shxn/tcga-luad-lusc-classifier. All numbers below are filled in by the code from the results files.</small>
 
-**In short.** A simple linear model tells LUAD from LUSC with AUROC {inst_auroc} when it is tested on hospitals it never saw. It holds up on {n_ext_patients} new patients in five independent cohorts from other countries and platforms, including {n_asian} Asian patients. Its strongest genes are the squamous, skin like programme that pathologists already stain for in LUSC ({top_lusc_genes}) and glandular genes plus two new leads in LUAD ({top_luad_genes}). Hospital, sex, smoking, RNA quality and tumour purity do not explain it. {short_label_sentence}
+**In short.** A simple linear model tells LUAD from LUSC with AUROC {inst_auroc} when it is tested on hospitals it never saw. Frozen, it reaches AUROC {cp_auroc} on {cp_n} new CPTAC-3 patients, {n_asian} of them Asian, and nine gene pair rules learned with it hold up on {n_ext_patients} new patients in five independent cohorts from other countries and platforms. Its strongest genes are the squamous, skin like programme that pathologists already stain for in LUSC ({top_lusc_genes}) and glandular genes plus two new leads in LUAD ({top_luad_genes}). Hospital, sex, smoking, RNA quality and tumour purity do not explain it. {short_label_sentence}
 
 ## 1. Data: which samples and why
 

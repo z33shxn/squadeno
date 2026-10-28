@@ -57,8 +57,14 @@ def run():
         rows.append(dict(cohort=name, platform="RNA-seq" if plat == "rnaseq" else "Affymetrix", method="Hamaneh 2022 8-gene", genes_used=ng, **summary(yy, ph)))
     bench = pd.DataFrame(rows)
     bench.to_csv(RESULTS / "external_benchmark.tsv", sep="\t", index=False)
-    mean = bench.groupby("method")[["auroc", "accuracy", "lusc_recall", "luad_recall"]].mean()
-    mean.to_csv(RESULTS / "external_benchmark_mean.tsv", sep="\t")
+    # Means only over cohorts where every compared method was run: all seven cohorts for the three methods that
+    # work on any platform, and the three RNA seq cohorts for all four methods (the L2 model needs RNA seq).
+    cols = ["auroc", "accuracy", "lusc_recall", "luad_recall"]
+    no_l2 = bench[bench.method != "L2 logistic (ours)"]
+    mean = no_l2.groupby("method")[cols].mean().assign(n_cohorts=no_l2.groupby("method").size(), cohorts="all seven")
+    rna = bench[bench.platform == "RNA-seq"]
+    mean_rna = rna.groupby("method")[cols].mean().assign(n_cohorts=rna.groupby("method").size(), cohorts="three RNA seq")
+    pd.concat([mean, mean_rna]).to_csv(RESULTS / "external_benchmark_mean.tsv", sep="\t")
 
     # CPTAC-3 ancestry subgroups (TCGA is ~2% Asian; CPTAC-3 lung is ~39% Asian)
     pcp, _ = _l2(final, cp)
@@ -77,7 +83,7 @@ def run():
                  never_smoker_luad_n=int((never & ~is_normal).sum()), never_smoker_luad_called_luad_l2=float((pk[never & ~is_normal] < 0.5).mean()),
                  normal_lung_called_luad_l2=float((pk[is_normal] < 0.5).mean()))
     tcga_asian = int((c.race == "asian").sum())
-    res = dict(benchmark_mean=mean.round(4).to_dict(orient="index"), notes=notes, cptac3_ancestry_l2=sub, cptac3_ancestry_rules=sub_rules,
+    res = dict(benchmark_mean=mean[cols].round(4).to_dict(orient="index"), benchmark_mean_rnaseq=mean_rna[cols].round(4).to_dict(orient="index"), notes=notes, cptac3_ancestry_l2=sub, cptac3_ancestry_rules=sub_rules,
                cptac3_n=int(len(ycp)), cptac3_n_asian=int(asian.sum()), tcga_n_asian=tcga_asian, korea=korea)
     json.dump(res, open(RESULTS / "external.json", "w"), indent=1, default=float)
     return res, bench

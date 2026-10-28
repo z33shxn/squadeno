@@ -161,5 +161,31 @@ def test_predict_detects_tpm_and_flags(tmp_path):
     tpm = np.power(2.0, X) - 1  # give TPM; score() must convert back to log2(TPM+1)
     tpm.iloc[0, 0] = 60.0  # make sure the TPM detector (max > 50) fires
     out = score(tpm, tmp_path / "m.json", tmp_path / "r.json")
-    assert list(out.columns) == ["p_lusc_model", "rules_voting_lusc", "call", "check"]
+    assert list(out.columns) == ["p_lusc_model", "rules_voting_lusc", "model_genes_present", "call", "check"]
     assert ((out.call == "LUSC").astype(int).values == y).mean() > 0.9
+    # with most model genes missing the main model is not trusted: the rank rules make the call
+    rule_genes = {g for a, b, _ in rules for g in (a, b)}
+    few = tpm.loc[[g for g in tpm.index if g in rule_genes]]
+    low = score(few, tmp_path / "m.json", tmp_path / "r.json")
+    assert (low.model_genes_present < 0.8).all()
+    assert (low.call == np.where(low.rules_voting_lusc > 0.5, "LUSC", np.where(low.rules_voting_lusc < 0.5, "LUAD", "unclear"))).all()
+    assert low.check.str.startswith("few model genes found").all()
+
+
+def test_predict_merges_repeated_gene_symbols(tmp_path):
+    import json
+
+    from luadlusc.predict import score
+
+    X, y = _synthetic(n=40, p=20, seed=8)
+    pipe = models.logistic(0.1).fit(X.T.values, y)
+    genes = list(np.array(X.index)[pipe[0].keep_])
+    mj = dict(intercept=float(pipe[2].intercept_[0]), genes=genes, mean=list(pipe[1].mean_), scale=list(pipe[1].scale_), coef=list(pipe[2].coef_[0]))
+    rules = models.fit_rank_rules(X, y, k=2, min_median=0.0)
+    (tmp_path / "m.json").write_text(json.dumps(mj))
+    (tmp_path / "r.json").write_text(json.dumps([{"lusc_gene": a, "luad_gene": b, "training_score": s} for a, b, s in rules]))
+    doubled = pd.concat([X, X.iloc[:3] - 5.0])  # three genes appear twice; the lower copies must be dropped
+    out = score(doubled, tmp_path / "m.json", tmp_path / "r.json")
+    ref = score(X, tmp_path / "m.json", tmp_path / "r.json")
+    assert out.attrs["duplicates_dropped"] == 3
+    assert np.allclose(out.p_lusc_model, ref.p_lusc_model)

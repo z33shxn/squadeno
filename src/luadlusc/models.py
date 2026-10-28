@@ -135,8 +135,10 @@ def hamaneh2022(X: pd.DataFrame):
 
 def predict_from_json(model_json: dict, X: pd.DataFrame):
     """Score samples with the exported frozen model (no pickle needed). X: log2(TPM+1), genes x samples.
-    A gene missing from X is set to its training mean, so it adds nothing to the score (setting it to 0 would
-    push every sample the same way). Returns P(LUSC) per sample."""
+    A gene missing from X is set to its training mean, so on its own it adds nothing to the score (setting it
+    to 0 would push every sample the same way). With many genes missing, though, every score slides toward the
+    baseline sigmoid(intercept), about 0.62, so predict.py hands the call to the rank rules below 80% coverage.
+    Returns P(LUSC) per sample."""
     genes = model_json["genes"]
     mean = pd.Series(model_json["mean"], index=genes)
     Xg = X.reindex(genes).astype("float64").T.fillna(mean).values

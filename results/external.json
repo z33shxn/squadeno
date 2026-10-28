@@ -12,6 +12,26 @@
    "lusc_recall": 0.923,
    "luad_recall": 0.9541
   },
+  "Li 2019 KRT5>AGR2": {
+   "auroc": 0.9229,
+   "accuracy": 0.9289,
+   "lusc_recall": 0.8698,
+   "luad_recall": 0.976
+  }
+ },
+ "benchmark_mean_rnaseq": {
+  "9 rank rules (ours)": {
+   "auroc": 0.9828,
+   "accuracy": 0.9676,
+   "lusc_recall": 0.9391,
+   "luad_recall": 0.9874
+  },
+  "Hamaneh 2022 8-gene": {
+   "auroc": 0.9866,
+   "accuracy": 0.9575,
+   "lusc_recall": 0.9516,
+   "luad_recall": 0.9673
+  },
   "L2 logistic (ours)": {
    "auroc": 0.9901,
    "accuracy": 0.9422,
@@ -19,10 +39,10 @@
    "luad_recall": 0.9881
   },
   "Li 2019 KRT5>AGR2": {
-   "auroc": 0.9229,
-   "accuracy": 0.9289,
-   "lusc_recall": 0.8698,
-   "luad_recall": 0.976
+   "auroc": 0.9575,
+   "accuracy": 0.9625,
+   "lusc_recall": 0.9299,
+   "luad_recall": 0.9852
   }
  },
  "notes": {
