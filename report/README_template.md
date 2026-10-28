@@ -38,7 +38,7 @@ Against two published classifiers on the same seven cohorts, the nine gene pair 
 
 ## Quick start
 
-You need Python 3.12 or newer, about 1 GB of free disk and an internet connection for the first run.
+You need Python 3.12 or newer, about 1 GB of free disk and an internet connection for the first run. On Windows, clone into a short folder (for example `C:\code`), because some scikit-learn files have very long paths and installs into deep folders can fail.
 
 ```bash
 git clone https://github.com/z33shxn/squadeno
