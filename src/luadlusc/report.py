@@ -260,14 +260,15 @@ def run():
     if missing:
         raise KeyError(f"no value for placeholders: {missing}")
     text = tmpl.format_map(v)
-    (REPORT / "writeup.md").write_text(text, encoding="utf-8")
+    # "\n" line endings on every system, so a rebuild on Windows leaves the git working tree clean
+    (REPORT / "writeup.md").write_text(text, encoding="utf-8", newline="\n")
     pages = render(text, REPORT / "writeup.pdf", "Telling LUAD from LUSC with TCGA RNA seq", base_dir=REPORT)
-    json.dump(v, open(RESULTS / "report_values.json", "w"), indent=1, default=str)
+    json.dump(v, open(RESULTS / "report_values.json", "w", encoding="utf-8", newline="\n"), indent=1, default=str)
     rt = (REPORT / "README_template.md").read_text(encoding="utf-8")
     miss = sorted(set(re.findall(r"\{(\w+)\}", rt)) - set(v))
     if miss:
         raise KeyError(f"README placeholders without a value: {miss}")
-    (REPORT.parent / "README.md").write_text(rt.format_map(v), encoding="utf-8")
+    (REPORT.parent / "README.md").write_text(rt.format_map(v), encoding="utf-8", newline="\n")
     if (RAW / "external" / "cptac3" / "cptac3_tumour_tpm.tsv.gz").exists():
         write_example()
     else:
