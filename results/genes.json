@@ -24,6 +24,24 @@
  "n_bootstrap": 50,
  "n_l1_subsamples": 100,
  "n_model_genes": 14845,
+ "stain_genes": {
+  "TP63": {
+   "rank": 57,
+   "single_gene_auroc": 0.9484961294732758
+  },
+  "NKX2-1": {
+   "rank": 433,
+   "single_gene_auroc": 0.9413047092948067
+  },
+  "NAPSA": {
+   "rank": 1346,
+   "single_gene_auroc": 0.9055138840135237
+  },
+  "HNF1B": {
+   "rank": 11,
+   "single_gene_auroc": 0.9706431171134554
+  }
+ },
  "mean_score_gap": 10.140754481046697,
  "top20_share_of_gap": 0.018447345284609402,
  "top20_bootstrap_freq_median": 0.7,

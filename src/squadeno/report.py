@@ -119,6 +119,8 @@ def build_values():
     nn = m["nearest_neighbour_audit"]
     v["nn_same_random"] = pct(nn["random"]["frac_nearest_from_same_institution"], 1)
     v["nn_same_inst"] = pct(nn["institution"]["frac_nearest_from_same_institution"], 1)
+    sizes = c.institution.value_counts().values
+    v["nn_chance"] = pct((sizes * (sizes - 1)).sum() / (len(c) * (len(c) - 1)), 1)  # two random tumours share a hospital
     can = m["random_label_canary"]
     v["canary_ours"] = f3(can["selection inside folds (our pipeline)"])
     v["canary_leaky"] = f3(can["selection before split (leaky)"])
@@ -173,6 +175,11 @@ def build_values():
     v["top20_share"] = pct(gj["top20_share_of_gap"], 1)
     cpa = dict(zip(top.gene, top.cptac3_auroc))
     v["elfn2_cp"], v["bcl2l15_cp"] = f3(cpa["ELFN2"]), f3(cpa["BCL2L15"])
+    sg = gj["stain_genes"]
+    v["nkx_rank"], v["napsa_rank"] = f"{sg['NKX2-1']['rank']:,}", f"{sg['NAPSA']['rank']:,}"
+    v["hnf1b_auc"], v["nkx_auc"], v["napsa_auc"] = (f3(sg[k]["single_gene_auroc"]) for k in ("HNF1B", "NKX2-1", "NAPSA"))
+    if not sg["HNF1B"]["single_gene_auroc"] > max(sg["NKX2-1"]["single_gene_auroc"], sg["NAPSA"]["single_gene_auroc"]):
+        raise SystemExit("the write up says HNF1B alone beats NKX2-1 and NAPSA; update the template")
     notes = []
     for r in top.head(10).itertuples():
         if r.gene not in NOTES:

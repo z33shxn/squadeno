@@ -157,7 +157,13 @@ def run():
     L = X.loc[list(AKIYAMA_CLE_GENES), y == 1].T.rank().corr().values
     lusc_gained = paired[(paired.tumour == "LUSC") & paired.gene.isin(AKIYAMA_CLE_GENES) & (paired.median_log2fc > 0) & (paired.bonferroni_p < 0.05)].gene.tolist()
 
+    # where the genes behind the standard stains (p40 = TP63, TTF-1 = NKX2-1, Napsin A = NAPSA) land in the ranking
+    gap_rank = {gname: i + 1 for i, gname in enumerate(gap.sort_values(ascending=False).index)}
+    stain_genes = {gname: dict(rank=gap_rank.get(gname), single_gene_auroc=auroc(gname))
+                   for gname in ("TP63", "NKX2-1", "NAPSA", "HNF1B") if gname in X.index}
+
     res = dict(top20=top20.gene.tolist(), n_bootstrap=len(boots), n_l1_subsamples=n_sub, n_model_genes=len(coef),
+               stain_genes=stain_genes,
                mean_score_gap=float(gap.sum()), top20_share_of_gap=float(top20.share_of_gap.sum()),
                top20_bootstrap_freq_median=float(top20.bootstrap_top20_freq.median()),
                by_weight_top20=by_weight.gene.tolist(), by_weight_bootstrap_freq_median=float(by_weight.bootstrap_top20_freq.median()),
